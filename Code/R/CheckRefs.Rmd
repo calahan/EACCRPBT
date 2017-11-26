@@ -1,0 +1,63 @@
+---
+title: "Check References"
+author: "Dean Calahan"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r Check, echo=FALSE}
+library(Calahanlab)
+proj.dir <- "/Users/dean/Documents/Projects/ATS/Publications/For Peer Review/Submitted/Blockbuster/"
+refs.fn <- paste0(proj.dir, "References/_References.bdb.xml")
+pdf.dir <- "/Users/dean/Documents/PDFs/"
+alias.dir <- paste0(proj.dir, "References/")
+refs.df <- RefDataFrame(refs.fn)
+bm.pdfs.needed <- LitNeeded(refs.df, pdf.dir, conv="title")
+bm.als.needed <- LitNeeded(refs.df, alias.dir, conv="title.al")
+bm.pdfs.extra <- LitExtra(refs.df, alias.dir, conv="title.al")
+sc.todos <- GrepScriv("../../_EACCRPBT.scriv", "\\[todo\\]")
+# word counts
+# double spaces
+# blank lines
+# "#"
+# units
+# directory tree
+# file dates/times
+# auto/code generated text
+# spreadsheet
+# "alias copy"
+```
+####Files needed in `r pdf.dir`   
+```{r PDFs, echo=FALSE}
+bm.pdfs.needed
+#for(i in 1:length(bm.pdfs.needed)) {
+#    cat(paste0(bm.pdfs.needed[i], "\n"))
+#}
+```
+####Files needed in `r alias.dir`   
+```{r AliasesNeeded, echo=FALSE}
+####Files needed in `r alias.dir`   
+bm.als.needed
+#for(i in 1:length(bm.als.needed)) {
+#    cat(paste0(bm.als.needed[i], "\n"))
+#}
+```
+####Extra files in `r alias.dir`   
+```{r AliasesExtra, echo=FALSE}
+bm.pdfs.extra
+####Files needed in `r alias.dir`   
+#for(i in 1:length(bm.als.needed)) {
+#    cat(paste0(bm.als.needed[i], "\n"))
+#}
+```
+####Entries with no DOI
+```{r DOI, echo=FALSE}
+refs.df$title[is.na(refs.df$doi)]
+```
+####Entries with no URL
+```{r URL, echo=FALSE}
+refs.df$title[is.na(refs.df$url)]
+```

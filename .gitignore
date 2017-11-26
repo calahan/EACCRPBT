@@ -5,3 +5,5 @@
 .DS_Store
 Blockbuster.RProj
 Data/EarthStat/*
+Data/GRDC/*
+Data/NaturalEarth/*
