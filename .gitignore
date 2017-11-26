@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+Blockbuster.RProj
+Data Science/Data/*
+Data Science/Working/*
+Data Science/R/.DS_Store

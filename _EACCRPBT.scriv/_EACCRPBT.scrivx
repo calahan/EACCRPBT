@@ -1,0 +1,1963 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="dudeons-MacBook-Pro" Modified="2017-11-22 15:57:18 -0500" ModID="2B483A64-206F-4431-9F66-8C20496D3B48">
+    <Binder>
+        <BinderItem ID="0" UUID="FE069D65-DA4F-45A8-9CA1-D8DA21160B10" Type="DraftFolder" Created="2017-07-12 11:08:08 -0400" Modified="2017-07-12 11:08:08 -0400">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="16" UUID="7B1D3139-1A20-4BF4-B452-3157C8A576A4" Type="Folder" Created="2017-07-12 11:46:38 -0400" Modified="2017-07-12 11:46:44 -0400">
+                    <Title>Title</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="15" UUID="56FC17FE-2DEC-43CA-A28B-919A25610380" Type="Text" Created="2017-07-12 11:46:34 -0400" Modified="2017-07-12 11:47:12 -0400">
+                            <Title>Title</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>72,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="13" UUID="B54C84AE-5E8A-4B1F-8CCA-86E2F7A4C313" Type="Folder" Created="2017-07-12 11:45:24 -0400" Modified="2017-07-12 11:45:26 -0400">
+                    <Title>Authors</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="14" UUID="572B8D08-DB56-4DE7-871F-E899CF90E199" Type="Text" Created="2017-07-12 11:45:36 -0400" Modified="2017-08-28 14:56:13 -0400">
+                            <Title>Authors</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>148,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="18" UUID="B04A772C-1E61-4E39-94A7-C8077B56B25D" Type="Folder" Created="2017-07-12 11:48:18 -0400" Modified="2017-07-12 11:48:25 -0400">
+                    <Title>Abstract</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="11" UUID="3AF7F284-0BAC-43B0-8376-2839D43AE859" Type="Text" Created="2017-07-12 11:39:59 -0400" Modified="2017-09-05 13:46:21 -0400">
+                            <Title>Abstract</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1121,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="12" UUID="DED0053D-C2AF-4F5A-91D7-D4BC269700A6" Type="Folder" Created="2017-07-12 11:40:02 -0400" Modified="2017-07-12 11:40:06 -0400">
+                    <Title>Introduction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="5" UUID="522DB1DB-5A51-44C4-9F4E-31AE6C7EC3BC" Type="Text" Created="2017-07-12 11:08:45 -0400" Modified="2017-09-05 13:46:35 -0400">
+                            <Title>The Threat</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1436,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="6" UUID="57BCCA5D-A732-425D-BFFA-7A770076A762" Type="Text" Created="2017-07-12 11:08:49 -0400" Modified="2017-09-05 13:47:15 -0400">
+                            <Title>Wetlands</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1669,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="7" UUID="12725CE4-9D78-4E8F-8CD1-7A5EE08666A5" Type="Text" Created="2017-07-12 11:08:50 -0400" Modified="2017-08-31 19:21:39 -0400">
+                            <Title>Other Solutions</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1271,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="8" UUID="DFB85938-C121-4C02-9903-DEAC34AC5888" Type="Text" Created="2017-07-12 11:08:55 -0400" Modified="2017-08-31 19:26:19 -0400">
+                            <Title>ATS Intro</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>2115,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="19" UUID="EFE89374-CC6A-4EF4-832C-FF13941F77B6" Type="Text" Created="2017-07-12 11:52:26 -0400" Modified="2017-09-05 13:48:23 -0400">
+                            <Title>Description</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>210,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="9" UUID="C7B9B850-2B99-4F91-9CE7-E70A7135F3F9" Type="Text" Created="2017-07-12 11:08:56 -0400" Modified="2017-09-05 14:00:05 -0400">
+                            <Title>ATS Operation</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1251,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="212" UUID="71F79614-8707-4E7B-9C63-DD5C9550AED2" Type="Text" Created="2017-08-14 14:34:43 -0400" Modified="2017-09-04 19:56:37 -0400">
+                            <Title>Floway Chemistry</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>420,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="200" UUID="EA3E5339-92DF-4CD1-A58F-FB6822D302E9" Type="Text" Created="2017-07-25 18:53:19 -0400" Modified="2017-08-31 19:38:32 -0400">
+                            <Title>Figure 1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>788,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="29" UUID="BA8CAECE-2831-49C2-B887-ADE2F2BD9385" Type="Text" Created="2017-07-12 11:57:38 -0400" Modified="2017-08-30 20:30:26 -0400">
+                            <Title>Table 1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>110,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="20" UUID="E950DE97-D92F-4D73-B58D-03A55FADB327" Type="Text" Created="2017-07-12 11:52:30 -0400" Modified="2017-08-31 19:43:20 -0400">
+                            <Title>Biomass Fate</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1386,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="21" UUID="7C0EE2DF-9304-4F3C-9A27-DAFBD4350539" Type="Text" Created="2017-07-12 11:52:33 -0400" Modified="2017-08-31 19:47:15 -0400">
+                            <Title>ATS and Planetary Boundaries</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1146,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="23" UUID="F0069C62-C9FB-4EBB-BCE5-5B69A893B092" Type="Folder" Created="2017-07-12 11:54:06 -0400" Modified="2017-07-12 11:54:21 -0400">
+                    <Title>Methods</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="22" UUID="3DEDC627-55AD-433D-AD42-759DA35FBB2C" Type="Text" Created="2017-07-12 11:54:04 -0400" Modified="2017-09-04 19:58:35 -0400">
+                            <Title>Data Processing</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>545,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="231" UUID="2C0691A6-8D91-4EE7-A7E5-0526EF50E7AA" Type="Text" Created="2017-11-22 14:52:25 -0500" Modified="2017-11-22 14:54:09 -0500">
+                            <Title>Files and Directories</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>51,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="24" UUID="F104BC8E-0F3E-4FFD-A825-CF0946B0D32B" Type="Text" Created="2017-07-12 11:54:25 -0400" Modified="2017-09-05 14:10:13 -0400">
+                            <Title>Parameters</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>445,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="25" UUID="A110FD8B-AB4C-4714-AC54-C409505818F2" Type="Text" Created="2017-07-12 11:54:29 -0400" Modified="2017-09-05 14:54:46 -0400">
+                            <Title>Basin Ranking and Nutrient Removal Area</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1057,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="181" UUID="0E2AC47A-C853-45A5-83E8-A5ACB5713DA4" Type="Text" Created="2015-12-11 10:42:24 -0500" Modified="2017-09-05 17:34:35 -0400">
+                            <Title>Economic Model</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>124,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="230" UUID="5BC540FB-7679-49D0-A92E-A6689CA3EF68" Type="Text" Created="2017-11-03 11:04:21 -0400" Modified="2017-11-22 10:40:21 -0500">
+                            <Title>Spreadsheet</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>487,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="26" UUID="DE6E9344-70EB-4792-B32F-5D1407AA621C" Type="Folder" Created="2017-07-12 11:57:11 -0400" Modified="2017-07-12 11:57:14 -0400">
+                    <Title>Results</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="30" UUID="36061C8C-2668-4967-8E91-61A8449FDDF1" Type="Text" Created="2017-07-12 11:57:56 -0400" Modified="2017-09-05 18:32:40 -0400">
+                            <Title>Nutrient Excesses</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>670,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="27" UUID="BD224190-53E9-4BC2-98AD-66E7F61E8AC5" Type="Text" Created="2017-07-12 11:57:31 -0400" Modified="2017-09-05 18:32:48 -0400">
+                            <Title>Figure 2</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>452,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="159" UUID="22F0A607-F5CE-447E-99D5-08F091F63A80" Type="Text" Created="2017-07-12 18:14:42 -0400" Modified="2017-09-05 15:49:44 -0400">
+                            <Title>Area Required</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>711,47</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="209" UUID="1C0A89BF-886B-42B0-BBA4-08ACC2F8F2D1" Type="Text" Created="2017-08-01 10:53:22 -0400" Modified="2017-09-05 15:51:29 -0400">
+                            <Title>Figure 3</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>165,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="217" UUID="9147ADEC-736D-40C3-9FC6-8D9A8A69BB8D" Type="Text" Created="2017-08-16 19:41:09 -0400" Modified="2017-09-05 17:18:30 -0400">
+                            <Title>Figure 4</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>365,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="206" UUID="008FDDC1-864B-40FC-B572-2742A94CB054" Type="Text" Created="2015-11-07 14:35:27 -0500" Modified="2017-09-05 18:07:37 -0400">
+                            <Title>Gross Expense</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1107,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="210" UUID="71FF797C-57F3-41CD-A887-C397AB5CDACC" Type="Text" Created="2017-08-02 13:32:12 -0400" Modified="2017-09-04 14:45:59 -0400">
+                            <Title>Table 2</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="221" UUID="D708B7BC-D873-4666-83FC-74158F332F3F" Type="Text" Created="2017-08-22 13:26:01 -0400" Modified="2017-09-05 18:08:33 -0400">
+                            <Title>Table 3</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>30,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="194" UUID="E7FED94A-F1B6-440F-84DC-74E136172B54" Type="Text" Created="2015-08-11 18:58:17 -0400" Modified="2017-09-05 18:17:42 -0400">
+                            <Title>Figure 5</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>700,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="156" UUID="D80C642F-F496-430C-8753-B889CAA4B551" Type="Folder" Created="2017-07-12 17:29:35 -0400" Modified="2017-07-12 17:29:43 -0400">
+                    <Title>Discussion</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="158" UUID="5E016A25-8E71-48F0-820D-B026B954D901" Type="Text" Created="2017-07-12 17:31:31 -0400" Modified="2017-09-05 18:26:20 -0400">
+                            <Title>Summary</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>748,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="204" UUID="3910E410-193C-4B7D-8F5D-F84384BC560E" Type="Text" Created="2016-08-06 15:03:38 -0400" Modified="2017-09-05 18:27:12 -0400">
+                            <Title>Limitations</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>639,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="167" UUID="DDA69915-8B83-42A1-8D96-28EC2698E3E9" Type="Text" Created="2017-07-14 10:17:34 -0400" Modified="2017-09-05 18:37:30 -0400">
+                            <Title>Nutrient Excesses</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1762,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="164" UUID="B216E37B-B21F-4DEC-9948-2CBAFA65383B" Type="Text" Created="2017-07-12 19:26:20 -0400" Modified="2017-09-05 18:40:16 -0400">
+                            <Title>Success Indicators</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1161,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="208" UUID="50CE82E6-EFC7-46ED-A0BE-3FC445055832" Type="Text" Created="2015-05-21 12:19:19 -0400" Modified="2017-09-01 11:46:19 -0400">
+                            <Title>Surfaces</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>2178,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="179" UUID="0D593D1D-0298-4B93-9E81-71CDE7C19031" Type="Text" Created="2017-07-22 13:37:54 -0400" Modified="2017-09-01 11:43:26 -0400">
+                            <Title>Concerns - Emissions, Biomass, Land Area</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>2321,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="180" UUID="32C90539-6284-4EC0-9262-5E14C268D5A2" Type="Text" Created="2017-07-22 20:26:18 -0400" Modified="2017-09-01 11:20:03 -0400">
+                            <Title>Sociopolitical Obstacles</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1258,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="157" UUID="73624345-58B4-401F-8853-F0EA6B96AB59" Type="Folder" Created="2017-07-12 17:30:12 -0400" Modified="2017-07-12 17:30:36 -0400">
+                    <Title>Conclusions</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="161" UUID="C6071A32-5357-4413-927E-397E94CDE310" Type="Text" Created="2017-07-12 18:16:18 -0400" Modified="2017-09-04 19:57:22 -0400">
+                            <Title>Conclusions and Recommendations</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1846,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="1" UUID="40E8F4F2-8EBA-43DC-8B53-5A72D0ECB8AA" Type="ResearchFolder" Created="2017-07-12 11:08:08 -0400" Modified="2017-07-12 11:08:08 -0400">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="228" UUID="8F5BFC5E-F45B-4B75-A16C-D71A80EE16DC" Type="Text" Created="2017-11-02 08:34:57 -0400" Modified="2017-11-02 08:38:23 -0400">
+                    <Title>To do list</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>182,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="229" UUID="98431FD8-A815-44B1-8FE8-B51D149C23BD" Type="Text" Created="2017-11-02 18:08:31 -0400" Modified="2017-11-02 18:09:36 -0400">
+                    <Title>Links</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>260,65</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="33" UUID="B3B3D6D0-7A05-41D1-A364-7AC69501ADF9" Type="Folder" Created="2015-03-08 19:04:28 -0400" Modified="2017-06-09 08:35:13 -0400">
+                    <Title>References</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="34" UUID="AE8E73DF-ECF7-4F19-AA8C-4EDBE988E8DC" Type="Text" Created="2017-06-09 17:49:58 -0400" Modified="2017-06-09 17:51:43 -0400">
+                            <Title>(Adams, 2011) Estimating Cost Per Lane Mile for Routine Highway Operations and Maintenance</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>99,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="35" UUID="32731BF9-B2E0-41E0-9DE4-5FB821759265" Type="Text" Created="2016-11-13 11:13:00 -0500" Modified="2017-06-13 18:52:59 -0400">
+                            <Title>(Adey and Steneck, 1985) Highly productive eastern Caribbean reefs- Synergistic effects of biological chemical, physical and geological factors</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>2,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="36" UUID="4DB35B5F-3CDA-4213-A9D4-F865FB93F85A" Type="Text" Created="2016-11-03 18:41:06 -0400" Modified="2017-07-03 20:19:58 -0400">
+                            <Title>(Adey et al., 1993) Phosphorus Removal from Natural Waters Using Controlled Algal Production</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>98,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="37" UUID="768E1333-303E-42F4-9BEF-2BEFFFDBF435" Type="Text" Created="2016-11-13 14:22:59 -0500" Modified="2017-08-28 14:33:33 -0400">
+                            <Title>(Adey et al., 1996) Purification of industrially contaminated groundwaters</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>111,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="38" UUID="FDB2340F-B0F3-461C-8F3E-D7263EB7A86E" Type="Text" Created="2016-11-02 14:39:06 -0400" Modified="2017-06-10 10:19:58 -0400">
+                            <Title>(Adey et al., 2013) Algal turf scrubber (ATS) floways on the Great Wicomico River, Chesapeake Bay- productivity, algal community structure, substrate and chemistry</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>146,17</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="39" UUID="DA36B6A2-2650-4F39-9EEC-1F144CB9AC9A" Type="Text" Created="2017-06-09 17:47:25 -0400" Modified="2017-06-09 17:48:05 -0400">
+                            <Title>(Anani and Madanat, 2010) Estimation of highway maintenance marginal cost under multiple maintenance activities</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>88,23</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="40" UUID="FC733F75-1B67-4150-AF58-4B5A715849BD" Type="Text" Created="2017-06-09 17:21:04 -0400" Modified="2017-06-09 17:21:30 -0400">
+                            <Title>(Babatunde et al., 2008) Constructed wetlands for environmental pollution control: A review of developments, research and practice in Ireland</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>119,22</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="41" UUID="C239C8D5-A091-43C7-8CBB-F588972047D3" Type="Text" Created="2017-06-09 08:41:09 -0400" Modified="2017-06-09 08:41:47 -0400">
+                            <Title>(Bivand et al., 2016) rgdal</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>35,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="42" UUID="599067E9-AB80-41E0-87CB-6CE425C084D1" Type="Text" Created="2017-06-10 10:21:29 -0400" Modified="2017-06-10 10:22:10 -0400">
+                            <Title>(Blersch, 2013) Development of algae cultivation for nutrient recovery from the nearshore Great Lakes in Buffalo, New York</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,106</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="43" UUID="C646D054-3BFF-406B-8143-37DD707B11DF" Type="Text" Created="2017-06-08 21:19:04 -0400" Modified="2017-06-09 08:25:30 -0400">
+                            <Title>(Borin, Malagoli, Salvato and Tanis, 2013) Wetland Systems- Ecology, Functioning and Management</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>103,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="44" UUID="8F5F0334-57B1-4413-B502-5F7C1FF6552A" Type="Text" Created="2015-08-15 21:27:56 -0400" Modified="2017-06-12 11:39:43 -0400">
+                            <Title>(Boyd and Banzhaf, 2007) What are ecosystem services? The need for standardized environmental accounting units</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>88,22</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="45" UUID="1123A390-C4EB-4E8B-ABFE-9C05158F25D6" Type="Text" Created="2016-11-03 19:30:58 -0400" Modified="2017-06-12 11:34:16 -0400">
+                            <Title>(Buesseler et al., 2004) The Effects of Iron Fertilization on Carbon Sequestration in the Southern Ocean</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>82,22</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="46" UUID="A122CD2D-642F-4F37-ADE1-1F145D794BAD" Type="Text" Created="2015-03-23 09:58:49 -0400" Modified="2017-06-12 11:07:36 -0400">
+                            <Title>(Bouwman et al., 2013) Exploring global changes in nitrogen and phosphorus cycles in agriculture induced by livestock production over the 1900–2050 period</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>414,20</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="47" UUID="827525CA-2F57-4404-BAEB-CDCAD7634234" Type="Text" Created="2016-11-04 12:56:25 -0400" Modified="2017-07-17 18:51:09 -0400">
+                            <Title>(Brinkhuis et al., 2006) Episodic fresh surface waters in the Eocene Arctic Ocean</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="48" UUID="8AE3E2A5-CB87-4D1B-B1DF-DF50F059A0EF" Type="Text" Created="2017-06-09 17:22:25 -0400" Modified="2017-06-09 17:22:52 -0400">
+                            <Title>(Brisson and Chazarenc, 2009) Maximizing pollutant removal in constructed wetlands: Should we pay more attention to macrophyte species selection?</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>118,27</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="49" UUID="CB8316A3-64BA-4C9C-8424-541C0B682F5F" Type="Text" Created="2017-06-28 13:31:44 -0400" Modified="2017-06-28 13:33:24 -0400">
+                            <Title>(Buesseler et al., 2008) Ocean Iron Fertilization-Moving Forward in a Sea of Uncertainty</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>97,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="50" UUID="E5529249-7051-426D-87AB-9788011F489E" Type="Text" Created="2017-06-08 21:26:43 -0400" Modified="2017-06-08 21:27:39 -0400">
+                            <Title>(Carnegie, 2016) The Cost of Roadway Construction, Operations and Maintenance in New Jersey</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>100,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="51" UUID="A5CFEA02-7EAD-48A6-84F8-E4539813A1B5" Type="Text" Created="2017-06-10 10:22:49 -0400" Modified="2017-06-10 10:23:40 -0400">
+                            <Title>(Carpenter et al., 1991) Measurements of primary productivity and nitrogenase activity of coral reef algae in a chamber incorporating oscillatory flow</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>128,22</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="52" UUID="5ACD6136-8425-42FB-99E7-A8DDBC809D95" Type="Text" Created="2015-10-12 09:54:22 -0400" Modified="2017-06-12 11:13:17 -0400">
+                            <Title>(Carpenter et al., 1998) Nonpoint Pollution of Surface Waters with Phosphorus</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>68,22</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="53" UUID="947ECBFF-9358-441A-86FB-741FDABD498C" Type="Text" Created="2016-11-02 14:42:46 -0400" Modified="2017-06-12 10:44:06 -0400">
+                            <Title>(Carpenter et al., 2015) Allowing variance may enlarge the safe operating space for exploited ecosystems</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>82,22</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="54" UUID="DCED4573-157F-4710-BF41-5AD8F8239B15" Type="Text" Created="2017-06-10 09:51:17 -0400" Modified="2017-06-10 09:54:33 -0400">
+                            <Title>(Charlson et al., 1987) Oceanic phytoplankton, atmospheric sulphur, cloud albedo</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>71,21</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="55" UUID="59C3F46D-734F-4B41-AA1D-2A65B1A4F4E0" Type="Text" Created="2017-06-10 10:24:25 -0400" Modified="2017-06-10 10:25:12 -0400">
+                            <Title>(Chen et al., 2015) Nutrient removal at a drinking water reservoir in China</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>79,17</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="56" UUID="C8ABA8F9-7338-4998-A34D-3A4273504EEE" Type="Text" Created="2016-11-13 10:29:11 -0500" Modified="2017-06-10 10:27:23 -0400">
+                            <Title>(Craggs et al., 1996) A controlled stream mesocosm for tertiary treatment</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>90,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="57" UUID="5A7ECE06-7D2D-45F3-AD3E-720280623DF6" Type="Text" Created="2016-11-02 18:54:19 -0400" Modified="2017-06-12 11:05:12 -0400">
+                            <Title>(Craggs et al., 2015) Economic construction and operation of hectare-scale wastewater treatment enhanced pond systems</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>98,19</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="58" UUID="EA13E64D-8B35-4A7D-A4B3-6DC492B73B71" Type="Text" Created="2015-08-15 22:28:10 -0400" Modified="2017-06-12 11:19:20 -0400">
+                            <Title>(Cuddington et al., 2013) Process-based models are required to manage ecological systems in a changing world</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,82</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="59" UUID="D0FDA24A-DA4C-4563-80C8-7B9447FC1E9B" Type="Text" Created="2016-11-15 09:05:24 -0500" Modified="2017-06-12 10:47:05 -0400">
+                            <Title>(Cuéllar-Franca and Azapagic, 2015) Carbon capture, storage and utilisation technologies- A critical analysis and comparison of their life cycle environmental impacts</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,130</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="60" UUID="73862287-5BAD-4E94-BB28-C96902D6C69F" Type="Text" Created="2017-06-10 10:28:19 -0400" Modified="2017-06-10 10:29:01 -0400">
+                            <Title>(D'Aiuto et al., 2015) Algal Turf Scrubbers- Periphyton Production and Nutrient Recovery on a South Florida Citrus Farm</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>99,20</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="61" UUID="8FDCB98F-480C-4B44-ACC6-3189510265DF" Type="Text" Created="2017-07-04 08:39:02 -0400" Modified="2017-07-04 08:39:51 -0400">
+                            <Title>(Darbishire, 2010) Proactive Transparency- The future of the right to information?</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>90,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="62" UUID="77D8D3B4-79B4-4119-A9EB-E50579033799" Type="Text" Created="2017-06-09 15:55:13 -0400" Modified="2017-06-09 15:55:57 -0400">
+                            <Title>(Day et al., 2004) The use of wetlands in the Mississippi Delta for wastewater assimilation: a review</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>85,16</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="63" UUID="6EBCA5E5-F8B4-40E4-8F0C-47B525875CE7" Type="Text" Created="2017-06-09 15:38:44 -0400" Modified="2017-06-09 15:39:15 -0400">
+                            <Title>(Environmental Protection Agency, 1993) Constructed Wetlands for Wastewater Treatment and Wildlife</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>69,37</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="64" UUID="80909A63-5F76-4CF2-967C-BD6527842F99" Type="Text" Created="2016-11-04 14:55:33 -0400" Modified="2017-06-12 11:37:20 -0400">
+                            <Title>(Environmental Protection Agency, 1996) Watershed Approach Framework</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>31,37</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="65" UUID="4F09CF5A-8AE8-4D53-8CC7-7A00E302300D" Type="Text" Created="2015-10-20 19:42:07 -0400" Modified="2017-06-12 10:43:36 -0400">
+                            <Title>(Environmental Protection Agency, 2007) Advanced Wastewater Treatment to Achieve Low Concentration of Phosphorus</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>75,37</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="66" UUID="F68097D0-8902-49DA-8924-301EC151342E" Type="Text" Created="2016-11-02 18:43:11 -0400" Modified="2017-06-12 11:04:17 -0400">
+                            <Title>(FAO, 2012) Current world fertilizer trends and outlook to 2016</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>54,9</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="67" UUID="0290D0DD-16DE-4464-9AAE-C1536BA21C2F" Type="Text" Created="2015-08-06 16:35:14 -0400" Modified="2017-06-14 10:00:39 -0400">
+                            <Title>(Fasching et al., 2015) The Use of Sediment Removal to Reduce Phosphorus Levels</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>73,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="68" UUID="A1DDF791-AB72-442F-B4F8-213A57A8B3AC" Type="Text" Created="2016-11-04 14:19:43 -0400" Modified="2017-06-12 11:16:19 -0400">
+                            <Title>(Flynn et al., 2015) Ocean acidification with (de)eutrophication will alter future phytoplankton growth and succession</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>100,18</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="69" UUID="DC8CDA67-1105-442B-A451-284C76215C63" Type="Text" Created="2017-06-09 15:28:00 -0400" Modified="2017-06-09 15:29:27 -0400">
+                            <Title>(Global Runoff Data Centre, 2007) Major River Basins of the World</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,74</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="70" UUID="984DB905-AA2A-4B02-B534-69E2B8303915" Type="Text" Created="2017-06-09 15:29:41 -0400" Modified="2017-06-09 15:30:25 -0400">
+                            <Title>(Global Runoff Data Centre, 2007) Major Lakes of the World</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>24,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="71" UUID="9CFEC87B-6B86-47EB-89A2-B9745609F5BC" Type="Text" Created="2017-06-08 21:18:23 -0400" Modified="2017-06-08 21:20:49 -0400">
+                            <Title>(Guerrero, 2003) Comparison of States’ Highway Construction Costs</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>74,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="72" UUID="B3923185-01D2-44ED-ACF7-3B838C32A906" Type="Text" Created="2016-11-02 14:09:53 -0400" Modified="2017-08-28 14:28:51 -0400">
+                            <Title>(Hallegraeff, 1993) A review of harmful algal blooms and their apparent global increase</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>69,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="73" UUID="16C4A464-17E7-43ED-A7AF-A35084BB8043" Type="Text" Created="2017-06-09 15:56:48 -0400" Modified="2017-06-09 15:57:09 -0400">
+                            <Title>(Halverson, 2004) Review of Constructed Subsurface Flow vs. Surface Flow Wetlands</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>66,15</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="74" UUID="678BDBD5-7708-4CAC-8D3B-510266E65702" Type="Text" Created="2016-11-13 14:31:08 -0500" Modified="2017-06-12 11:25:19 -0400">
+                            <Title>(Hampel, 2013) The Characterization of Algae Grown on Nutrient Removal Systems and Evaluation of Potential Uses for the Resulting Biomass</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>125,12</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="75" UUID="7032AA58-8127-4DA9-8E43-5ADD26380408" Type="Text" Created="2015-03-08 19:04:32 -0400" Modified="2017-08-28 12:50:57 -0400">
+                            <Title>(Heisler et al., 2008) Eutrophication and harmful algal blooms- A scientific consensus</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>82,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="202" UUID="6301D465-3A90-4E3C-AE69-7E7C6F7DCB1F" Type="Text" Created="2017-07-26 11:05:24 -0400" Modified="2017-07-26 11:06:41 -0400">
+                            <Title>(Hillebrand and Sommer, 1999) The nutrient stoichiometry of benthic microalgal growth</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>128,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="76" UUID="EF2215C9-3739-4228-92B7-026F74E0D3E6" Type="Text" Created="2017-06-09 17:23:42 -0400" Modified="2017-06-09 17:24:04 -0400">
+                            <Title>(Hoffmann et al., 2011) Technology review of constructed wetlands - Subsurface flow constructed wetlands for greywater and domestic wastewater treatment</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>131,21</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="77" UUID="68CA8C87-7AAF-4292-82EC-03A090F3CA7F" Type="Text" Created="2017-06-10 10:29:47 -0400" Modified="2017-06-10 10:30:33 -0400">
+                            <Title>(Huang et al., 2013) Performance of a Recirculating Aquaculture System Utilizing an Algal Turf Scrubber for Scaled-Up Captive Rearing of Freshwater Mussels (Bivalvia- Unionidae)</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>159,18</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="78" UUID="D0865B32-E38F-4AC4-BBE5-0B2169DA7C95" Type="Text" Created="2017-06-10 12:00:56 -0400" Modified="2017-08-03 16:18:43 -0400">
+                            <Title>(HydroMentia, 2013) HydroMentia Corporate and Technology Overview</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,73</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="79" UUID="3A930FE6-DC8C-4B66-BD9B-DF2B5E103630" Type="Text" Created="2017-06-10 12:03:28 -0400" Modified="2017-06-10 12:04:25 -0400">
+                            <Title>(HydroMentia, 2015) HydroMentia Pilot Studies</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>54,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="80" UUID="DF0509C5-2EFF-4D97-A236-AC9785870005" Type="Text" Created="2017-06-10 12:06:44 -0400" Modified="2017-08-30 18:54:43 -0400">
+                            <Title>(Kardel et al., 2015) Preliminary Development of 3D-Printed Custom Substrata for Benthic Algal Biofilms</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>122,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="81" UUID="F141CE4A-31A1-4486-9604-13D30FF8CE48" Type="Text" Created="2015-09-15 06:33:35 -0400" Modified="2017-06-09 15:57:50 -0400">
+                            <Title>(Keller and Knight) Sediment Accretion and Ageing in Treatment Wetlands</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>85,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="82" UUID="A3C697A7-EB1A-40CA-95CD-D6A66115CB30" Type="Text" Created="2017-06-09 17:45:48 -0400" Modified="2017-06-09 17:46:45 -0400">
+                            <Title>(Kishore and Abraham, 2009) Construction Costs - Using Federal Vs. Local Funds</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>53,25</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="83" UUID="6C803AE9-7815-4A7F-A70B-B26E824F2DCE" Type="Text" Created="2017-06-09 15:43:37 -0400" Modified="2017-06-09 15:44:09 -0400">
+                            <Title>(Kivaisi, 2001) The potential for constructed wetlands for wastewater treatment and reuse in developing countries: a review</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>110,13</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="84" UUID="C67EA86F-3C19-4BF0-9FB3-FDADD3C3A44A" Type="Text" Created="2017-06-09 17:25:57 -0400" Modified="2017-06-09 17:26:14 -0400">
+                            <Title>(Labella et al., 2015 ) Assessing the economic suitability of aeration and the influence of bed heating on constructed wetlands treatment efficiency and life-span</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>141,20</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="85" UUID="989DD693-C785-4B26-819F-09629DD69F5A" Type="Text" Created="2016-07-22 09:16:54 -0400" Modified="2017-06-12 11:21:44 -0400">
+                            <Title>(Lal, 2004) Soil Carbon Sequestration Impacts on Global Climate Change and Food Security</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>79,9</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="86" UUID="5CF02192-152A-4F38-974B-65B153153B2D" Type="Text" Created="2016-11-04 12:55:10 -0400" Modified="2017-06-12 11:05:50 -0400">
+                            <Title>(Lal, 2006) Enhancing Crop yields in the developing countries through restoration of the soil organic carbon pool in agricultural land</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>125,9</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="87" UUID="2679E0BF-B322-497C-B5C0-7FA73E6E8926" Type="Text" Created="2017-06-10 10:02:53 -0400" Modified="2017-06-10 10:03:27 -0400">
+                            <Title>(Lal, 2015) Mechanisms of Soil Carbon Sequestration</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>42,9</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="88" UUID="B9174E6E-5C63-4379-9519-DF0C381130D0" Type="Text" Created="2015-10-12 09:55:16 -0400" Modified="2017-06-12 11:19:07 -0400">
+                            <Title>(Lal, 2015) Restoring Soil Quality to Mitigate Soil Degradation</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>54,9</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="89" UUID="38141E5E-519B-48AF-85E0-D8B6A8AB652E" Type="Text" Created="2016-11-03 19:29:39 -0400" Modified="2017-06-12 11:25:37 -0400">
+                            <Title>(Lehmann and Kleber, 2015) The contentious nature of soil organic matter</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>48,24</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="90" UUID="CB5A2AD2-2DD0-4D89-B52C-150A53E1E2FD" Type="Text" Created="2017-06-10 09:03:56 -0400" Modified="2017-06-10 09:39:07 -0400">
+                            <Title>(Litman and Doherty, 2016) Roadway Facilities</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="91" UUID="08DC11F9-A814-4714-8AED-E96159B9791F" Type="Text" Created="2017-04-19 08:03:49 -0400" Modified="2017-06-08 21:29:01 -0400">
+                            <Title>(Marchal et al., 2011) OECD Environmental Outlook to 2050- Climate Change</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>112,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="92" UUID="0132C05C-1712-41C2-BDE4-B1DF35A68BC8" Type="Text" Created="2017-04-16 20:53:54 -0400" Modified="2017-06-12 11:46:57 -0400">
+                            <Title>(Marchal et al., 2011) OECD Environmental Outlook to 2050- The Consequences of Inaction, Key Facts and Figures</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,87</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="93" UUID="8A00ED82-DFCD-4F0A-BFBF-B6D8F0B33EAF" Type="Text" Created="2016-11-13 10:38:06 -0500" Modified="2017-08-28 14:32:49 -0400">
+                            <Title>(Mayr et al., 2015) Combating planktonic algae with benthic algae</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>73,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="94" UUID="D9E53558-32E2-4660-B0EA-0A764C2B7D16" Type="Text" Created="2017-06-09 17:27:14 -0400" Modified="2017-06-09 17:27:41 -0400">
+                            <Title>(Mitsch et al., 2015) Protecting the Florida Everglades wetlands with wetlands: Can stormwater phosphorus be reduced to oligotrophic conditions?</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>153,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="95" UUID="7CC28049-4595-46F7-B6B0-023F6427ADC4" Type="Text" Created="2017-06-10 10:14:52 -0400" Modified="2017-06-10 10:15:37 -0400">
+                            <Title>(Morrissey et al., 1988) Nutrient cycling in the Great Barrier Reef Aquarium</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>54,22</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="96" UUID="37584E76-AC3E-4BF5-83C7-24DAD056714C" Type="Text" Created="2016-11-13 10:19:16 -0500" Modified="2017-06-12 11:21:21 -0400">
+                            <Title>(Mostofa et al., 2015) Reviews and Syntheses- Ocean acidification and its potential impacts on marine ecosystems</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>92,20</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="97" UUID="1CC7D89A-57D6-4663-AE58-89374B5BBE99" Type="Text" Created="2017-04-19 08:22:33 -0400" Modified="2017-06-08 21:28:44 -0400">
+                            <Title>(Motesharrei et al., 2016) Modeling sustainability- population, inequality, consumption</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>121,34</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="98" UUID="51972AA1-D68E-47C4-9FA5-8E89E39BA645" Type="Text" Created="2016-11-13 14:27:54 -0500" Modified="2017-06-10 10:05:36 -0400">
+                            <Title>(Mulbry et al., 2005) Recycling of manure nutrients- use of algal biomass</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>111,19</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="99" UUID="D1F18D50-1CA0-4BFD-A650-F3BFE70B1223" Type="Text" Created="2016-11-13 10:34:14 -0500" Modified="2017-06-10 09:55:37 -0400">
+                            <Title>(Mulbry et al., 2007) Biofertilizers from Algal Treatment of Dairy and Swine</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>167,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="175" UUID="C989151C-3B5F-48E1-9B84-FF5D8E822DD7" Type="Text" Created="2017-07-17 19:00:47 -0400" Modified="2017-07-26 11:10:46 -0400">
+                            <Title>(Mulbry et al., 2008) Treatment of dairy and swine manure effluents using freshwater algae- fatty acid content and composition of algal biomass at different manure loading rates</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>186,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="100" UUID="FCB30D2D-2700-400C-BC87-AB30B17635C8" Type="Text" Created="2017-06-10 12:20:07 -0400" Modified="2017-06-10 12:21:20 -0400">
+                            <Title>(Mulbry et al., 2010) Toward scrubbing the bay- Nutrient removal using small algal turf scrubbers on Chesapeake Bay tributaries</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="101" UUID="6A365CAD-F0E3-4E78-BDC0-715A09A0EE70" Type="Text" Created="2017-06-10 12:22:14 -0400" Modified="2017-06-10 12:23:04 -0400">
+                            <Title>(Mulbry et al., 2012) Near- and mid-infrared spectroscopic determination of algal composition</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>74,19</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="102" UUID="FE0729DC-D57F-4684-B3EE-1DBE61EA5E11" Type="Text" Created="2015-08-15 21:50:25 -0400" Modified="2017-06-12 10:45:37 -0400">
+                            <Title>(Muller et al., 2015) Built infrastructure is essential</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>36,19</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="103" UUID="9D936D3B-C39E-4874-9B55-56127E62E2DB" Type="Text" Created="2015-12-30 20:44:21 -0500" Modified="2017-06-12 11:10:26 -0400">
+                            <Title>(Naswa et al., 2015) Good Practice in Designing and Implementing National Monitoring Systems for Adaptation to Climate Change</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>107,18</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="104" UUID="6BD17874-7E2F-4FAA-93D4-89DA8B8316B3" Type="Text" Created="2017-06-09 08:53:56 -0400" Modified="2017-06-09 15:21:39 -0400">
+                            <Title>(Natural Earth, 2015) Natural Earth</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>16,19</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="105" UUID="784C8148-6D7F-4A0E-BFDF-880D07FC61BC" Type="Text" Created="2016-11-03 18:35:15 -0400" Modified="2017-06-12 11:16:40 -0400">
+                            <Title>(Naqvi and Smetacek, 2011) Ocean Iron Fertilization</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>27,24</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="106" UUID="8280BAE5-1A01-469C-B1CE-B0ED8E284ADF" Type="Text" Created="2017-05-02 13:50:13 -0400" Modified="2017-06-08 21:28:53 -0400">
+                            <Title>(NSTC, 2012) The National Global Change Research Plan 2012–2021</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>52,20</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="107" UUID="C1A6CBAF-2170-4189-83B5-7977E27996DA" Type="Text" Created="2016-11-13 10:17:56 -0500" Modified="2017-06-12 11:03:28 -0400">
+                            <Title>(Pachauri et al., 2014) Climate Change 2014 Synthesis Report</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>39,21</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="174" UUID="35886497-8C18-4379-B11E-DE6A5EF63BC0" Type="Text" Created="2017-07-17 19:00:08 -0400" Modified="2017-08-02 13:00:04 -0400">
+                            <Title>(Pate, 2013) Resource Requirements for Large Scale Production of Algae Biofuels (abstract)</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>69,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="108" UUID="14DFED61-A232-44CF-8ED5-0F88C10999E2" Type="Text" Created="2016-11-13 10:37:21 -0500" Modified="2017-08-28 14:35:21 -0400">
+                            <Title>(Potter et al., 2010) Characterizing the Spatial Patterns of Global Fertilizer Application and Manure Production</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>121,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="109" UUID="B7DB5EBB-DFEE-48DB-ADA7-2F35E8A5E6F4" Type="Text" Created="2016-11-03 19:28:36 -0400" Modified="2017-06-12 11:23:37 -0400">
+                            <Title>(Prentice et al., 2001) The Carbon Cycle and Atmospheric Carbon Dioxide</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>50,21</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="110" UUID="726C8464-A7D9-481D-B7FA-F76F06B59560" Type="Text" Created="2017-06-10 12:24:29 -0400" Modified="2017-06-10 12:31:56 -0400">
+                            <Title>(Ray et al., 2015) Nitrogen and phosphorus removal by the Algal Turf Scrubber</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>95,16</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="111" UUID="95C73083-8A5E-46D6-8DE4-C4C7A664CF43" Type="Text" Created="2015-10-12 09:53:47 -0400" Modified="2017-06-12 11:12:56 -0400">
+                            <Title>(Ribaudo et al., 2001) Least-cost management of nonpoint source pollution</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>157,20</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="112" UUID="EED50D6A-6021-4864-8DC0-F433F7E1C1AF" Type="Text" Created="2016-11-04 14:17:36 -0400" Modified="2017-06-12 11:12:34 -0400">
+                            <Title>(Richardson et al., 2011) Integrated Stream and Wetland Restoration- A Watershed Approach to Improved Water Quality on the Landscape</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>109,23</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="113" UUID="BA7C8CA7-B509-482C-8EF0-7532360B3664" Type="Text" Created="2015-03-20 08:53:11 -0400" Modified="2017-06-12 11:18:13 -0400">
+                            <Title>(Rockström et al., 2009) Planetary Boundaries- Exploring the Safe Operating</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>103,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="114" UUID="B5875FFC-3E24-4AE4-B972-61BDDC7519B7" Type="Text" Created="2017-06-10 12:32:38 -0400" Modified="2017-06-10 12:33:15 -0400">
+                            <Title>(Rothman et al., 2013) Trace metal cycling in an algal floway system</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>48,20</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="115" UUID="20BF4997-39BA-469A-9C5E-2FD691FBA2D8" Type="Text" Created="2017-06-09 08:35:44 -0400" Modified="2017-06-11 16:45:50 -0400">
+                            <Title>(RStudio Team, 2016) RStudio</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>85,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="116" UUID="5900B7C5-19B9-4368-85AC-3C71C7445BD2" Type="Text" Created="2017-06-10 12:35:40 -0400" Modified="2017-06-10 12:36:15 -0400">
+                            <Title>(Sandefur et al., 2011) Seasonal productivity of a periphytic algal community for biofuel feedstock generation and nutrient treatment</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="117" UUID="D65746C1-2CF9-496A-9682-7924F115EF54" Type="Text" Created="2017-06-10 12:37:33 -0400" Modified="2017-06-10 12:38:29 -0400">
+                            <Title>(Sandefur et al., 2014) Hydrodynamic regime considerations for the cultivation</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>125,21</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="118" UUID="A57F7380-3C91-4046-99B7-EED1E0762537" Type="Text" Created="2017-06-10 10:11:36 -0400" Modified="2017-08-17 12:55:26 -0400">
+                            <Title>(Sanderson et al., 2002) The human footprint and the last of the wild: the human footprint is a global map of human influence on the land surface, which suggests that human beings are stewards of nature, whether we like it or not</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>46,32</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="119" UUID="55E1C5AB-9022-4149-9BBE-779729D21234" Type="Text" Created="2015-08-15 21:47:06 -0400" Modified="2017-06-12 10:41:20 -0400">
+                            <Title>(Semeraro et al., 2015) A constructed treatment wetland as an opportunity to enhance biodiversity and ecosystem services</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>99,21</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="120" UUID="391D87E9-3874-47F0-99E2-5C10D8E4CDB6" Type="Text" Created="2015-08-05 10:29:32 -0400" Modified="2017-06-12 11:18:30 -0400">
+                            <Title>(Shiralipour and Epstein, 2005) Preliminary Compost Market Assessment Okeechobee, Florida</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>67,29</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="121" UUID="C823C58E-2F68-41F5-809F-B4C388B67440" Type="Text" Created="2016-11-03 19:30:23 -0400" Modified="2017-06-12 11:29:24 -0400">
+                            <Title>(Shortle and Horan, 2001) The economics of nonpoint pollution control</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>46,23</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="122" UUID="5FEC866C-C50B-4016-9127-42F75A7C0E84" Type="Text" Created="2016-11-13 10:31:18 -0500" Modified="2017-06-10 12:39:34 -0400">
+                            <Title>(Sindelar et al., 2015) Algae scrubbers for phosphorus removal in impaired waters</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>60,21</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="123" UUID="15D86113-FD78-4415-8EB6-5DA6CACC98E4" Type="Text" Created="2017-06-09 17:16:49 -0400" Modified="2017-06-09 17:19:35 -0400">
+                            <Title>(Siracusa and La, 2006) Design of a constructed wetland for wastewater treatment in a Sicilian town and environmental evaluation using the emergy analysis</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,130</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="124" UUID="F9F2F0E2-18D0-4AB1-9254-72AD11AAC0BF" Type="Text" Created="2015-03-20 08:57:52 -0400" Modified="2017-06-09 17:42:53 -0400">
+                            <Title>(Steffen et al., 2015) Planetary boundaries- Guiding human development on</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>146,20</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="125" UUID="9B36679B-DEB3-4030-9509-89B1AF8DBDA2" Type="Text" Created="2015-03-17 09:25:15 -0400" Modified="2017-06-12 11:08:46 -0400">
+                            <Title>(Stewart Frank M. et al., 2008) Floating islands as an alternative to constructed wetlands</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>170,29</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="126" UUID="E44E6DBD-6778-4BEB-9A29-3D6AE5695F63" Type="Text" Created="2015-08-15 21:23:38 -0400" Modified="2017-06-12 11:36:48 -0400">
+                            <Title>(Sudhakar and Premalatha, 2012) Theoretical Assessment of Algal Biomass Potential for Carbon Mitigation and Biofuel Production</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>97,29</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="127" UUID="9D163BA0-CC63-4B3D-B8B4-1570EF8F2C48" Type="Text" Created="2017-06-28 13:33:41 -0400" Modified="2017-06-28 13:46:50 -0400">
+                            <Title>(Sukačová and Červený) Can algal biotechnology bring effective solution for closing the phosphorus cycle? Use of algae for nutrient removal - review of past trends and future perspectives in the context of nutrient recovery</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>210,1</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="128" UUID="7260653C-3626-4E50-AD12-34903DB236A7" Type="Text" Created="2017-06-10 12:41:43 -0400" Modified="2017-06-28 13:47:37 -0400">
+                            <Title>(Sukačovǎ et al., 2015) Phosphorus removal using a microalgal biofilm in a new biofilm photobioreactor for tertiary wastewater treatment</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>144,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="129" UUID="9A8B4F00-BAE1-47B6-A7C5-731C7C94268D" Type="Text" Created="2017-06-09 15:32:06 -0400" Modified="2017-06-12 11:43:05 -0400">
+                            <Title>(The World Bank, 2015) Health Nutrition and Population Statistics: Population estimates and projections</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>83,20</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="130" UUID="D9A8C236-9DE4-4095-A6F4-BFCAD7212187" Type="Text" Created="2016-11-13 11:10:59 -0500" Modified="2017-06-12 11:10:56 -0400">
+                            <Title>(The World Bank, 2015) Gross Domestic Product 2015</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>30,20</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="131" UUID="52FD9F91-D90D-4478-9A20-CAFBC9F806D1" Type="Text" Created="2015-08-15 22:24:25 -0400" Modified="2017-06-12 11:19:37 -0400">
+                            <Title>(Thébaud et al., 2015) Of sets of offsets- Cumulative impacts and strategies for compensatory restoration</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,82</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="132" UUID="F6C80EB6-242B-4E0C-B2DB-17A78F10987A" Type="Text" Created="2017-06-10 09:03:15 -0400" Modified="2017-06-10 09:04:01 -0400">
+                            <Title>(Thompson and Ford, 2012) Estimating Life Expectancies of Highway Assets</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>81,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="133" UUID="B996AEF6-1CE1-47D7-A2B2-09639815711A" Type="Text" Created="2015-12-30 20:32:05 -0500" Modified="2017-06-12 11:09:01 -0400">
+                            <Title>(United Nations, 2015) Framework Convention on Climate Change</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>91,20</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="134" UUID="7F0710B1-4E98-4D4E-AD3C-6AA817BD8475" Type="Text" Created="2015-03-20 08:54:28 -0400" Modified="2017-06-12 11:40:01 -0400">
+                            <Title>(United Nations, 2015) World Population Prospects- 2015 Revision</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>44,20</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="219" UUID="50228FF6-FA54-4BCE-AE23-C1FE5476522D" Type="Text" Created="2017-08-17 13:13:29 -0400" Modified="2017-08-17 13:14:09 -0400">
+                            <Title>(Vardon et al., 2012)Thermochemical conversion of raw and defatted algal</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>139,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="135" UUID="9C776E2A-F362-47A5-9507-88205F6B691D" Type="Text" Created="2017-06-10 10:09:01 -0400" Modified="2017-06-10 10:10:02 -0400">
+                            <Title>(Venter et al., 2016) Global terrestrial Human Footprint maps for 1993 and 2009</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,57</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="136" UUID="3B282F91-29EB-469F-8FD6-869033DFB890" Type="Text" Created="2017-06-10 10:10:03 -0400" Modified="2017-06-10 10:10:26 -0400">
+                            <Title>(Venter et al., 2016) Sixteen years of change in the global terrestrial human footprint and implications for biodiversity conservation</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,112</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="137" UUID="2D0309F5-DA27-463D-AEBA-79C3EBED4469" Type="Text" Created="2017-06-09 17:29:19 -0400" Modified="2017-06-09 17:29:40 -0400">
+                            <Title>(Vergeles et al., 2015) Assessment of treatment efficiency of constructed wetlands in East Ukraine</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>77,21</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="138" UUID="812140E2-04C7-4F87-BD67-8D7395200341" Type="Text" Created="2015-10-20 09:48:27 -0400" Modified="2017-06-09 15:41:27 -0400">
+                            <Title>(Verhoeven and Meuleman, 1999) Wetlands for wastewater treatment- Opportunities and limitations</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>67,28</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="139" UUID="F042E0E1-B1CD-4D18-B7EF-F58A138B5065" Type="Text" Created="2017-06-09 15:44:58 -0400" Modified="2017-06-09 15:45:39 -0400">
+                            <Title>(Vymazal, 2002) The use of sub-surface constructed wetlands for wastewater treatment in the Czech Republic: 10 years experience</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>114,13</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="140" UUID="53AC9DA3-8AD0-449E-A1B0-6FBAB508042B" Type="Text" Created="2015-10-06 10:08:20 -0400" Modified="2017-06-12 11:03:59 -0400">
+                            <Title>(Vymazal, 2010) Constructed Wetlands for Wastewater Treatment</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>48,13</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="141" UUID="8FEC59B3-E5F5-46D2-8672-C1A2E38CE446" Type="Text" Created="2016-11-13 10:33:42 -0500" Modified="2017-06-12 10:44:36 -0400">
+                            <Title>(Wang and Sample, 2014) Assessment of the nutrient removal effectiveness of floating treatment wetlands applied to urban retention ponds</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,112</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="142" UUID="6DCC5CFB-665E-4AEB-9E9F-52CACEA57630" Type="Text" Created="2016-03-29 10:29:16 -0400" Modified="2017-06-09 15:31:00 -0400">
+                            <Title>(West et al., 2014) Leverage points for improving global food security and the environment</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>73,17</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="143" UUID="7D997971-4F8F-48B2-B503-3AF42D1C0D8A" Type="Text" Created="2017-06-09 08:48:01 -0400" Modified="2017-06-11 16:48:11 -0400">
+                            <Title>(Wickham, 2009) ggplot2</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,49</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="144" UUID="6DECA968-F914-4B3A-995F-011DB8EB4541" Type="Text" Created="2017-06-12 10:33:18 -0400" Modified="2017-06-12 10:39:03 -0400">
+                            <Title>(World Wildlife Fund, 2017) A national assessment of Canada's freshwater watershed reports</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>65,25</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="145" UUID="E7D06E82-EDCE-457A-8B59-E476207FCF87" Type="Text" Created="2017-06-09 08:49:14 -0400" Modified="2017-06-09 08:49:54 -0400">
+                            <Title>(Xie, 2015) knitr</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>8,9</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="146" UUID="6B3F6A25-6D60-4983-BB99-CFD1A6F6EF94" Type="Text" Created="2017-06-09 17:30:23 -0400" Modified="2017-07-05 19:03:03 -0400">
+                            <Title>(Yu et al., 2015) Feasibility of a semi-batch vertical-flow wetland for onsite residential graywater treatment</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>120,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="173" UUID="D139B153-5859-48F5-890D-2691752F5E44" Type="Text" Created="2017-07-17 18:54:19 -0400" Modified="2017-07-17 18:58:34 -0400">
+                            <Title>(Yun et al., 2015) Managing nutrients and system operations for biofuel</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>93,16</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="147" UUID="8734CD46-6546-4B08-80D4-8221971E84F5" Type="Text" Created="2015-08-15 21:59:15 -0400" Modified="2017-07-05 11:20:04 -0400">
+                            <Title>(Zapater-Pereyra et al., 2015) Evaluation of the performance and space requirement by three different hybrid constructed wetlands in a stack arrangement</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>257,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="148" UUID="80E069C1-A634-49C5-A432-A6ACC4FCDE8D" Type="Text" Created="2017-06-09 17:36:59 -0400" Modified="2017-07-05 11:25:29 -0400">
+                            <Title>(Zhang et al., 2015) Application of constructed wetlands for wastewater treatment in tropical and subtropical regions (2000‚Äì2013)</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>213,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="149" UUID="E1BEBFD5-EC28-4783-AEDA-3FF1CF41D91E" Type="Text" Created="2016-11-02 10:30:55 -0400" Modified="2016-11-11 14:48:36 -0500">
+                            <Title>case 1_04-cv-21448-ASG</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,22</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="150" UUID="DAB9C58F-3101-4CAE-886A-2CE8D9026128" Type="Text" Created="2016-11-02 10:31:36 -0400" Modified="2016-11-11 14:53:04 -0500">
+                            <Title>case 13-4079</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,12</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="151" UUID="F98898CC-0E23-4619-B111-35037D54153E" Type="Text" Created="2016-11-02 10:30:55 -0400" Modified="2016-11-08 08:03:23 -0500">
+                            <Title>case 5_15-cv-04020-DEO</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,22</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="152" UUID="6D68AF4B-7375-48E7-9120-5DE8D48ECAE1" Type="Text" Created="2016-11-02 10:30:54 -0400" Modified="2016-11-02 10:46:08 -0400">
+                            <Title>case 6_15-cv-01517-TC</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,21</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="226" UUID="7091A005-1B88-450C-BEB6-9BDF37A149C0" Type="Folder" Created="2017-08-31 15:32:43 -0400" Modified="2017-08-31 15:32:45 -0400">
+                    <Title>Not Used</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="153" UUID="B029DA17-A471-4CF4-AB49-1C9D642D72F7" Type="Folder" Created="2017-07-12 17:02:34 -0400" Modified="2017-07-12 17:02:49 -0400">
+                            <Title>Hydromentia Production Systems</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="154" UUID="2BF0527D-AEFF-46D5-962B-9DC79820D711" Type="Text" Created="2017-07-12 17:02:50 -0400" Modified="2017-07-12 17:25:49 -0400">
+                                    <Title>2017.07.12</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>590,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="227" UUID="E8279BFA-72F8-466E-998A-9DE8A6C4996A" Type="Folder" Created="2017-10-24 07:32:23 -0400" Modified="2017-10-24 07:32:24 -0400">
+                            <Title>Elided</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="162" UUID="B1FBB5B8-BA5E-4093-A346-0676487B0A92" Type="Text" Created="2017-07-12 18:16:28 -0400" Modified="2017-07-12 18:16:36 -0400">
+                                    <Title>Paper writing</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,25</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="211" UUID="DB6FDA2D-8227-4AF9-B734-E84BDB8B0BA2" Type="Text" Created="2017-08-03 13:23:41 -0400" Modified="2017-08-03 16:29:51 -0400">
+                                    <Title>Table 1 Gray References</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>926,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="203" UUID="469C1094-67B7-45F6-BF47-D0A8F52D429A" Type="Text" Created="2017-07-27 13:20:55 -0400" Modified="2017-08-28 14:33:37 -0400">
+                                    <Title>Orphaned References</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>1500,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="213" UUID="CB230366-561C-431A-B152-5F80BD7CA663" Type="Text" Created="2017-08-14 14:44:07 -0400" Modified="2017-08-23 12:58:33 -0400">
+                                    <Title>Orphaned Text</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>2599,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="171" UUID="975AFF27-B61C-4949-8436-142F3D6A7F51" Type="Text" Created="2017-07-17 15:05:27 -0400" Modified="2017-08-28 12:50:57 -0400">
+                                    <Title>Table 4</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>878,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="224" UUID="DB76439D-519E-4C48-8480-EF1F6ED153A1" Type="Text" Created="2017-08-28 16:22:39 -0400" Modified="2017-08-28 17:06:16 -0400">
+                                    <Title>Figure 6</Title>
+                                    <MetaData>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>173,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="225" UUID="144A5DD8-7190-4D3A-B3B4-274C4269E951" Type="Text" Created="2017-08-28 16:22:41 -0400" Modified="2017-08-28 17:50:42 -0400">
+                                    <Title>Figure 7</Title>
+                                    <MetaData>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>78,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="220" UUID="FAB4E1E3-DC83-466A-98E8-945853A12158" Type="Text" Created="2017-08-20 19:58:36 -0400" Modified="2017-08-20 19:58:51 -0400">
+                                    <Title>Table 5</Title>
+                                    <MetaData>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>10,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="191" UUID="9500A36D-654E-4967-B421-B8202FFF2A99" Type="Text" Created="2015-02-18 09:25:27 -0500" Modified="2017-08-31 14:33:17 -0400">
+                                    <Title>*Interactions among Boundaries</Title>
+                                    <MetaData>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>606,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="165" UUID="1EB70CD5-B8A7-4BF9-87F3-592D34019A0B" Type="Text" Created="2017-07-12 19:30:32 -0400" Modified="2017-08-28 12:50:57 -0400">
+                                    <Title>*Indirect Effects</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="187" UUID="2170D41E-E18F-4770-B6EA-C7BD9646C9CE" Type="Text" Created="2017-01-24 14:30:41 -0500" Modified="2017-08-28 12:50:56 -0400">
+                                    <Title>Changes in Boundary Status</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="166" UUID="38A3A107-EE20-4B79-A5EE-07B7AE0855E0" Type="Text" Created="2017-07-12 20:25:31 -0400" Modified="2017-09-05 17:37:38 -0400">
+                                    <Title>*Expenses</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>849,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="2" UUID="2F978DD9-8487-4B8B-9775-DF2B24953A8E" Type="TrashFolder" Created="2017-07-12 11:08:08 -0400" Modified="2017-07-12 11:08:08 -0400">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="CAE15BFD-FDD9-4C4D-AE29-7872B354C6DA" Color="0.962266 0.962266 0.962266">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="57376F70-40A4-4615-8146-8BC33E1D40BC" Color="0.922 0.91 0.98">
+            <Title>Search Results</Title>
+            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No">Table A3</SearchSettings>
+        </Collection>
+    </Collections>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.9 0.92 0.95">Concept</Label>
+            <Label ID="1" Color="0.985 0.875 0.85">Chapter</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">First Draft</Status>
+            <Status ID="2">Revised Draft</Status>
+            <Status ID="3">Final Draft</Status>
+            <Status ID="4">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2017-07-12 11:08:07 -0400" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="62" Characters="467" Date="2017-11-22 10:29:36 -0500"></PreviousSession>
+    </ProjectTargets>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScrivenerProject>

@@ -1,0 +1,1683 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="53">
+            <Title>(Carpenter et al., 2015) Allowing variance may enlarge the safe operating space for exploited ecosystems</Title>
+            <Text>Allowing variance may enlarge the safe operating space for exploited ecosystems
+
+{Carpenter et al., 2015, #74224}</Text>
+        </Document>
+        <Document ID="187">
+            <Title>Changes in Boundary Status</Title>
+            <Text>We assign rates of change to the status of the planetary boundaries either by extrapolating existing trends, with ocean acidification and climate change proportional to atmospheric CO2 concentration, and the remainder, except stratospheric ozone depletion, linked to estimated population (Table 3). The status of stratospheric ozone depletion is assumed to remain constant. Our initial levels for the planetary boundary statuses correspond to those in Steffen et al., 2015. We add direct strong linkage between biogeochemical cycling and climate change/ocean acidification and quantify interaction strengths, assigning 0.10 to strong interactions, 0.033 (0.10/3) to medium interactions, and 0.011 (0.10/9) to weak interactions (Fig. 5A). A change in one planetary boundary status imposes a proportional change so that if the status of one boundary (as quantified by its control variable) changes by x%, the status of the boundary it affects changes by its own extrapolated amount plus the interaction strength times x%. To compute the status of boundary i after a time interval (Sit), we first sum the original status of the boundary (Sio) and the product of that status, the interval, and its rate of change (eq. 1) (Fig. 5B, C). 
+	Sit = Sio + ri × t × Sio	(1)
+To determine the direct effect of a change in boundary status Sa on status Sb, we first obtain the proportional difference between the predicted and original statuses of Sa.
+	∂Sa = (Sat - Sao) / Sao	(2)
+We then multiply ∂Sa by the interaction strength between it and the boundary it affects, Iab, and multiply this result by the change in Sbto determine the additional increment required.
+	incbab = ∂Sa × Iab × (Sbt - Sbo)	(3)
+Where multiple boundaries affect a single boundary (i.e. biosphere integrity), we sum its original Sit and the increments thus obtained to obtain the status after taking all direct effects into account.
+	Sidir = Sit + ∑ inci	(4)
+To determine the secondary effects of changes in boundary status arising from linkage via biosphere integrity, we re-apply the above procedure to determine the additional effects of biogeochemical cycling on ocean acidification/climate change on biosphere integrity, and again to determine the effects of the final value of biosphere integrity on the other boundaries. Note that values for control variables representing the status of ocean acidification and land system change are reported in Steffen et al., 2015 as percentages, with decreasing values indicating advance towards boundary transgression. This is the opposite of the sense of our formulas, with increasing values indicating advance towards boundary transgression, so these values are subtracted from 1 in the R code.</Text>
+        </Document>
+        <Document ID="29">
+            <Title>Table 1</Title>
+            <Text>
+Table 1. Locations of outdoor algal turf scrubber studies and production-scale facilities (see also Fig. 1E).</Text>
+        </Document>
+        <Document ID="179">
+            <Title>Concerns - Emissions, Biomass, Land Area</Title>
+            <Text>The scale of our proposed intervention prompts concerns about environmental impacts. For example, algal biomass that concentrate toxins found in polluted water may itself be classified as toxic waste, requiring additional processing to render it suitable for further applications. Biofuel production could remove up to half of the biomass as carbon, doubling the concentration of toxins in the residue and reducing landfill volumes and transportation costs compared to the original biomass. An effective testing program will be essential to ensure that compromised biomass receives proper treatment. As landfilling is the default fate of the biomass for current production units, uses that both generate revenue and lower residue volume can improve the economics. Another possible impact is emissions from floways. Obviously net oxygen will be released, but many marine algae also emit dimethyl sulfide (DMS) {Charlson et al., 1987, #54604}, a volatile organosulfur compound known to impact climate by nucleating clouds over the oceans. To date, no studies of DMS emission from ATS™ floways, marine or fresh, have been performed. Increased cloud cover could increase Earth’s albedo, slowing global warming, but could also potentially negatively impact crop and photovoltaic productivity. Other environmental impacts that merit consideration relate to the extent of algal cultivation area required. While algal floways are efficient at non-point nutrient removal on an areal basis, they will nevertheless require conversion of land from current uses to algae cultivation. Where feasible, non-agricultural land, brownfields, or even building roofs might be candidates for conversion, but where agriculture is most concentrated, existing crop production would have to be traded for algae production, requiring careful cost-benefit analysis. Wading birds are frequently observed in production floways, browsing on productivity inhibiting invertebrate algal grazers and adding additional nutrients to the water. This phenomenon and likely various others will recur and expand along with expanded algal cultivation. While not comprehensive, these examples represent questions that will need to be answered as algae cultivation expands from the few hectares now in production to the tens of millions of hectares and more needed.</Text>
+        </Document>
+        <Document ID="54">
+            <Title>(Charlson et al., 1987) Oceanic phytoplankton, atmospheric sulphur, cloud albedo</Title>
+            <Text>Oceanic phytoplankton, atmospheric sulphur, cloud albedo and climate
+
+{Charlson et al., 1987, #54604}</Text>
+        </Document>
+        <Document ID="80">
+            <Title>(Kardel et al., 2015) Preliminary Development of 3D-Printed Custom Substrata for Benthic Algal Biofilms</Title>
+            <Text>Preliminary Development of 3D-Printed Custom Substrata for Benthic Algal Biofilms
+
+{Kardel et al., 2015, #39982}
+
+Indoors.</Text>
+        </Document>
+        <Document ID="55">
+            <Title>(Chen et al., 2015) Nutrient removal at a drinking water reservoir in China</Title>
+            <Text>Nutrient removal at a drinking water reservoir in China with an algal floway
+
+{Chen et al., 2015, #5692}</Text>
+        </Document>
+        <Document ID="81">
+            <Title>(Keller and Knight) Sediment Accretion and Ageing in Treatment Wetlands</Title>
+            <Text>Sediment Accretion and Ageing in Treatment Wetlands
+
+{Keller and Knight, 2004, #5792}</Text>
+        </Document>
+        <Document ID="56">
+            <Title>(Craggs et al., 1996) A controlled stream mesocosm for tertiary treatment</Title>
+            <Text>A controlled stream mesocosm for tertiary treatment of sewage
+
+{Craggs et al., 1996, #556}</Text>
+        </Document>
+        <Document ID="82">
+            <Title>(Kishore and Abraham, 2009) Construction Costs - Using Federal Vs. Local Funds</Title>
+            <Text>Construction Costs - Using Federal Vs. Local Funds
+
+{Kishore and Abraham, 2009, #52925}</Text>
+        </Document>
+        <Document ID="57">
+            <Title>(Craggs et al., 2015) Economic construction and operation of hectare-scale wastewater treatment enhanced pond systems</Title>
+            <Text>Economic construction and operation of hectare-scale wastewater treatment enhanced pond systems
+
+{Craggs et al., 2015, #97642}</Text>
+        </Document>
+        <Document ID="83">
+            <Title>(Kivaisi, 2001) The potential for constructed wetlands for wastewater treatment and reuse in developing countries: a review</Title>
+            <Text>The potential for constructed wetlands for wastewater treatment and reuse in developing countries: a review
+
+{Kivaisi, 2001, #28974}</Text>
+        </Document>
+        <Document ID="58">
+            <Title>(Cuddington et al., 2013) Process-based models are required to manage ecological systems in a changing world</Title>
+            <Text>Process-based models are required to manage ecological systems in a changing world
+
+{Cuddington et al., 2013, #45847}
+
+Built environment. Need to expand on our second-order model.
+
+Plus, need to discuss need for continual monitoring and refinement in discussion.</Text>
+        </Document>
+        <Document ID="84">
+            <Title>(Labella et al., 2015 ) Assessing the economic suitability of aeration and the influence of bed heating on constructed wetlands treatment efficiency and life-span</Title>
+            <Text>Assessing the economic suitability of aeration and the influence of bed heating on constructed wetlands treatment efficiency and life-span
+
+{Labella et al., 2015, #41532}</Text>
+        </Document>
+        <Document ID="59">
+            <Title>(Cuéllar-Franca and Azapagic, 2015) Carbon capture, storage and utilisation technologies- A critical analysis and comparison of their life cycle environmental impacts</Title>
+            <Text>Carbon capture, storage and utilisation technologies- A critical analysis and comparison of their life cycle environmental impacts
+
+{Cuéllar-Franca and Azapagic, 2015, #17420}</Text>
+        </Document>
+        <Document ID="85">
+            <Title>(Lal, 2004) Soil Carbon Sequestration Impacts on Global Climate Change and Food Security</Title>
+            <Text>Soil Carbon Sequestration Impacts on Global Climate Change and Food Security
+
+{Lal, 2004, #68629}</Text>
+        </Document>
+        <Document ID="86">
+            <Title>(Lal, 2006) Enhancing Crop yields in the developing countries through restoration of the soil organic carbon pool in agricultural land</Title>
+            <Text>Enhancing Crop yields in the developing countries through restoration of the soil organic carbon pool in agricultural land
+
+{Lal, 2006, #13669}</Text>
+        </Document>
+        <Document ID="87">
+            <Title>(Lal, 2015) Mechanisms of Soil Carbon Sequestration</Title>
+            <Text>Mechanisms of Soil Carbon Sequestration
+
+{Lal, 2015, #30926}</Text>
+        </Document>
+        <Document ID="88">
+            <Title>(Lal, 2015) Restoring Soil Quality to Mitigate Soil Degradation</Title>
+            <Text>Restoring Soil Quality to Mitigate Soil Degradation
+
+{Lal, 2015, #43122}</Text>
+        </Document>
+        <Document ID="89">
+            <Title>(Lehmann and Kleber, 2015) The contentious nature of soil organic matter</Title>
+            <Text>The contentious nature of soil organic matter
+
+{Lehmann and Kleber, 2015, #45193}</Text>
+        </Document>
+        <Document ID="30">
+            <Title>Nutrient Excesses</Title>
+            <Text>Nutrient data {Potter et al., 2010, #43603} are organized on a 0.5’ × 0.5’ grid of latitude and longitude, with 9,318,244 total cells, 698,788 with N values (Fig. 2A) and 927,186 P values (Fig. 2B), the values representing kilograms of nutrient excess per cell. All grid cells with N values also have P values. Excess N per grid cell ranges from 3.9 × 10-6 kg to 2.8 × 106 kg (mean 7.1 × 104 kg). Excess P per cell ranges from −1.8 × 105 kg to 5.8 × 105 kg, (mean 8.8 × 103 kg), with negative numbers indicating a P deficit (Figure A1) {West et al., 2014, #62583}. Half of the excess N and P is accounted for by 6.8% and 7.0% of their respective values. These grid cells are colored using a gradient of cooler to warmer shades in Figures 2A and B. The 405 major basins provided by the Global Runoff Data Center are responsible for 77% of global nutrient excess, for both N and P (Table A1). Excess N per basin ranges from 0 to 5.1 × 109 kg yr-1 (mean 9.5 × 107) kg yr-1 and excess P per basin ranges from −6.8 × 107 kg yr-1 to 1.0 × 109 kg yr-1 (mean 1.6 × 107 kg yr-1). Half of the nutrient excess is contributed by only five (N) or six (P) basins, while 90% is contributed by 52 (N) or 32 (P) basins (Table 3, A1). The Yangze contributes the most N (5.1 × 109 kg yr-1), while the Ganges contributes the most P (1.0 × 109 kg yr-1) (Table 3, A1). To rank grid cells, we combine N and P values into a single value (Fig 2C). Summing these values basin-by-basin provides a metric for prioritizing basins (Fig. 2D, Table 2, Table A1).</Text>
+        </Document>
+        <Document ID="33">
+            <Title>References</Title>
+        </Document>
+        <Document ID="34">
+            <Title>(Adams, 2011) Estimating Cost Per Lane Mile for Routine Highway Operations and Maintenance</Title>
+            <Text>Estimating Cost Per Lane Mile for Routine Highway Operations and Maintenance
+
+{Adams, 2011, #44432}</Text>
+        </Document>
+        <Document ID="35">
+            <Title>(Adey and Steneck, 1985) Highly productive eastern Caribbean reefs- Synergistic effects of biological chemical, physical and geological factors</Title>
+            <Text>Highly productive eastern Caribbean reefs- Synergistic effects of biological chemical, physical and geological factors
+
+{Adey and Steneck, 1985, #91961}</Text>
+        </Document>
+        <Document ID="60">
+            <Title>(D'Aiuto et al., 2015) Algal Turf Scrubbers- Periphyton Production and Nutrient Recovery on a South Florida Citrus Farm</Title>
+            <Text>Algal Turf Scrubbers- Periphyton Production and Nutrient Recovery on a South Florida Citrus Farm
+
+{D'Aiuto et al., 2015, #56014}</Text>
+        </Document>
+        <Document ID="36">
+            <Title>(Adey et al., 1993) Phosphorus Removal from Natural Waters Using Controlled Algal Production</Title>
+            <Text>Phosphorus Removal from Natural Waters Using Controlled Algal Production
+
+{Adey et al., 1993, #62}</Text>
+        </Document>
+        <Document ID="61">
+            <Title>(Darbishire, 2010) Proactive Transparency- The future of the right to information?</Title>
+            <Text>Proactive Transparency- The future of the right to information?
+
+{Darbishire, 2010, #6393}</Text>
+        </Document>
+        <Document ID="37">
+            <Title>(Adey et al., 1996) Purification of industrially contaminated groundwaters</Title>
+            <Text>Purification of industrially contaminated groundwaters using controlled ecosystems
+
+{Adey et al., 1996, #59863}</Text>
+        </Document>
+        <Document ID="62">
+            <Title>(Day et al., 2004) The use of wetlands in the Mississippi Delta for wastewater assimilation: a review</Title>
+            <Text>The use of wetlands in the Mississippi Delta for wastewater assimilation: a review
+
+{Day et al., 2004, #79665}</Text>
+        </Document>
+        <Document ID="38">
+            <Title>(Adey et al., 2013) Algal turf scrubber (ATS) floways on the Great Wicomico River, Chesapeake Bay- productivity, algal community structure, substrate and chemistry</Title>
+            <Text>Algal turf scrubber (ATS) floways on the Great Wicomico River, Chesapeake Bay- productivity, algal community structure, substrate and chemistry
+
+{Adey et al., 2013, #773}</Text>
+        </Document>
+        <Document ID="63">
+            <Title>(Environmental Protection Agency, 1993) Constructed Wetlands for Wastewater Treatment and Wildlife</Title>
+            <Text>Constructed Wetlands for Wastewater Treatment and Wildlife Habitat
+
+{Environmental Protection Agency, 1993, #32863}</Text>
+        </Document>
+        <Document ID="39">
+            <Title>(Anani and Madanat, 2010) Estimation of highway maintenance marginal cost under multiple maintenance activities</Title>
+            <Text>Estimation of Highway Maintenance Marginal Cost under Multiple Maintenance Activities
+
+{Anani and Madanat, 2010, #93251}</Text>
+        </Document>
+        <Document ID="64">
+            <Title>(Environmental Protection Agency, 1996) Watershed Approach Framework</Title>
+            <Text>Watershed Approach Framework
+
+{Environmental Protection Agency, 1996, #98537}</Text>
+        </Document>
+        <Document ID="90">
+            <Title>(Litman and Doherty, 2016) Roadway Facilities</Title>
+            <Text>Transportation Cost and Benefit Analysis II (Chapter 5.6)
+
+Roadway Facilities
+
+{Litman and Doherty, 2016, #68762}</Text>
+        </Document>
+        <Document ID="65">
+            <Title>(Environmental Protection Agency, 2007) Advanced Wastewater Treatment to Achieve Low Concentration of Phosphorus</Title>
+            <Text>Advanced Wastewater Treatment to Achieve Low Concentration of Phosphorus
+
+{Environmental Protection Agency, 2007, #53036}</Text>
+        </Document>
+        <Document ID="91">
+            <Title>(Marchal et al., 2011) OECD Environmental Outlook to 2050- Climate Change</Title>
+            <Text>OECD Environmental Outlook to 2050- Climate Change Chapter (Pre-release Version)
+
+{Marchal et al., 2011, #31204}</Text>
+        </Document>
+        <Document ID="66">
+            <Title>(FAO, 2012) Current world fertilizer trends and outlook to 2016</Title>
+            <Text>Current world fertilizer trends and outlook to 2016
+
+{FAO, 2012, #11026}</Text>
+        </Document>
+        <Document ID="92">
+            <Title>(Marchal et al., 2011) OECD Environmental Outlook to 2050- The Consequences of Inaction, Key Facts and Figures</Title>
+            <Text>OECD Environmental Outlook to 2050- The Consequences of Inaction, Key Facts and Figures
+
+{Marchal et al., 2011, #31204}
+
+</Text>
+        </Document>
+        <Document ID="67">
+            <Title>(Fasching et al., 2015) The Use of Sediment Removal to Reduce Phosphorus Levels</Title>
+            <Text>The Use of Sediment Removal to Reduce Phosphorus Levels in Wetland Soils
+
+{Fasching et al., 2015, #79924}
+
+Removing sediment to reduce invasion of Typha x glauca. Need to mine for better refs on sediment accumulation? At least refer to the propensity or sensitiviy of P accumulating wetlands to change their ecology, perhaps favoring invasives but at any rate potentially becoming unpredictable.</Text>
+        </Document>
+        <Document ID="68">
+            <Title>(Flynn et al., 2015) Ocean acidification with (de)eutrophication will alter future phytoplankton growth and succession</Title>
+            <Text>Ocean acidification with (de)eutrophication will alter future phytoplankton growth and succession
+
+{Flynn et al., 2015, #51500}</Text>
+        </Document>
+        <Document ID="93">
+            <Title>(Mayr et al., 2015) Combating planktonic algae with benthic algae</Title>
+            <Text>Combating planktonic algae with benthic algae
+
+{Mayr et al., 2015, #17666}</Text>
+        </Document>
+        <Document ID="5">
+            <Title>The Threat</Title>
+            <Text>The resource demands of Earth’s population, which may exceed eleven billion people by 2100 {United Nations, 2015, #94734}, will likely continue to intensify stresses on ecosystem services {Boyd and Banzhaf, 2007, #49938}. Excess agricultural fertilizer/manure application, upon which high-performance agriculture depends, and incompletely treated sewage, a consequence of inadequate infrastructure investment, are overloading the biogeochemical N and P cycles, one of the most pressing threats {Steffen et al., 2015, #78923; Rockström et al., 2009, #94424}. The fresh and marine waters that receive these excess nutrients are experiencing an increase in the frequency and extent of harmful algal blooms (HABs), leading to larger, more frequent, and more persistent hypoxic dead zones, as well as increasing negative human health effects {Hallegraeff, 1993, #70258; Heisler et al., 2008, #9953}. Additionally, unsustainable fossil fuel extraction and combustion are overloading the C cycle, warming our climate {Pachauri et al., 2014, #63677} and acidifying our oceans {Mostofa et al., 2015, #46684}. Human activity, biogeochemical cycles, and photosynthesis are tightly coupled, as primary production fixes environmental C, N, and P into biomass. If photosynthesis could be greatly expanded on a global scale, and the resulting biomass effectively managed, stresses on multiple Earth systems could be slowed, and in the case of N and P, stabilized and reversed.</Text>
+        </Document>
+        <Document ID="69">
+            <Title>(Global Runoff Data Centre, 2007) Major River Basins of the World</Title>
+            <Text>Major River Basins of the World
+
+{Global Runoff Data Centre, 2007, #86930}</Text>
+        </Document>
+        <Document ID="94">
+            <Title>(Mitsch et al., 2015) Protecting the Florida Everglades wetlands with wetlands: Can stormwater phosphorus be reduced to oligotrophic conditions?</Title>
+            <Text>Protecting the Florida Everglades wetlands with wetlands: Can stormwater phosphorus be reduced to oligotrophic conditions?
+
+{Mitsch et al., 2015, #95957}</Text>
+        </Document>
+        <Document ID="6">
+            <Title>Wetlands</Title>
+            <Text>As C, N, and P cycle globally, and their chemical compounds become dilute and pervasive once released into the environment, projects to appreciably sequester or recycle them must be globally distributed at large scale {Shortle and Horan, 2001, #95650}. One practice intended to mitigate dilute N and P pollution is the constructed treatment wetland (CTW) {Vymazal, 2010, #45132}. CTWs embed some excess P in the soil while volatilizing much of the excess N, and to a lesser extent sequester these nutrients as biomass, with effective P removal requiring increased complexity and expense {Vymazal, 2010, #45132; Fasching et al., 2015, #79924}. Due to linkage with photosynthesis, CTWs also sequester some C in biomass. While low operating costs are claimed for CTWs, these estimates have not generally included long term harvesting to counter maturation and degradation {Keller and Knight, 2004, #5792}; a 20-30 yr harvest cycle requires major expense for dredging, transportation and sequestering or processing the spoil. Further advantages ascribed to CTWs include increased biodiversity, mitigation of pathogens and additional pollutants, and applicability over a range of geographical, climatic, and socio-economic environments {Semeraro et al., 2015, #92954}. However, the areal effectiveness of CTW nutrient removal tends to be so low that treating an agricultural basin to pre-industrial levels of N and P with CTWs would require converting a substantial proportion of crop growth area to wetlands {Verhoeven and Meuleman, 1999, #34609; Halverson, 2004, #58045; Zhang et al., 2015, #93587}. The floating treatment wetland (FTW), an aquatic analog of CTWs, imposes high operational burdens, are potentially viable only in relatively calm waters — greatly limiting their applicability — and can increase, rather than decrease, nutrient loading if not managed properly {Wang and Sample, 2014, #10440; Stewart Frank M. et al., 2008, #29842}. If expanded to a size functional for treating a major lake or estuary, a FTW would likely interfere with other commercial and recreational uses. {Zhang et al., 2015, #93587; Zapater-Pereyra et al., 2015, #11644; Yu et al., 2015, #82497; Wang and Sample, 2014, #10440}</Text>
+        </Document>
+        <Document ID="7">
+            <Title>Other Solutions</Title>
+            <Text>Where concentrated pollutants are released, as from sewage treatment plants or factories, effective industrial treatment is feasible but expensive, and is actively, if sporadically, performed mostly in wealthy countries {Environmental Protection Agency, 2007, #89392}. However, even with cleanup of concentrated N and P via expanded industrial treatment {Ribaudo et al., 2001, #100325}, agriculture unavoidably produces global nonpoint N and P pollution from application of fertilizer and manure that infiltrates nearby surface and subsurface waters, with septic systems and cesspools contributing additional N and P in some areas. Beyond cleanup of excess N and P, CO2-specific solutions that compress or chemically fix this pollutant from industrial facilities have poor economics and depend on storage in sites of uncertain stability {Cuéllar-Franca and Azapagic, 2015, #17420}. Fortifying the oceans with limiting nutrients such as iron could remove large quantities of pollutants {Naqvi and Smetacek, 2011, #29270} by stimulating large plankton blooms that then sink, but the long-term impacts of this approach are poorly understood, and the loss of potentially valuable biomass weakens the economics. It is essential to seek more affordable and effective solutions.</Text>
+        </Document>
+        <Document ID="95">
+            <Title>(Morrissey et al., 1988) Nutrient cycling in the Great Barrier Reef Aquarium</Title>
+            <Text>Nutrient cycling in the Great Barrier Reef Aquarium
+
+{Morrissey et al., 1988, #63991}</Text>
+        </Document>
+        <Document ID="8">
+            <Title>ATS Intro</Title>
+            <Text>Here we evaluate the capability of the algae cultivation practice known as algal turf scrubbing (ATS) {Adey et al., 2011, #74672} to intervene in humanity’s overloading of the N, P, and C biogeochemical cycles. One of us (Adey) is the inventor of this process, a reliable technology that harnesses rapidly growing benthic algal polycultures, also known as periphyton, confined within an open-field photobioreactor, to photosynthetically remove N, P, C, and other aquatic pollutants from point and nonpoint fresh and marine waters, simultaneously oxygenating the cleaned effluent, increasing its pH, and producing copious biomass (ATS is a trademark, and Algal Turf Scrubber a registered trademark, of Ecological Systems Inc., the primary R&amp;D entity for the technology; these are licensed to HydroMentia Technologies LLC). ATS has been deployed at hectare scale for decades, with low capital and operational costs compared to other nonpoint treatment solutions, demonstrating reliable year-round operation and productivity equal to or better than local high-performance agriculture. ATS introduces what is essentially a new agricultural crop, nonspecific algal biomass, low in water consumption and independent of the extractive industries producing fertilizer and other commodities required for the highest productivities in food production. ATS has been demonstrated at more than forty locations (Fig. 1E, Table 1) for polishing water from secondary sewage treatment, treating raw and digested animal manure, recycling aquaculture/mariculture wastewater, removing nutrients from dredge spoil, and cleaning agricultural runoff {Adey et al., 1993, #62; Adey et al., 2013, #773; Craggs et al., 1996, #556; Mulbry et al., 2012, #3067; Mayr et al., 2015, #17666; Sindelar et al., 2015, #38897}. Mean annual ash-free dry weight (AFDW) productivity in temperate and sub-tropical zones routinely exceeds 55 t ha-1 yr-1 (20 ton ac-1 yr-1); recent work supports the likelihood of increasing productivity, {Adey et al., 2013, #773}, with yearly means of 150 t ha-1 yr-1 (54 ton ac-1 yr-1) published {Adey et al., 2013, #773}.</Text>
+        </Document>
+        <Document ID="9">
+            <Title>ATS Operation</Title>
+            <Text>Typically, ATS operates in a single-pass mode, with influent traversing the floway once before returning to its source. Single-pass mode requires less capital and operational expense (CapEx and OpEx) than more complex operational modes, but can usually accomplish only 5-15% removal of N and P, as carbon limitation, arising along the floway due to removal of this nutrient as it is incorporated into biomass, reduces areal productivity and thus nutrient uptake. Introducing CO2 at intervals along the floway can reverse carbon limitation, increasing areal productivity and providing the capability to reduce nutrient loading to oligotrophic levels. Multiple passes may instead be performed, either with the effluent from one floway used as the influent for another, emulating a single longer floway, or by recirculating water through one floway. A typical production-scale facility occupies ~1 ha, treating ~4.0 × 107 L d-1 (~1.1 × 107 gal d-1), with larger volumes handled using multiple instances of a modular design. CapEx can vary; we assume a range of $2.5 × 105 ha-1 ($1.0 × 105 ac-1) (monetary values in approximate 2017 US dollars) where minimal site preparation is required, to $1.0 × 106 ha-1 ($4.0 × 105 ac-1) with complex site preparation. OpEx can range from $4.0 × 104 ha-1 yr-1 ($1.6 × 104 ac-1 yr-1) for single-pass operation to $7.0 × 104 ha-1 yr-1 ($2.8 × 104 ac-1 yr-1), for more sophisticated operations.</Text>
+        </Document>
+        <Document ID="96">
+            <Title>(Mostofa et al., 2015) Reviews and Syntheses- Ocean acidification and its potential impacts on marine ecosystems</Title>
+            <Text>Reviews and Syntheses- Ocean acidification and its potential impacts on marine ecosystems
+
+{Mostofa et al., 2015, #46684}</Text>
+        </Document>
+        <Document ID="97">
+            <Title>(Motesharrei et al., 2016) Modeling sustainability- population, inequality, consumption</Title>
+            <Text>Modeling sustainability- population, inequality, consumption, and bidirectional coupling of the Earth and Human Systems
+
+{Motesharrei et al., 2016, #44233}</Text>
+        </Document>
+        <Document ID="98">
+            <Title>(Mulbry et al., 2005) Recycling of manure nutrients- use of algal biomass</Title>
+            <Text>Recycling of manure nutrients- use of algal biomass from dairy manure treatment as a slow release fertilizer
+
+{Mulbry et al., 2005, #24501}</Text>
+        </Document>
+        <Document ID="99">
+            <Title>(Mulbry et al., 2007) Biofertilizers from Algal Treatment of Dairy and Swine</Title>
+            <Text>Biofertilizers from Algal Treatment of Dairy and Swine Manure Efflutents- Characterization of Algal BIomass as a Slow Release Fertilizer
+
+{Mulbry et al., 2007, #79242}</Text>
+        </Document>
+        <Document ID="100">
+            <Title>(Mulbry et al., 2010) Toward scrubbing the bay- Nutrient removal using small algal turf scrubbers on Chesapeake Bay tributaries</Title>
+            <Text>Toward scrubbing the bay- Nutrient removal using small algal turf scrubbers on Chesapeake Bay tributaries
+
+</Text>
+        </Document>
+        <Document ID="11">
+            <Title>Abstract</Title>
+            <Text>Humanity is degrading multiple ecosystem services, potentially irreversibly. Two of the most important human impacts appear to be excess agricultural nutrient loading in our fresh and estuarine waters and excess carbon dioxide in our oceans and atmosphere. Global large-scale intervention is required to slow, halt, and eventually reverse these stresses. Cultivating benthic polyculture algae within controlled open-field photobioreactors is a practical technique for exploiting the ubiquity and high productivity of algae, to capture and recycle the pollutants driving humanity across the safe boundaries of biogeochemical cycling, ocean acidification, and global warming. Expanded globally, algae cultivation could recycle all excess N and P, while simultaneously sequestering appreciable excess carbon. While obviously a major capital and operational investment, such an algal recycling project is comparable in magnitude to the construction and maintenance of the global road transportation network. Beyond direct amelioration of critical threats expanded algal cultivation would produce a major new commodity flow of biomass, and because of coupling among Earth systems, would additionally help relieve other stresses. </Text>
+        </Document>
+        <Document ID="101">
+            <Title>(Mulbry et al., 2012) Near- and mid-infrared spectroscopic determination of algal composition</Title>
+            <Text>Near- and mid-infrared spectroscopic determination of algal composition
+
+{Mulbry et al., 2012, #3067}</Text>
+        </Document>
+        <Document ID="12">
+            <Title>Introduction</Title>
+        </Document>
+        <Document ID="110">
+            <Title>(Ray et al., 2015) Nitrogen and phosphorus removal by the Algal Turf Scrubber</Title>
+            <Text>Nitrogen and phosphorus removal by the Algal Turf Scrubber at an oyster aquaculture facility
+
+{Ray et al., 2015, #84240}</Text>
+        </Document>
+        <Document ID="102">
+            <Title>(Muller et al., 2015) Built infrastructure is essential</Title>
+            <Text>Built infrastructure is essential
+
+{Muller et al., 2015, #27640}
+
+We are doing geoengineering, and it will work.
+
+Can “green” water infrastructure really provide the kind of ecosystem services that “built” water infrastructure can? 
+
+Need to refer to resistance to “water’s destructive extremes” - reference the Hydromentia hurricane component of the S-154 report.
+
+The challenge is to support a growing population desiring an essentially middle-class type of existence
+
+Their reference is (3), and they are talking 9.6 billion people, mostly urban, needed a much more concentrated source of ecosystem services.
+
+OECD (4) estimates a doubling in “water abstraction” 
+
+$400 billion needed in the US between 2011 and 2030 just to sustain drinking water supplies.
+
+Most of the new infrastructure growth will be in China and India, Africa and Latin America.
+
+Global warming will reduce “green” water flows in many areas.
+
+Dams vs. desalinization (12).
+
+Potable water, sanitation and wastewater treatment are needed no matter what. Irrigation. Storage.</Text>
+        </Document>
+        <Document ID="13">
+            <Title>Authors</Title>
+        </Document>
+        <Document ID="14">
+            <Title>Authors</Title>
+            <Text>Dean Calahan*‡, Edward Osenbaugh†, Walter Adey*
+
+Affiliations:
+*Smithsonian Institution, Washington, DC 20002; †Softforce, Inc., Gilbert, IA 50105.
+‡Corresponding author.</Text>
+        </Document>
+        <Document ID="111">
+            <Title>(Ribaudo et al., 2001) Least-cost management of nonpoint source pollution</Title>
+            <Text>Least-cost management of nonpoint source pollution- source reduction versus interception strategies for controlling nitrogen loss in the Mississippi Basin
+
+{Ribaudo et al., 2001, #100325}</Text>
+        </Document>
+        <Document ID="200">
+            <Title>Figure 1</Title>
+            <Text>#
+Figure 1. Algal Turf Scrubbing (ATS). (A) Aerial view of a ~1 ha (~2.5 ac) system in Florida. Water surges onto the floway along the upper contour, whose extrema are indicated by large white arrows. Piles of dewatered (~8% solids) harvested biomass are indicated by small white arrows. Small black arrow indicates a sump into which biomass is scraped. (B) Harvesting using a small agriculture vehicle equipped with a scraper. Scraped material is pushed into a the sump indicated by the solid arrow in A. Note input surger (white arrow). (C) Person’s-eye view of algal biomass ready for harvest. (D) Collecting gravity-dewatered harvest from sump using a motorized rake. (E) Locations of past and present outdoor ATS pilot projects (small circles) and production systems (large circles).</Text>
+        </Document>
+        <Document ID="103">
+            <Title>(Naswa et al., 2015) Good Practice in Designing and Implementing National Monitoring Systems for Adaptation to Climate Change</Title>
+            <Text>Good Practice in Designing and Implementing National Monitoring Systems for Adaptation to Climate Change
+
+{Naswa et al., 2015, #90758}</Text>
+        </Document>
+        <Document ID="15">
+            <Title>Title</Title>
+            <Text>Expanded Algal Cultivation Can Reverse Planetary Boundary Transgressions</Text>
+        </Document>
+        <Document ID="40">
+            <Title>(Babatunde et al., 2008) Constructed wetlands for environmental pollution control: A review of developments, research and practice in Ireland</Title>
+            <Text>Constructed wetlands for environmental pollution control: A review of developments, research and practice in Ireland
+
+{Babatunde et al., 2008, #37397}</Text>
+        </Document>
+        <Document ID="120">
+            <Title>(Shiralipour and Epstein, 2005) Preliminary Compost Market Assessment Okeechobee, Florida</Title>
+            <Text>Preliminary Compost Market Assessment Okeechobee, Florida Region
+
+{Shiralipour and Epstein, 2005, #22388}
+
+Possibly useful for discussion section where fate of biomass is discussed. Discuss displacing the carbon burned for making fertilizer, peak phosphate, soil carbon.
+
+FL yard debrit at 3.5 million t.
+
+Mention different levels of compost quality folks are willing to pay for.
+
+Market capacity far in excess of production capacity in FL.</Text>
+        </Document>
+        <Document ID="112">
+            <Title>(Richardson et al., 2011) Integrated Stream and Wetland Restoration- A Watershed Approach to Improved Water Quality on the Landscape</Title>
+            <Text>Integrated Stream and Wetland Restoration- A Watershed Approach to Improved Water Quality on the Landscape
+
+{Richardson et al., 2011, #88785}</Text>
+        </Document>
+        <Document ID="16">
+            <Title>Title</Title>
+        </Document>
+        <Document ID="41">
+            <Title>(Bivand et al., 2016) rgdal</Title>
+            <Text>rgdal
+{Bivand et al., 2016, #50475}</Text>
+        </Document>
+        <Document ID="104">
+            <Title>(Natural Earth, 2015) Natural Earth</Title>
+            <Text>Natural Earth
+
+{Natural Earth, 2015, #75070}</Text>
+        </Document>
+        <Document ID="121">
+            <Title>(Shortle and Horan, 2001) The economics of nonpoint pollution control</Title>
+            <Text>The economics of nonpoint pollution control
+
+{Shortle and Horan, 2001, #95650}</Text>
+        </Document>
+        <Document ID="210">
+            <Title>Table 2</Title>
+            <Text>
+Table 2. Highest priority basins.</Text>
+        </Document>
+        <Document ID="42">
+            <Title>(Blersch, 2013) Development of algae cultivation for nutrient recovery from the nearshore Great Lakes in Buffalo, New York</Title>
+            <Text>Development of algae cultivation for nutrient recovery from the nearshore Great Lakes in Buffalo, New York
+
+{Blersch, 2013, #799}</Text>
+        </Document>
+        <Document ID="113">
+            <Title>(Rockström et al., 2009) Planetary Boundaries- Exploring the Safe Operating</Title>
+            <Text>Planetary Boundaries- Exploring the Safe Operating Space for Humanity
+
+{Rockström et al., 2009, #94424}</Text>
+        </Document>
+        <Document ID="202">
+            <Title>(Hillebrand and Sommer, 1999) The nutrient stoichiometry of benthic microalgal growth</Title>
+            <Text>The nutrient stoichiometry of benthic microalgal growth- Redfield proportions are optimal
+
+{Hillebrand and Sommer, 1999, #12928}</Text>
+        </Document>
+        <Document ID="18">
+            <Title>Abstract</Title>
+        </Document>
+        <Document ID="130">
+            <Title>(The World Bank, 2015) Gross Domestic Product 2015</Title>
+            <Text>Gross Domestic Product 2015
+
+{The World Bank, 2015, #21800}</Text>
+        </Document>
+        <Document ID="43">
+            <Title>(Borin, Malagoli, Salvato and Tanis, 2013) Wetland Systems- Ecology, Functioning and Management</Title>
+            <Text>Wetland Systems- Ecology, Functioning and Management
+
+{Borin, Malagoli, Salvato and Tanis, 2013, #1746}</Text>
+        </Document>
+        <Document ID="105">
+            <Title>(Naqvi and Smetacek, 2011) Ocean Iron Fertilization</Title>
+            <Text>Ocean Iron Fertilization
+
+{Naqvi and Smetacek, 2011, #29270}</Text>
+        </Document>
+        <Document ID="122">
+            <Title>(Sindelar et al., 2015) Algae scrubbers for phosphorus removal in impaired waters</Title>
+            <Text>Algae scrubbers for phosphorus removal in impaired waters
+
+{Sindelar et al., 2015, #38897}</Text>
+        </Document>
+        <Document ID="211">
+            <Title>Table 1 Gray References</Title>
+            <Text>Egret Marsh. Set coords to -80.87208, 27.7107668 (Indian River County).
+
+S-154 {Hydromentia Inc., 2005, #63} Set coords to -80.8668479, 27.2215774.
+
+Taylor Creek:
+Taylor Creek Algal Turf Scrubber® (ATS™) Nutrient Recovery Facility
+http://my.sfwmd.gov/govboard/docs/F999672985/ca_er_restsci_100_sd1.pdf
+Accessed 2017.08.03
+
+Taylor Creek Nutrient Recovery Facility - Hydromentia : Hydromentia
+
+Taylor Creek ATS™ Algal Growth Inhibition Report - Hydromentia : Hydromentia
+
+Taylor Creek Algal Turf Scrubber and Pump Station |
+Taylor Creek Algal Turf Scrubber and Pump Station alias
+
+Powell Creek:
+Powell Creek Algal Turf Scrubber Pilot Final Report
+
+Taylor Creek Operational Report (It’s actually Powell Creek - their document wrangling must have gotten mangled.
+
+Lake Lawne
+HydroMentia Corporate and Technology Overview
+{HydroMentia, 2013, #95236}
+
+Everglades STA-1W
+STA-1W Algal Turf Scrubber® Pilot
+{HydroMentia, 2009, #4426}
+
+Santa Fe
+
+</Text>
+        </Document>
+        <Document ID="19">
+            <Title>Description</Title>
+            <Text>An ATS facility is characterized by a shallow, inclined (0.5-2% slope) exposed surface (the floway) (Fig. 1A), either roughened or lined with a high surface-area mesh to provide a growth substratum. A wave- or pulse-generator directs influent into the floway along its upper contour (Fig. 1A,B), producing a shallow (2-5 cm (0.7 - 2 in) deep) flow coursing downslope. Cells of diverse algal taxa, ubiquitous in surface waters, adhere to the substratum and rapidly propagate, maturing into a community of attached filaments and trapped cells (Fig. 1B, C). Cell growth fixes N, P, C, and other nutrients into biomass, removing them from the influent. Weekly to biweekly harvest, as with a manicured lawn, removes the majority of the biomass, staging the remnant algal cells for another production cycle. Continuous operation ensures perpetual sampling of the influent for new algal species and strains, increasing the facility’s biodiversity, productivity, and predictability over time {Adey et al., 2013, #773}. Pulsing imposes turbulent flow, increasing light penetration and mixing, allowing even dilute nutrient sources to support high productivity {Adey and Steneck, 1985, #91961}. Photosynthesis drives the buffer system to high pH via CO2 and HCO3- uptake, and supersaturates the effluent with O2. If present, heavy metal ions are incorporated into the biomass, and many toxic organic molecules are removed or detoxified {Adey et al., 1996, #59863}. Many algae are mixotrophic, allowing them to additionally fix organic C originating from manure application or sewage treatment, expanding the practice’s treatment portfolio.</Text>
+        </Document>
+        <Document ID="44">
+            <Title>(Boyd and Banzhaf, 2007) What are ecosystem services? The need for standardized environmental accounting units</Title>
+            <Text>What are ecosystem services? The need for standardized environmental accounting units
+
+{Boyd and Banzhaf, 2007, #49938}
+
+We mention ecosystem services, and so need to reference them.
+
+Final ecosystem services are components of nature, directly enjoyed, consumed, or used to yield human well-being.
+
+This would have to be accounted for in any larger model. We are providing an ecosystem service kinda-sorta not part of nature.</Text>
+        </Document>
+        <Document ID="114">
+            <Title>(Rothman et al., 2013) Trace metal cycling in an algal floway system</Title>
+            <Text>Trace metal cycling in an algal floway system
+
+{Rothman et al., 2013, #23278}</Text>
+        </Document>
+        <Document ID="203">
+            <Title>Orphaned References</Title>
+            <Text>{Ríos et al., 2015, #42045}{Markow, 2011, #41485; Phelps et al., 2015, #34294; The World Bank, #21800}
+
+{Thébaud et al., 2015, #2762}{Semeraro et al., 2015, #92954}{Carpenter et al., 2015, #74224}{Bouwman et al., 2013, #412}. 
+
+{Guterman et al., 1990, #3693}{Klinthong et al., 2015, #56528; Lower Mississippi River Subbasin Committee on Hypoxia, 2009, #40345}{Dagg and Breed, 2003, #70406; Dunalska et al., 2015, #20468; Yun et al., 1997, #10910; Tsai et al., 2015, #8805; Potter et al., 2010, #43603; Howarth, 2008, #78448}{Environmental Protection Agency, 2007, #53036; Adey et al., 2011, #74672; Gallo et al., 2015, #51380; FAO, 2012, #11026}{Blersch, 2013, #799; Stelzer and Lamberti, 2001, #14756; Bricker et al., 2008, #22377; Sheriff, 2005, #44598; Bouwman et al., 2005, #64003; Maavara et al., 2015, #49050; Bouwman et al., 2013, #47584; Storkey et al., 2015, #68188}
+
+ATS: {Sandefur et al., 2014, #73121; HydroMentia, 2015, #32252; Carpenter et al., 1991, #87446; Ray et al., 2015, #84240; Chen et al., 2015, #5692; Huang et al., 2013, #766}{Li et al., 2016, #79302; Adler et al., 2015, #29809; Silva et al., 2015, #89353; Zhang et al., 2015, #93051; Yao et al., 2015, #90192; Sukačovǎ et al., 2015, #3065; Hancke et al., 2015, #26535; Kardel et al., 2015, #39982; Thornton, 2012, #74554; Boyer et al., 2006, #93219; Sandefur et al., 2011, #789; Benemann et al., 2003, #22220}{Rothman et al., 2013, #23278; Blersch et al., 2013, #97473}{Mulbry et al., 2010, #528}{Ragush et al., 2015, #34716}
+
+Farming: {Ramankutty et al., 2008, #25030; Monfreda et al., 2008, #83946}{Walsh et al., 2015, #85555; Sims et al., 1998, #57108; Withers et al., 2015, #70634}
+
+Economics: {Environmental Protection Agency, 2015, #5527}{Karp et al., 2015, #51954; Blackhurst et al., 2010, #19446}{Rochman, 2016, #90824; The World Bank, #21800}{Ribaudo et al., 2001, #100325; Stephenson et al., 2013, #52731}{Chesapeake Bay Commission, 2012, #66606; MacKay et al., 2015, #58924}
+
+Acidification: {Wallace et al., 2014, #89324; Ríos et al., 2015, #42045}{Hendriks et al., 2015, #34588; Hoegh-Guldberg et al., 2007, #52788}{Feely et al., 2010, #98343}{Flynn et al., 2015, #51500; Kübler and Dudgeon, 2015, #13806}
+
+HABs:{Fu et al., 2012, #46278; Lorraine C. Backer and Dennis J. McGillicuddy, 2006, #10375; Kudela et al., 2015, #4366}{Ribaudo et al., 2015, #7153}
+
+Soil: {Lal, 2006, #13669}{Lal, 2015, #43122}{Hughes et al., 2013, #13782; Carpenter and Bennett, 2011, #52284}{Wade et al., 2015, #22073; Lal, 2015, #30926; De Clercq et al., 2015, #38359; Trifan and Bularda, 2015, #73808; Bouwman et al., 2005, #65650}
+
+Biosphere Integrity: {Ouyang et al., 2016, #72269}{Bengston et al., 2004, #26579; Polasky et al., 2015, #17611; Steffen et al., 2011, #18687; McAlpine et al., 2015, #14594}
+
+</Text>
+        </Document>
+        <Document ID="131">
+            <Title>(Thébaud et al., 2015) Of sets of offsets- Cumulative impacts and strategies for compensatory restoration</Title>
+            <Text>Of sets of offsets- Cumulative impacts and strategies for compensatory restoration
+
+{Thébaud et al., 2015, #2762}
+
+They are specifically talking about biodiversity.
+
+Generation of “free” algal biomass.
+
+Most interventions may require more offset area than impact area for “no net loss”, and require extensive monitoring. How do we avoid trading genreating negative impacts as reported by Palimer and Filoso (2009).
+
+Maron et al (2012) review programs. There may be time lags in response to an intervention. Perceived changes vs. actual changes may affect public response. Also, societal response to the ecological loss impacts social acceptability of the offset.
+
+They provide a stylized model of offset applications.</Text>
+        </Document>
+        <Document ID="220">
+            <Title>Table 5</Title>
+            <Text>Figure 5. Summary of changes in boundary status.</Text>
+        </Document>
+        <Document ID="45">
+            <Title>(Buesseler et al., 2004) The Effects of Iron Fertilization on Carbon Sequestration in the Southern Ocean</Title>
+            <Text>The Effects of Iron Fertilization on Carbon Sequestration in the Southern Ocean
+
+{Buesseler et al., 2004, #89530}</Text>
+        </Document>
+        <Document ID="123">
+            <Title>(Siracusa and La, 2006) Design of a constructed wetland for wastewater treatment in a Sicilian town and environmental evaluation using the emergy analysis</Title>
+            <Text>Design of a constructed wetland for wastewater treatment in a Sicilian town and environmental evaluation using the emergy analysis
+
+{Siracusa and La, 2006, #50155}</Text>
+        </Document>
+        <Document ID="212">
+            <Title>Floway Chemistry</Title>
+            <Text>During photosynthesis, a floway’s oxygen concentration rises while carbon fixation drives the carbonate/bicarbonate buffer system towards its higher-pH, carbonate dominated profile, further upgrading the water beyond merely cleaning it of pollutants, if it can be mixed with “acidified” water whose pH is too low. Where the water is high in nutrient pollution, the floway can become carbon limited, reaching a pH of 9.5 or higher and allowing phosphate salts to precipitate. Carbon limitation is accompanied by a reduction in productivity, but sparging CO2 into the water at intervals along the floway can reverse the pH rise and productivity decline. These considerations suggest design and management options that can be optimized for specific situations. For N-limited basins, a subset of the floway area can be operated for P recovery by using relatively long floways (up to 300 m (980 ft)) without CO2 sparging, with the precipitate recovered as high-P biomass. For P limited basins, there is no correspondingly simple operation to precipitate surplus N-containing salts. However, again a subset of the floways can be operated for P precipitation, with the recovered P recycled into floways with surplus N rather than landfilled or further processed.</Text>
+        </Document>
+        <Document ID="46">
+            <Title>(Bouwman et al., 2013) Exploring global changes in nitrogen and phosphorus cycles in agriculture induced by livestock production over the 1900–2050 period</Title>
+            <Text>Exploring global changes in nitrogen and phosphorus cycles in agriculture induced by livestock production over the 1900–2050 period
+
+Exploring global changes in nitrogen and phosphorus cycles in agriculture induced by livestock production over the 1900–2050 period (SI)
+
+Exploring global changes in nitrogen and phosphorus cycles in agriculture induced by livestock production, over the 1900-2050 period (model)
+
+{Bouwman et al., 2013, #412}
+
+Their references: (15) for future populations. (17) for fate of P in soils. (18) IAASTD baseline scenario. We can recapitulate their work by extrapolating ATS to their worst-case scenario (2050 EX). (11) for their own paper.
+
+Their population estimates are UN medium, what is the reference (S1A).
+
+We should establish a % conversion of arable land to ATS. For each region, how much non-arable land is suitably located, how much of that can be converted to ATS, and then how much of the remaining (arable) land must then be converted. And then what is the impact on the remaining arable land and the downstream watersheds?
+
+What are the estimates and justifications for N mineralization and P retention? We need to apply those to flows within each watershed.
+
+Where does their EXE come from and can we get it and recompile it or re-implement it?
+
+Their scenario is assuming tweaking the system as is, whereas our scenario is to use the surplus as a resource
+
+Glossary:
+Nutrient surplus
+Nutrient recovery - calculated by equations S5 (crop) and S6 (livestock)
+NUE, PUE: nutrient use efficiency. Grams of dry matter per gram of N or P. AKA “partial factor productivity”. Equation S5.
+
+Model:
+The SI document refers to the model data availability. R script should download from scratch and prepare it for processing. Some data are only available from the corresponding author - do we need those data sets? (IMAGE and IAASTD). Where are the source code and executables?
+
+They request to see a pre-submission version of the article to make sure the data description is correct.
+
+Input parameter values: N excretion in manure (1, 7). P excretion in manure (8-12). Rates constant except for 1900 and 1950 (13).
+
+Assumptions:
+Available manure N is 60% of total N.
+
+Parameters (be sure to go back and start over on pages 1-2 as I didn’t start this until page 2).
+Feature
+Value
+References
+Biological N fixation
+Nonsymbiotic: 500 kg km^−2 y^−1 N (nonleguminous crops and grassland) 2,500 kg km^−2 y^−1 N (wetland rice)
+22-24
+Contribution of N fixation to crop N demand
+Uncertain
+25-26
+Atmospheric N deposition
+Model-based
+27-28
+N and P withdrawal
+Country-based and subnational crop production and content data
+2
+N withdrawal by grass consumption and harvests
+60% of all N input , excluding NH3 volatilization (assumed)
+21
+P withdrawal by grazing and grass cutting
+87.5% of fertilizer and manure P input (assumed) 
+29
+Global average P retention in river systems
+20%
+30
+Field loss of P by surface runoff
+12.5% of fertilizer and manure P inputs
+Their methods
+NH3 volatilization
+Aggregated
+15, 31
+Denitrification
+Modeled
+34-36
+Uncertainties
+FAO Fertilizer use more reliable than animal excretion. Crop nutrient withdrawal less certain than FAO crop production.
+
+
+</Text>
+        </Document>
+        <Document ID="140">
+            <Title>(Vymazal, 2010) Constructed Wetlands for Wastewater Treatment</Title>
+            <Text>Constructed Wetlands for Wastewater Treatment
+
+{Vymazal, 2010, #45132}
+
+Review
+
+Phragmites australis. Common reed. Invasive in US and NZ.
+Scirpus lacustris.
+Typha sp. Cattail.
+Scirpus spp. Bulrush.
+Sagittaria latifolia. Arrowhead.
+Bolboschoemus fluviatilis. Marsh clubrush.
+Eleocharis sphacelata. Tall spikerush.
+Scirpus tubernaemontani. Soft-stem bulrush.
+Eichhornia crassipes. Water hyacinth.
+Ceratophyllum demersum. Coontail.
+Najas guadalupensis. Souther naiad.
+Potamogeton pectinatus. Sago pondweed.
+Hydrocharis morsus-ranae. Frog’s bit.
+Myriophyllum spicatum. European watermil.foil.
+Elodea canadensis. Common waterweed.
+Vallisneria americana. Eel-grass.
+
+(Veenstra, 1998) for IJssel Lake Polder FWS: 0.4m deep, total area 1 ha, and its follow-on, (de Jong, 1976).
+
+Lake Balaton system (Lakatos, 1998). 10 ha, 8000 m^3 d^-1 of mechanically treated wastewater.
+
+(Odum, 1985) for coastal lagoons. (Odum, et al 1977), (Ewel and Odum, 1984).
+
+Houghton Lake project (Kadlec et al, 1975), (Kadlec and Tilton, 1979).
+
+Mandan Refinery (Litchfield, 1989).
+
+California (Chan et al. 1982).
+
+Thousands of others: (Wieder, 1989), (Kadlec and Knight, 1996), (Kadlec 2003), Vymazal et al., 2006).
+
+Shallow water depth, low flow velocity, shallow water, producing plug flow. (Reed et al. 1988).
+
+Land-intensive.
+
+Inolvement of periphyton and benthic algae. (Kadlec et al. 2000), (QDNR, 2000).
+
+Higher pH favors ammonia loss (?)
+
+Could remove N by harvesting, but amount would be low (Vymazal, 2007).
+
+Phosphorus removal slow.
+
+Their table 2. Start accumulating a database: Name, Wastewater type, Wetland Type, Location, Surface area, Flow rate, pollutant removal rates.
+
+Dense plant cover restricting O diffusion (in order to compare with what happens in ATS) - (Rai and Munshi, 1979), (Reddy, 1981).
+
+HF CWL called Reed Beds in UK due to frequent use of Phragmites australis. 
+
+Removal of N and P by plant harvesting in CWL is inefficient, suggesting low inherent productivity. Addition of precipitants/absorbants is needed - how long can this go on before CWL needs to be rehabilitated?
+
+Relationship between oxygenation and nitrification.
+
+VF CWs need 1-3 m^2 PE^-1 vs 5-10 for HF (PE: population equivalent). VF has more operational costs due to pumps and timers. And other electromechanical equipment. What does this mean in terms of volumetric flow rate? And in terms of concentration in the influent.
+
+Can work out LHFL and areal loading only indirectly. Perhaps convert ATS functionality into PE.</Text>
+        </Document>
+        <Document ID="106">
+            <Title>(NSTC, 2012) The National Global Change Research Plan 2012–2021</Title>
+            <Text>The National Global Change Research Plan 2012–2021
+
+{NSTC, 2012, #39669}</Text>
+        </Document>
+        <Document ID="115">
+            <Title>(RStudio Team, 2016) RStudio</Title>
+            <Text>RStudio- Integrated Development Environment for R alias
+
+{RStudio Team, 2016, #53167}</Text>
+        </Document>
+        <Document ID="132">
+            <Title>(Thompson and Ford, 2012) Estimating Life Expectancies of Highway Assets</Title>
+            <Text>Estimating Life Expectancies of Highway Assets
+
+{Thompson and Ford, 2012, #64945}</Text>
+        </Document>
+        <Document ID="72">
+            <Title>(Hallegraeff, 1993) A review of harmful algal blooms and their apparent global increase</Title>
+            <Text>A review of harmful algal blooms and their apparent global increase
+
+{Hallegraeff, 1993, #70258}</Text>
+        </Document>
+        <Document ID="221">
+            <Title>Table 3</Title>
+            <Text>
+Table 3. Main variables and model parameters.</Text>
+        </Document>
+        <Document ID="124">
+            <Title>(Steffen et al., 2015) Planetary boundaries- Guiding human development on</Title>
+            <Text>Planetary boundaries- Guiding human development on a changing planet
+
+Planetary boundaries- Guiding human development on a changing planet (SI)
+
+{Steffen et al., 2015, #78923}
+
+Here we extract as much data as possible to provide arguments to the functions plotting Figures 1 and 2.
+
+Figure 1. Effect of ATS on biogeochemical flows.
+P&amp;N refs: 33 (self-referential?), 138√, 99√.
+                                                                                                    
+Figure 2. Effect of ATS on ocean acidification.
+Ref: 137√.
+                                                                                                    
+Figure 4. Effect of ATS on atmospheric carbon
+                                                                                                    
+Figure 3. Effect of large-scale ATS on planetary boundaries
+
+Matrix of the affect of global-scale ATS on the given boundary.
+Boundary
+Effect of ATS
+Justification
+Climate change
+3
+Permanent sequestration of carbon would have the strongest effect. Bioproducts use would recycle carbon to the atmosphere.
+Biogeochemical flows
+3
+Complete cleanup of N/P pollution, to the point of collecting it from the ocean.
+Freshwater use
+1
+ATS is non-consumptive of water. However it would provide relief of stresses on current uses.
+Novel entities
+1
+Raising this beyond 1 would require coming up with scenarios.
+Stratospheric ozone depletion
+1
+Might actually be −1 if there is net release of methane or NOx from a LCA
+Atmospheric aerosol loading
+1
+There might be wind blown particles from processing biomass or the spread out surface area of nonconsumptive use
+Ocean acidification
+3
+Removing carbon from the water removes it from the atmosphere
+Land system change
+
+3
+Algal compost or residue from bioproducts manufacturing would return SOC, and add diatom tests.
+
+Biosphere integrity as a function of the other 8 boundaries. Matrix derived from Fig. S10. A matrix depicting the changes of and on BI by the other boundaries
+
+Boundary
+Effect of BI
+Effect on BI
+Climate change
+3
+3
+Biogeochemical flows
+2
+3
+Freshwater use
+2
+3
+Novel entities
+2
+3
+Stratospheric ozone depletion
+1
+1
+Atmospheric aerosol loading
+1
+1
+Ocean acidification
+2
+2
+Land system change
+2
+2
+
+Planetary boundaries- Guiding human development on a changing planet
+
+For the Weeds paper, briefly go into this and focus on the importance of N and P; since we must do that anyway, this technique also pushes back against the Land System change and Climate change, which is rising. As it fixes ecosystems, it pushes back against loss of Biosphere integrity and Ocean acidification. Talk a bit about where to do it, how much fuel you could get for all the dirty water. Fixing, or partially fixing, five of the nine.
+
+ATS is a land use that can increaser BII
+
+Ozone looks like we caught it and may be going back up.
+
+CO2 is not as bad as other things yet, by slowing it and reversing it early, the aragonite problem will likely be less widespread
+
+Would we be removing silicon from the system too much? Perhaps some residue would be desirable to re-put back into the hydrology network. Using Tg y-1 as a unit. P and N. Estimate total offflow.
+
+The current global rate of application of P in fertilizers to croplands is 14.2 Tg P y-1 (52, 53)
+
+The N boundary has been taken from the comprehensive analysis of De Vries et al. (5),
+
+Instead of curtailing or redistributing, we could in situ reduce the flow while creating biofuel. Total biofuel worldwide, 
+
+More detail on the development of the P and N boundaries is given in 33, where we also emphasize that the pro-posed P and N boundaries may be larger for an optimal allocation of N (and P) over the globe
+
+Biofuels may be a bust anyway but if they’re going to use algae, blah blah blah.
+
+The Department of GE should have a readout along these lines. A constantly updated figure on the internet.
+
+blue water [from rivers, lakes, reservoirs and re-newable groundwater stores (59)] as the global-level control variable and 4000 km3/yr as the value of the boundary
+
+Remind that unlike irrigation, almost all of the water returns within minutes to the hydrology network.
+
+We base our control variable on the concept of environmental water flows (EWF), which de-fines the level of river flows for different hydrological char-acteristics of river basins adequate to maintain a fair-to-good ecosystem state (60–62).
+The Variable Monthly Flow (VMF) method (33, 63) was used to calculate the basin-scale boundary for water.
+
+Our new estimates of the current status of the water use boundary—computed based on grid cell-specific esti-mates of agricultural, industrial and domestic water with-drawals—are shown in Figs. 2 and 3, with details in figs. S7 and S8.
+
+evidence that Earth is a single complex, integrated sys-tem—that is, the boundaries operate as an interdependent set [e.g., (94)] - we would have to reassess the PBs in the face of major biofuel manufacture
+
+Our update has also relied on post-2009 assessments of individual boundaries by the relevant expert research communities; examples include phosphorus (3), nitrogen (5), biosphere integrity (7), freshwater use (5, 63), and novel entities [with a focus on chemicals, (28, 73)]. Finally, some new analyses have been undertaken specifically for this paper: (i) a freshwater use PB based on the environmental water flow (EWF) approach (33, 63); (ii) the linkage of the phosphorus and nitrogen boundaries via the N:P ratio in growing crop tissue (33); and (iii) the use of major forest biomes as the basis for the land-system change PB (33).
+
+</Text>
+        </Document>
+        <Document ID="213">
+            <Title>Orphaned Text</Title>
+            <Text>Mention viruses in the demise of algal blooms, see Johannesson et al for references.
+
+Iron treatment may be definitively useful with seashore systems if there are any near-shore iron deserts.
+
+Would require educational resources. How many community college classes? How many initial teachers.
+
+[how to consider bacterial-algal interactions]
+
+Steffen et al utilize a radial stacked bar chart to summarize the status of planetary boundaries, with the height of the bar indicating the zonal level at which the the boundary is set. Placing the bottom of each bar at zero produces a visually awkward display, so they introduce a hole, placing the baseline for each bar at a constant radius. The levels of each bar are colored from a palette with green colors indicating that the levels are within the safe operating space, yellow colors indicating a transition into unsafe operation, and red indicating unsafe operations. This is not a standard plot available within most programs, so we reverse-engineer it. See the function 
+
+To calculate the effect of carbon reduction on OA before feedback analysis, for each interval we calculate via the linear rate as with the no-change scenario and subtract the proportion of net carbon removed during that 50-year period 
+
+We are keeping Ozone depletion constant, but should we calculate? Perhaps all the intermediate values need their own tables here. It is “affected” after all by the feedback.
+
+Formula derivation 	
+Ωarag example referring to the Boundaries worksheet and calculating levels meaningful to the chart creation routine. 
+
+delta	0.1	=G9-F9
+min.implied	0.6	=F9-(G9-F9)
+max.implied	0.9	=G9+(G9-F9)
+ht	0.05	=H9-B33
+reduced	10	=B35*$B$41/(B34-B33)
+explicit	10	=(H9-(F9-(G9-F9)))*$B$41/((G9+(G9-F9))-(F9-(G9-F9)))
+
+
+To estimate areal productivity of constructed treatment wetland (CTW) {Environmental Protection Agency, 1993, #32863; Verhoeven and Meuleman, 1999, #34608; Kivaisi, 2001, #28974; Vymazal, 2002, #33530; Day et al., 2004, #79665; Halverson, 2004, #58045; Keller and Knight, 2004, #5792; Siracusa and La, 2006, #50155; Babatunde et al., 2008, #37397; Brisson and Chazarenc, 2009, #13438; Hoffmann et al., 2011, #95223; Labella et al., 2015, #41532; Mitsch et al., 2015, #95957; Vergeles et al., 2015, #75643; Yu et al., 2015, #82497; Zapater-Pereyra et al., 2015, #11644; Zhang et al., 2015, #93587} and floating wetland (FW) {Wang and Sample, 2014, #10440; Winston et al., 2013, #66703} nutrient removal, we mined numerous papers on the subject papers and converted from the stated nutrient removal rates to their equivalent Mg ha-1 yr-1.</Text>
+        </Document>
+        <Document ID="47">
+            <Title>(Brinkhuis et al., 2006) Episodic fresh surface waters in the Eocene Arctic Ocean</Title>
+            <Text>Episodic fresh surface waters in the Eocene Arctic Ocean
+
+{Brinkhuis et al., 2006, #42347}</Text>
+        </Document>
+        <Document ID="73">
+            <Title>(Halverson, 2004) Review of Constructed Subsurface Flow vs. Surface Flow Wetlands</Title>
+            <Text>Review of Constructed Subsurface Flow vs. Surface Flow Wetlands
+
+{Halverson, 2004, #58045}</Text>
+        </Document>
+        <Document ID="141">
+            <Title>(Wang and Sample, 2014) Assessment of the nutrient removal effectiveness of floating treatment wetlands applied to urban retention ponds</Title>
+            <Text>Assessment of the nutrient removal effectiveness of floating treatment wetlands applied to urban retention ponds
+
+{Wang and Sample, 2014, #10440}</Text>
+        </Document>
+        <Document ID="48">
+            <Title>(Brisson and Chazarenc, 2009) Maximizing pollutant removal in constructed wetlands: Should we pay more attention to macrophyte species selection?</Title>
+            <Text>Maximizing pollutant removal in constructed wetlands: Should we pay more attention to macrophyte species selection?
+
+{Brisson and Chazarenc, 2009, #13438}</Text>
+        </Document>
+        <Document ID="133">
+            <Title>(United Nations, 2015) Framework Convention on Climate Change</Title>
+            <Text>Framework Convention on Climate Change
+
+{Framework Convention on Climate Change, #38659}
+
+{United Nations, 2015, #38659}</Text>
+        </Document>
+        <Document ID="107">
+            <Title>(Pachauri et al., 2014) Climate Change 2014 Synthesis Report</Title>
+            <Text>Climate Change 2014 Synthesis Report
+
+{Pachauri et al., 2014, #63677}</Text>
+        </Document>
+        <Document ID="74">
+            <Title>(Hampel, 2013) The Characterization of Algae Grown on Nutrient Removal Systems and Evaluation of Potential Uses for the Resulting Biomass</Title>
+            <Text>The Characterization of Algae Grown on Nutrient Removal Systems and Evaluation of Potential Uses for the Resulting Biomass
+
+{Hampel, 2013, #17289}</Text>
+        </Document>
+        <Document ID="125">
+            <Title>(Stewart Frank M. et al., 2008) Floating islands as an alternative to constructed wetlands</Title>
+            <Text>Floating islands as an alternative to constructed wetlands for treatment of excess nutrients from agricultural and municipal wastes – results of laboratory-scale tests
+
+{Stewart Frank M. et al., 2008, #29842}
+
+Find data to use as input for a table comparing practices.
+
+Side note - could we use that matrix that looked so promising, dip it in glue, then dip it in better strands, or blow strands onto it? Or simply make it out of a better polymer?
+
+“Several studies have investigated the effectiveness of floating treatment wetlands (Boutwell and Hutchings 1999; Hart et al. 2003; Hubbard et al. 2004)”
+However these studies did not all follow the same protocol
+
+Instead of uptaking N they are mineralizing it. Algae are minimal.
+
+They used floating islands without plants. Simulated the commercial variety. Their claim is 273 mg NH4 d^-1 ft&amp;^-2 and 428 mg PO4 d^-1 ft&amp;^-2</Text>
+        </Document>
+        <Document ID="150">
+            <Title>case 13-4079</Title>
+            <Text>case 13-4079
+
+American Farm Bureau Federation v. United States Environmental Protection Agency
+
+{American Farm Bureau Federation v. United States Environmental Protection Agency, 2015, #74001}
+
+{American Farm Bureau Federation v. United States Environmental Protection Agency, 2015, #74001; Miccosukee Tribe of Indians v. United States of America, #94966}</Text>
+        </Document>
+        <Document ID="49">
+            <Title>(Buesseler et al., 2008) Ocean Iron Fertilization-Moving Forward in a Sea of Uncertainty</Title>
+            <Text>Ocean Iron Fertilization-Moving Forward in a Sea of Uncertainty
+
+{Buesseler et al., 2008, #24311}</Text>
+        </Document>
+        <Document ID="117">
+            <Title>(Sandefur et al., 2014) Hydrodynamic regime considerations for the cultivation</Title>
+            <Text>Hydrodynamic regime considerations for the cultivation of periphytic biofilms in two tertiary wastewater treatment systems
+
+{Sandefur et al., 2014, #73121}</Text>
+        </Document>
+        <Document ID="206">
+            <Title>Gross Expense</Title>
+            <Text>To estimate an upper limit to the gross expenses required to implement global N and P recycling, we assume worse case CaEx, and OpEx, a relatively short floway lifespan, unexceptional algal productivity (Table 3), and no future reductions in excess C, N, and P. We adopt an investment scenario starting with an initial annual spending rate that increases by a fixed percentage each year for 100 years (Table 4, Figs. 4A, 4C), then remains at that level for the next 100 years, setting the initial spending at a level that results in complete recycling at year 100. This exponential spending increase combined with the limited lifetime of an ATS facility produces the “ringing” phenomenon apparent in biomass production (Figs. 4B, 4C). Our parameters insure that once the spending rate becomes constant, the total operational area is never below the minimum needed to achieve the required recycling. In our worse case scenario for N and P recycling, spending begins at $4.9 × 108 yr-1and grows to $6.1 × 1012 yr-1. In our better case scenario, spending begins at $1.8 × 108 yr-1and grows to $2.3 × 1012 yr-1.</Text>
+        </Document>
+        <Document ID="75">
+            <Title>(Heisler et al., 2008) Eutrophication and harmful algal blooms- A scientific consensus</Title>
+            <Text>Eutrophication and harmful algal blooms- A scientific consensus
+
+{Heisler et al., 2008, #47951}
+
+Paragraphs: The Threat;
+
+From the abstract:
+
+(1) Degraded water quality from increased nutrient pollution promotes the development and persistence of many HABs and is one of the reasons for their expansion in the U.S. and other nations;
+(2) The composition–not just the total quantity–of the nutrient pool impacts HABs;
+(3) High-biomass blooms must have exogenous nutrients to be sustained;
+(4) Both chronic and episodic nutrient delivery promote HAB development;
+(5) Recently developed tools and techniques are already improving the detection of some HABs, and emerging technologies are rapidly advancing toward operational status for the prediction of HABs and their toxins;
+(6) Experimental studies are critical to further the understanding about the role of nutrients in HABs expression, and will strengthen prediction and mitigation of HABs; and
+(7) Management of nutrient inputs to the watershed can lead to significant reduction in HABs.
+
+Note, this is USA biased, and is not intended to be a thorough review. However it is recent and is a decent summary.
+
+See perhaps Anderson, 1989; Smayda, 1990; Hallegraeff, 1993; Anderson et al., 2002; Glibert et al., 2005a or better yet some more recent review. GEOHAB, 2001, HARRNESS, 2005
+
+Species mentioned
+Pseudo-nitzcschia spp. - sedimentary record increases with increasing population in the GoM.
+Prorocentrum sp. - blooms have increased with population off Chinese coast
+Karenia mikimotoi - blooms have increased with population off Chinese coast
+K. veneficum - blooms modeled in Chesepeake
+Pseudonitzschia pseudodelicatissima - stimulated by ammonia in Sequim Bay
+Prorocentrum minimum - bloom in Chesapeake Bay following ag applications leading to urea in the water
+Phaeocystis - bloom with increased N:Si
+Pfiesteria piscicida - associated with low inorganic N:P
+Pfiesteria shumwayae - associated with low inorganic N:P
+Karenia brevis - associated with low inorganic N:P, regenerating blooms. Modeled in GoM.
+Karlodinium veneficum - stimulated by growth of cryptophytes (prey?)
+Pseudo-nitzcschia australis - domoic acid production enhanced by growing on urea. Also by copper or iron limitation, or very high copper.
+P. cuspidata - Most toxic when grown on nitrate.
+P. multiseries - Most toxic with iron or copper limitation or very high copper.
+Trichodesmium blooms enhanced by iron deposition from dust, leading to indirect blooms in K. brevis.
+P. minimum - in Chesapeake Bay increasing over decades with N loading.
+Aureoumbra lagunensis - regenerating blooms in Laguna Madre
+Synechococcus - blooms from P injections
+Aureococcus anophagefferens - mid-Atlantic brown tides, secondary to other algae stimulated by excess N that remineralizes.
+Alexandrium spp. - modeled in the Gulf of Maine
+Alexandium lusitanicum - loses toxicity after many years in culture.
+A. anophagefferens - used in small-scale mesocosm modeling. Blooms in Long Island embayments
+
+Unpredictable episodic events can deliver pulses of nutrients that cause blooms. Unpredictable ones like storms are difficult to manage. Storms and climate variability affect timing of freshwater flow.
+
+Chesapeake: Spring nitrate introductions cause diatom blooms which die and sink, releasing N in summer supporing flagellates including dinoflagellates. Thus dose:yield models are inadequate.
+
+Brown tides - pelagophytes - able to uptake N, P, C from organic components
+Phagotrophs can be stimulated indirectly by pollutants causing a bloom in their prey.
+Nitrogen fixers can indirectly stimulate blooms by releasing dissolved N.
+
+= = = = =
+For #7:
+Eliminating raw sewage in Lake Washington: Edmondson, 1970, Lake Erie: Ashworth, 1986, Mumford Cove: Harlin, 1993, Chesapeake: Jaworski, 1990; Seto Inland Sea: Okaichi, 1997; Long Island Brown Tides decreasing: Gobler et al., 2005; Nuzzi and Waters, 2004; Gobler et al., 2005; Dzurica et al., 1989; Lomas et al., 1996; Berg et al., 1997, 2002; Mulholland et al., 2002, 2004; Gobler and San˜udo-Wilhelmy, 2001; MacIntyre et al., 2004; Gobler et al., 2005; Chesapeake brown tides increasing: Trice et al., 2004; Glibert et al., 2007
+
+The idea that even long term storage and release of nutrients can be countered using ATS. The idea of using algal biomass to restore long-term habitat degradation that may be increasing blooms. Cloern, 2001. This is a landscape-level change that is thought to be, and probably is, necessary. We do prevention where possible, and mitigation where necessary. What is the iterative process we need?
+
+Sensors and predicting should help demonstrate the effects of ATS on a water body.
+
+Laboratory studies depend on maintaining cultures which may change over time, limiting their relevance. Also, in the wild, there many be many different strains, which may have quite different responses, such as ability or iniability to grow on a specific nutrient type, so studies drawing conclusions from a single species should be avoided.
+
+“trophodynamics” 
+
+Classic whole-lake studies in Canada: (Schindler, 1987, 2006). Smaller-scale mesocosm studies: (Glibert, 1998; Grane´ li and Turner, 2002; Buskey et al.,2003; Vadstein et al., 2004). Ocean studies: (reviewed by de Baar et al., 2005).
+
+Examples of bloom reduction by decreasing nutrient inputs:
+Lake Washington: (Edmondson, 1970); Lake Erie: (Ashworth, 1986); Mumford Cove (Harlin, 1993); Potomac R.:(Jaworski, 1990); Seto Sea: (Okaichi, 1997); (reviewed by Imai et al., 2006). Long Island brown tides: (Gobler et al., 2005, (Nuzzi and Waters, 2004; Gobler et al., 2005).). Maryland (Trice et al., 2004; Glibert et al., 2007). What were the original concentrations, what were they reduced to, what are the predictions of lowered even more.
+
+Long time scales can be involved due to long-term storage of nutrients in sediment: see if there are any Conowingo Dam or other dam reports. Again, argues for use of ATS. If ecosystem dyanmics are altered (“permanently”), nutrient reduction alone may not be sufficient - fortunately we deliver oxygen as well, although loss of benthic habitat and alterations in food webs may need to be addressed as well.
+
+While prevention is preferable, where HABs exist, they must be eradicated
+
+The iterative nature of the management process.
+
+Number of blooms per year, timing of blooms, size of blooms.</Text>
+        </Document>
+        <Document ID="134">
+            <Title>(United Nations, 2015) World Population Prospects- 2015 Revision</Title>
+            <Text>World Population Prospects- 2015 Revision
+
+{United Nations, 2015, #94734}</Text>
+        </Document>
+        <Document ID="142">
+            <Title>(West et al., 2014) Leverage points for improving global food security and the environment</Title>
+            <Text>Leverage points for improving global food security and the environment
+
+{West et al., 2014, #62583}
+
+West, PC, JS Gerber, ND Mueller, KA Brauman, KM Carlson, ES Cassidy, PM Engstrom, M Johnston, GK MacDonald, DK Ray, and S Siebert. 2014. Leverage points for improving food security and the environment. Science. 345:325-328.
+
+METADATA_CropSpecificFertilizerandTotalConsumption1
+</Text>
+        </Document>
+        <Document ID="108">
+            <Title>(Potter et al., 2010) Characterizing the Spatial Patterns of Global Fertilizer Application and Manure Production</Title>
+            <Text>Characterizing the Spatial Patterns of Global Fertilizer Application and Manure Production
+
+{Potter et al., 2010, #43603}</Text>
+        </Document>
+        <Document ID="76">
+            <Title>(Hoffmann et al., 2011) Technology review of constructed wetlands - Subsurface flow constructed wetlands for greywater and domestic wastewater treatment</Title>
+            <Text>Technology review of constructed wetlands - Subsurface flow constructed wetlands for greywater and domestic wastewater treatment
+
+{Hoffmann et al., 2011, #95223}</Text>
+        </Document>
+        <Document ID="126">
+            <Title>(Sudhakar and Premalatha, 2012) Theoretical Assessment of Algal Biomass Potential for Carbon Mitigation and Biofuel Production</Title>
+            <Text>Theoretical Assessment of Algal Biomass Potential for Carbon Mitigation and Biofuel Production
+
+{Sudhakar and Premalatha, 2012, #84432}
+
+To the extent that microalgae are interesting, what have those thinkers thought about total mass balance? Plus, one can apply the logic to ATS algae. Plus, they are talking biodiesel, whereas we should be talking mixed alcohols and HTL oil.
+
+There is a high bullshit factor here. Perhaps only their methods are interesting. We already can do half of their optimistic potential, with better technoeconomics.</Text>
+        </Document>
+        <Document ID="151">
+            <Title>case 5_15-cv-04020-DEO</Title>
+            <Text>case 5_15-cv-04020-DEO
+
+Board of Water Works Trustees of The City Of Des Moines, Iowa v. Sac County Board Of Supervisors
+
+{Board of Water Works Trustees of The City Of Des Moines, #58140}
+
+http://www.businessrecord.com/PrintArticle.aspx?aid=68385&amp;uid=718a9d24-4d05-4710-b37d-66850cc411e5
+
+</Text>
+        </Document>
+        <Document ID="118">
+            <Title>(Sanderson et al., 2002) The human footprint and the last of the wild: the human footprint is a global map of human influence on the land surface, which suggests that human beings are stewards of nature, whether we like it or not</Title>
+            <Text>The human footprint and the last of the wild
+
+{Sanderson et al., 2002, #42438}
+
+
+the human footprint is a global map of human influence on the land surface, which suggests that human beings are stewards of nature, whether we like it or not
+
+{Sanderson et al., 2002, #42438}</Text>
+        </Document>
+        <Document ID="143">
+            <Title>(Wickham, 2009) ggplot2</Title>
+            <Text>ggplot2- Elegant Graphics for Data Analysis alias
+
+{Wickham, 2009, #75758}</Text>
+        </Document>
+        <Document ID="77">
+            <Title>(Huang et al., 2013) Performance of a Recirculating Aquaculture System Utilizing an Algal Turf Scrubber for Scaled-Up Captive Rearing of Freshwater Mussels (Bivalvia- Unionidae)</Title>
+            <Text>Performance of a Recirculating Aquaculture System Utilizing an Algal Turf Scrubber for Scaled-Up Captive Rearing of Freshwater Mussels (Bivalvia- Unionidae)
+
+{Huang et al., 2013, #766}</Text>
+        </Document>
+        <Document ID="135">
+            <Title>(Venter et al., 2016) Global terrestrial Human Footprint maps for 1993 and 2009</Title>
+            <Text>Global terrestrial Human Footprint maps for 1993 and 2009
+
+{Venter et al., 2016, #54774}</Text>
+        </Document>
+        <Document ID="224">
+            <Title>Figure 6</Title>
+            <Text>#
+Figure 6. Interactions among planetary boundaries. Blue circles and black arrows represent planetary boundaries and their interactions as depicted in Steffen et al., 2015.</Text>
+        </Document>
+        <Document ID="109">
+            <Title>(Prentice et al., 2001) The Carbon Cycle and Atmospheric Carbon Dioxide</Title>
+            <Text>The Carbon Cycle and Atmospheric Carbon Dioxide
+
+{Prentice et al., 2001, #15935}</Text>
+        </Document>
+        <Document ID="127">
+            <Title>(Sukačová and Červený) Can algal biotechnology bring effective solution for closing the phosphorus cycle? Use of algae for nutrient removal - review of past trends and future perspectives in the context of nutrient recovery</Title>
+            <Text>Can algal biotechnology bring effective solution for closing the phosphorus cycle? Use of algae for nutrient removal - review of past trends and future perspectives in the context of nutrient recovery
+
+{Sukačová and Červený, 2017, #47310}</Text>
+        </Document>
+        <Document ID="78">
+            <Title>(HydroMentia, 2013) HydroMentia Corporate and Technology Overview</Title>
+            <Text>HydroMentia Corporate and Technology Overview
+{HydroMentia, 2013, #95236}</Text>
+        </Document>
+        <Document ID="152">
+            <Title>case 6_15-cv-01517-TC</Title>
+            <Text>case 6_15-cv-01517-TC
+
+Kelsey Cascade Rose Juliana v. The United States Of America
+
+{Kelsey Cascade Rose Juliana v. The United States Of America, #3845}</Text>
+        </Document>
+        <Document ID="119">
+            <Title>(Semeraro et al., 2015) A constructed treatment wetland as an opportunity to enhance biodiversity and ecosystem services</Title>
+            <Text>A constructed treatment wetland as an opportunity to enhance biodiversity and ecosystem services
+
+{Semeraro et al., 2015, #92954}
+
+According to the report design the hydraulic retention time for the flow rate of 2530 m3/day is reported to be 14 days, while for the maximum capacity of 4370 m3/day was approximately 8 days.
+
+The plant covers 8.3 ha, and 5.1 ha of them have been occupied by 6 reservoirs working in conditions of the surface flow (FWS systems—free water surface)</Text>
+        </Document>
+        <Document ID="208">
+            <Title>Surfaces</Title>
+            <Text>Recent experiments have demonstrated greater than twofold improvement in ATS™ biomass productivity using three-dimensional growth substrata rather than the usual two-dimensional screens {Adey et al., 2013, #773}. To understand this higher productivity it may be worth considering the importance of surface topography at multiple scales, starting with the molecular. Surfaces can catalyze chemical reactions by spatially organizing a population of reactant molecules according to a geometry that favors the desired reaction. The plasma membranes of prokaryotic cells similarly surface-organize macromolecules and macromolecular complexes, facilitating rapid and highly organized reaction throughput on both sides of the surface and across the membrane. Eukaryotic cells further exploit the capabilities of surface organization via their varied and extended intercellular network of nuclear, Golgi, mitochondrial, chloroplast, and vacuolar membranes. The microstructure of plant and animal organs and macrostructure of forest canopies are further iterations of this theme of surfaces optimizing performance, at ever larger scales. Providing a suitable three-dimensional surface for algal colonization and growth similarly organizes algal cells to take better advantage of the nutrients and illumination than available from two-dimensional surfaces. Three-dimensional substrata provide more surface area for colonization, and with the proper topography maintain or extend the turbulent mixing that breaks through the laminar flow boundary layer of the algal filaments and provides changing currents that oscillate the filaments back and forth, allowing light to penetrate deeper into the turf. Additionally, the denser turf provides a matrix that traps algal cells that would otherwise slough off of the floway. All of these effects contribute to more than double the productivity expected from the 2-dimensional substrata originally employed. A major question here is how close to theoretical maximum primary productivity can optimization of growth substratum provide; the higher this number, the lower the total surface area is required to achieve a target nutrient removal rate.</Text>
+        </Document>
+        <Document ID="144">
+            <Title>(World Wildlife Fund, 2017) A national assessment of Canada's freshwater watershed reports</Title>
+            <Text>A national assessment of Canada's freshwater watershed reports
+
+{World Wildlife Fund, 2017, #5089}</Text>
+        </Document>
+        <Document ID="79">
+            <Title>(HydroMentia, 2015) HydroMentia Pilot Studies</Title>
+            <Text>HydroMentia Pilot Studies
+
+{HydroMentia, 2015, #32252}</Text>
+        </Document>
+        <Document ID="136">
+            <Title>(Venter et al., 2016) Sixteen years of change in the global terrestrial human footprint and implications for biodiversity conservation</Title>
+            <Text>Sixteen years of change in the global terrestrial human footprint and implications for biodiversity conservation
+
+{Venter et al., 2016, #86026}</Text>
+        </Document>
+        <Document ID="225">
+            <Title>Figure 7</Title>
+            <Text>#
+Figure 7. Effect of expanded algal cultivation on planetary boundary status.</Text>
+        </Document>
+        <Document ID="128">
+            <Title>(Sukačovǎ et al., 2015) Phosphorus removal using a microalgal biofilm in a new biofilm photobioreactor for tertiary wastewater treatment</Title>
+            <Text>Phosphorus removal using a microalgal biofilm in a new biofilm photobioreactor for tertiary wastewater treatment
+
+{Sukačová et al., 2015, #3065}</Text>
+        </Document>
+        <Document ID="217">
+            <Title>Figure 4</Title>
+            <Text>#
+Figure 4. Limiting nutrient and algal cultivation required for nutrient recycling. (A) Nutrient limitation of grid cells based on the mass ratio N:P. Cells with N:P &lt;= 16 are N limited and colored blue. Cells with N:P &gt;16 are P limited and colored orange. (B) Nutrient excesses were summed for each basin and the N:P ratio of the sums were computed; color scheme as in (A). (C) Grid cells ranked by algal cultivation area required to recycle each grid cell’s limiting nutrient, red cells indicating the 10% requiring the highest cultivation area, yellow the next 40%, and red the lowest 50%. (D) Basins ranked by algal cultivation area required to recycle each basin’s limiting nutrient, color scheme as in C.</Text>
+        </Document>
+        <Document ID="153">
+            <Title>Hydromentia Production Systems</Title>
+        </Document>
+        <Document ID="145">
+            <Title>(Xie, 2015) knitr</Title>
+            <Text>knitr
+
+{Xie, 2015, #53573}</Text>
+        </Document>
+        <Document ID="209">
+            <Title>Figure 3</Title>
+            <Text>#
+
+Figure 3. Relation of biomass productivity to degrees of latitude (north or south). Model was constructed by assigning 9.1 × 103 t ha-1 yr-1 to 0° and 9.1 × 103 t ha-1 yr-1 to 40° and deriving a linear relation.</Text>
+        </Document>
+        <Document ID="161">
+            <Title>Conclusions and Recommendations</Title>
+            <Text>With expanded algal cultivation, complete global recycling of excess N and P, arising from agriculture and incompletely treated sewage, is feasible, requiring tractable capital and operational investment and providing major rewards by improving the global ecological situation. The primary difficulties are likely to be sociopolitical and economic, with pluralities ever reluctant to pay collectively to reverse affronts for which they are collectively responsible, and such large biomass production that trade in various commodities is likely to be affected. Bounties for C, N, and P are one way to pay for establishment and operation of the algal cultivation network, and further ecological benefits may additionally compensate for the unprofitability of algal biomass. If biofuels manufactured from nonspecific algal biomass become profitable, subsidies can be reduced or eliminated. One of the best uses for uncontaminated biomass is likely to return it to local land as an amendment and fertilizer. This biomass sink is likely very deep, able to accept biomass for centuries. Additionally, improvements to soil via biomass application could maintain high productivity with less fertilizer, reducing nutrient excesses and thus reducing the algal cultivation area needed for nutrient recycling. Expansion of algal cultivation will not likely be the only future effort to reduce anthropogenic ecological stresses, so the most expensive scenarios presented here may seem exaggerated. However, even with excess N and P accounted for, there may be a need for further expansion of algal cultivation. If net anthropogenic CO2 is brought to zero by the time algal N and P recycling is complete, additional efforts will still be required to return to a lower concentration. The oceans will be the only source of input water for this further expansion.</Text>
+        </Document>
+        <Document ID="137">
+            <Title>(Vergeles et al., 2015) Assessment of treatment efficiency of constructed wetlands in East Ukraine</Title>
+            <Text>Assessment of treatment efficiency of constructed wetlands in East Ukraine
+
+{Vergeles et al., 2015, #75643}</Text>
+        </Document>
+        <Document ID="226">
+            <Title>Not Used</Title>
+        </Document>
+        <Document ID="162">
+            <Title>Paper writing</Title>
+            <Text>Discussion and Conclusion</Text>
+        </Document>
+        <Document ID="129">
+            <Title>(The World Bank, 2015) Health Nutrition and Population Statistics: Population estimates and projections</Title>
+            <Text>Health Nutrition and Population Statistics- Population estimates and projections
+
+{The World Bank, 2015, #33789}</Text>
+        </Document>
+        <Document ID="154">
+            <Title>2017.07.12</Title>
+            <Text>2017.07.12:17:03 EDT
+
+Googled 
+algal turf scrubber hectare acre ats hydromentia
+
+665 results
+
+Sano, D., A. Hodges, and R. Degner (2005), Economic analysis of water treatments for phosphorus removal in Florida, Publ. FE575, Inst. of Food and Agric. Serv., Univ. of Fla., Gainesville.
+
+Zivojnovich, M. (2007), Application of the Algal Turf Scrubber technology for point source and nonpoint source nitrogen and phosphorus control, report, U.S. Environ. Prot. Agency, Washington, D. C.
+
+Hits began being spurious. Googled
+"algal turf scrubber" hectare acre ats hydromentia
+Still had 511 results</Text>
+        </Document>
+        <Document ID="70">
+            <Title>(Global Runoff Data Centre, 2007) Major Lakes of the World</Title>
+            <Text>Major Lakes of the World
+
+{Global Runoff Data Centre, 2007, #86930}</Text>
+        </Document>
+        <Document ID="171">
+            <Title>Table 4</Title>
+            <Text>Table 2
+drainage
+NPexcess
+Nexcess
+Pexcess
+Yangtze
+2305860049
+5117266002
+ 971409988
+Ganges
+2223465946
+4628038064
+1000608651
+Indus
+1151888680
+2524438048
+ 457981588
+Mississippi
+1026215409
+3888615040
+ 203201301
+Huai
+ 975725026
+1989219585
+ 410979855
+Huang
+ 933470739
+2061791014
+ 355006991
+Parana
+ 551729145
+ 803146112
+ 311396222
+Yongding
+ 477525579
+1022155875
+ 155468412
+Amur
+ 421825016
+ 933429721
+ 123006839
+Xi Jiang
+ 413513601
+ 740840655
+ 163190532
+Krishna
+ 378263761
+ 634992586
+ 157711376
+Godavari
+ 357788363
+ 593323427
+ 148135471
+Mekong
+ 338019035
+ 570953375
+ 132496376
+Nile
+ 304950293
+ 631874433
+ 79553165
+Brahmaputra
+ 291999080
+ 485669553
+ 107939033
+Tigris &amp; Euphrates
+ 216206244
+ 353324305
+ 64681389
+St. Lawrence
+ 211402278
+ 479288520
+ 25624744
+Mahanadi
+ 207285976
+ 296936163
+ 77083180
+Uruguay
+ 190796333
+ 215350258
+ 101422454
+Hong
+ 185558799
+ 257273049
+ 66215167
+Table 4.
+Include traffic mile construction for similar area?
+</Text>
+        </Document>
+        <Document ID="146">
+            <Title>(Yu et al., 2015) Feasibility of a semi-batch vertical-flow wetland for onsite residential graywater treatment</Title>
+            <Text>Feasibility of a semi-batch vertical-flow wetland for onsite residential graywater treatment
+
+Contains reports for multiple wetlands
+{Yu et al., 2015, #82497}</Text>
+        </Document>
+        <Document ID="204">
+            <Title>Limitations</Title>
+            <Text>Our approach suffers from several limitations. Because we approximate the effort needed to globally recycle pollutants, rather than create a detailed simulation, we chose a round number (100 years) for our project duration, and a simple algorithm for spending: exponential growth starting at a defined spending rate and ending at a level that satisfies the pollutant recycling rate. This approach to financing and schedule is rudimentary, but the large scale of our proposed intervention makes it practically impossible to incorporate all the different financing, permitting, sociopolitical situations affecting jurisdictions of interest. Our linear model relating latitude to productivity ignores climatic differences along latitude lines, and can only be corrected by a comprehensive set of pilot studies. The eventual costs for N and P recycling are a substantial percentage of the gross world product, suggesting that the commodity flow of algal biomass will affect markets for other commodities, but we do not address these impacts. The basin component of our analysis focuses on 405 curated basins. A more comprehensive analysis would consider the remaining basins, but visual inspection of Figures 2C and 2D suggests that our prioritization would be little changed, especially in the highest priority range. Visual inspection of Figures 2A-2C also reveals patterns of lacunae (for example an approximately Arizona-shaped void in western North America) suggesting that the nutrient data is also incomplete. However, even if formally incomplete, the coverage is nevertheless sufficiently extensive that our main conclusions would also likely be little changed with more complete data.
+
+</Text>
+        </Document>
+        <Document ID="138">
+            <Title>(Verhoeven and Meuleman, 1999) Wetlands for wastewater treatment- Opportunities and limitations</Title>
+            <Text>Wetlands for wastewater treatment- Opportunities and limitations
+
+{Verhoeven and Meuleman, 1999, #34608}</Text>
+        </Document>
+        <Document ID="227">
+            <Title>Elided</Title>
+        </Document>
+        <Document ID="116">
+            <Title>(Sandefur et al., 2011) Seasonal productivity of a periphytic algal community for biofuel feedstock generation and nutrient treatment</Title>
+            <Text>Seasonal productivity of a periphytic algal community for biofuel feedstock generation and nutrient treatment
+
+</Text>
+        </Document>
+        <Document ID="180">
+            <Title>Sociopolitical Obstacles</Title>
+            <Text>Sociopolitical and economic obstacles are more likely than technical ones to impede rapid expansion of algal cultivation. The continued growth in severity and size of HABs worldwide, in the presence of demands or mandates to address them demonstrates that the responsible political and commercial regimes can be reluctant to either create public goods of the required extent or mitigate inevitable ecosystem damage. However, in some jurisdictions progress has occurred. For example, governments of US states bordering the Chesapeake Bay are under federal mandate to address nutrient pollution, and one state - Maryland - now acknowledges ATS as a best management practice. Where public opinion can influence political will, whether through voting, legal action, protest, or self-actualized efforts such as crowdfunding or philanthropy, publicizing this and future examples may encourage jurisdictions, companies, and social organizations to consider adoption of expanded algal cultivation as part of their environmental portfolio. Systems of a few square meters are easily built, and the original patent has expired. Thus schools, associations, and entrepreneurs can build their own basic units, for learning, as a hobby, or as pilots for production systems.</Text>
+        </Document>
+        <Document ID="219">
+            <Title>(Vardon et al., 2012)Thermochemical conversion of raw and defatted algal</Title>
+            <Text>Thermochemical conversion of raw and defatted algal biomass via hydrothermal liquefaction and slow pyrolysis
+
+{Vardon et al., 2012, #78258}</Text>
+        </Document>
+        <Document ID="71">
+            <Title>(Guerrero, 2003) Comparison of States’ Highway Construction Costs</Title>
+            <Text>Comparison of States’ Highway Construction Costs
+
+{Guerrero, 2003, #81094}</Text>
+        </Document>
+        <Document ID="147">
+            <Title>(Zapater-Pereyra et al., 2015) Evaluation of the performance and space requirement by three different hybrid constructed wetlands in a stack arrangement</Title>
+            <Text>Evaluation of the performance and space requirement by three different hybrid constructed wetlands in a stack arrangement
+
+{Zapater-Pereyra et al., 2015, #11644}
+
+Perf claims of higher land-use efficiency.
+
+Operated in a greenhouse with controlled temp and lighting.</Text>
+        </Document>
+        <Document ID="230">
+            <Title>Spreadsheet</Title>
+            <Text>The Microsoft Excel workbook EACCRPBT.xlsx organizes data from various publications and data computed by the R program Precompute.R. This spreadsheet contains the following workbooks:
+
+Workbook name (number)
+Purpose
+Settings (1)
+Initial variable values for R programs
+Population (2)
+Survey of world population data
+Boundaries (3)
+Values of control variables for planetary boundaries
+Wetlands (4)
+Summary of areal nutrient removal capacity of representative constructed treatment wetlands
+ATS Locations (5)
+Geospatial coordinates of current and previous outdoor algal turf scrubber
+</Text>
+        </Document>
+        <Document ID="231">
+            <Title>Files and Directories</Title>
+            <Text>The following directory structure, embodied in the 
+Results of computations used </Text>
+        </Document>
+        <Document ID="139">
+            <Title>(Vymazal, 2002) The use of sub-surface constructed wetlands for wastewater treatment in the Czech Republic: 10 years experience</Title>
+            <Text>The use of sub-surface constructed wetlands for wastewater treatment in the Czech Republic: 10 years experience
+
+{Vymazal, 2002, #33530}</Text>
+        </Document>
+        <Document ID="164">
+            <Title>Success Indicators</Title>
+            <Text>Because so much investment is required for complete N and P recycling, let alone C recycling, it may be prudent to start with projects of a scale affording early and definitive measures of success. The current global ecological situation derives from centuries of increasing human impact on ecosystem services. Centuries of increasing countermeasures might be required to completely reverse the damage. Initially, only local effects will be easily discernible, so focusing most of the initial investment on several smaller, less polluted basins, or on a few high priority basins, might be needed to deliver improvements as rapidly and visibly as feasible. Beyond water and biomass quality measurements themselves, initial measures of success could include reduction in the frequency, duration, and extent of HABs within the affected waters, improved health of reef and other ecologies in the estuaries and bays receiving the discharge, and improved agricultural metrics where algal biomass is applied to the soil. A preliminary project to completely treat a small basin could be mounted at considerably lower cost than that for our proposed global intervention.</Text>
+        </Document>
+        <Document ID="228">
+            <Title>To do list</Title>
+            <Text>Incorporate any changes in the Word file back into the Scrivener document
+
+Check Flag
+
+Check references
+
+Create codebook for each data frame/table
+
+Replace “.” with “_” in var names.</Text>
+        </Document>
+        <Document ID="181">
+            <Title>Economic Model</Title>
+            <Text>Values for economic parameters were chosen to represent better and worse cases for CapEx, OpEx and facility lifetime (Table 3). The economic model creates an R data frame by populating the first row (year 1) with initial conditions then applies the model’s spending growth formula to that row to produce the next row (year 2), repeating for year 3 to year 100. The model’s constant spending formula is then applied similarly for the following hundred years. To determine the initial rate, we chose parameters such that the minimum algal biomass is always at least sufficient to completely recycle the relevant nutrient(s).</Text>
+        </Document>
+        <Document ID="156">
+            <Title>Discussion</Title>
+        </Document>
+        <Document ID="173">
+            <Title>(Yun et al., 2015) Managing nutrients and system operations for biofuel</Title>
+            <Text>Managing nutrients and system operations for biofuel production from freshwater macroalgae
+
+{Yun et al., 2015, #44995}</Text>
+        </Document>
+        <Document ID="148">
+            <Title>(Zhang et al., 2015) Application of constructed wetlands for wastewater treatment in tropical and subtropical regions (2000‚Äì2013)</Title>
+            <Text>Application of constructed wetlands for wastewater treatment in tropical and subtropical regions (2000–2013)
+
+{Zhang et al., 2015, #93587}
+
+Which of these are indoors?
+
+Jinadasa et al., 2006 is tropical, but a FTW</Text>
+        </Document>
+        <Document ID="165">
+            <Title>*Indirect Effects</Title>
+            <Text>Recycling all continental N and P excesses will directly reverse transgressions of Steffen et al.’s (2015) N and P biogeochemical planetary boundaries, while also directly impeding transgressions of the ocean acidification and climate change boundaries. An order of magnitude greater effort is required to recycle net anthropogenic carbon. As harvested, the biomass is mostly water and high in ash, so its end use or initial processing should occur near the production site to reduce transportation impacts. Thus for optimum nutrient recycling, algal cultivation must be widely distributed throughout all compromised basins, creating a global network of many small economic centers. However, the ecological and economic effects are not all direct. Steffen et al. (2015) depict eight of their planetary boundaries interacting via a ninth, biosphere integrity (Figure 5A), implying indirect connections between each boundary and the others. Our proposed intervention introduces additional direct connections between biogeochemical cycling and the global warming and ocean acidification boundaries, bypassing biosphere integrity (Figure 5B). This complex of interactions obviously needs modeling attention {Cuddington et al., 2013, #45847}, but the implication is that our first-order analysis underestimates the benefits of recycling N and P via algal cultivation, and greatly underestimates the benefits of expanding to fully recycle C. A specific example of an indirect effect is fertilizer manufacture, estimated to represent 1% of total world manufacturing capacity. Assuming that 20% of applied fertilizer enters global watersheds but is recycled by ATS, comprehensive nutrient recycling would reduce the carbon footprint of fertilizer manufacture by a similar amount. This effect will be further increased if the algal biomass, acting not only as a fertilizer but as a soil amendment, improves soil vitality so that lower fertilizer application rates are required to begin with. However, for our modeling of these interactions we simply assign weak, medium, or strong interactions and carry out one step of the computation. We emulate Steffen et al.’s (2015) radial bar plot, which is effective at conveying major differences in planetary boundary status (Figure 5C, D), but for depicting smaller changes such as those engendered by our secondary effects analysis, we also include stacked area charts (Figure 5E, F) which also convey a sense of the time. Consider a scenario in which most of the algal biomass is returned to soils as a soil amendment/fertilizer. What is the size of such a sink? Lal (2015) estimates that [todo]#t of soil organic carbon (SOC), a measure of soil vitality, has been lost from our agricultural lands, rendering up to half of their original extent still fertile. Simply returning that carbon to those soils in the form of algal biomass would require [todo]#yr of total algal production. This figure is potentially an underestimate, as much of the added carbon will be fairly rapidly volatilized by decomposition; if a third of it, on average, remains sequestered as it is incorporated into soils, the time scale of this sink would extend by a factor of three. However consider that an increment of carbon added to fully degraded land. Even a small amount of added carbon might restore sufficient soil vitality that that land begins to recruit new ecosystems without further intervention, sequestering further carbon thereby and perhaps even making up for or superseding the losses to the atmosphere as the algal biomass decomposes.
+
+Using algal cultivation to reverse transgressions of the N and P boundaries will also sequester nearly ten percent of anthropogenic net carbon, thus simultaneously and directly impeding transgressions of the climate change and ocean acidification boundaries. 
+
+Need to emphasize the utter simplistic nature of the model.
+
+However, nutrient recycling alone would directly sequester only ~10% [#ref] of net carbon annually, and only if the fixed carbon were simply stored permanently. However, second-order effects would offset additional carbon, including the carbon released in fertilizer extraction, production, and transport. Converting biomass to biofuel might appear to offset equivalent amounts of fossil fuel, but the net offset could be less than simply storing the biomass. Amending degraded soils with algal biomass could initiate recruitment of long-term successional communities, eventually sequestering multiples of the increment of carbon initially applied. Additional ATS capacity installed along coastlines or in offshore complexes would further increase carbon sequestration and directly clean oceanwater.
+
+assume that transgression of the stratospheric ozone boundary has been halted {Pawson et al., 2014, #61165}.
+
+Because Biogeochemical cycling is represented monolithically in Steffen et al’s figure but is composed of both N and P cycling, we assign moderate strength to each interaction rather than high strength. 
+
+To reflect our assumption that changes in the status of one boundary affect but do not dominate the status of another, we chose values such that the sum of coefficients reflecting interactions affecting Biosphere integrity does not exceed 1/3. We further assume that a weak interaction is approximately an order of magnitude less than a strong interaction, so the interaction strength declines by a factor of 3 from strong to moderate and another factor of 3 from moderate to weak. These values reflect the extent of additional advance towards, or retreat from, transgression of one boundary caused by advance towards, or retreat from, transgression of another. In the original report, eight of the boundaries interact directly only with the ninth, Biosphere integrity. As this is a bidirectional interaction,indirect effects among boundary statuses arise through the effect of the total change in biosphere integrity status caused by changes in status of the other eight boundaries.
+</Text>
+        </Document>
+        <Document ID="229">
+            <Title>Links</Title>
+            <Text>Numeric modelling of nonpoint pollutions in the Chinese Bohai Sea | EurekAlert! Science News
+
+Four Radical Plans to Save Civilization From Climate Change | WIRED
+
+Maps Mania: Mapping Global Pollution
+
+What It Would Take to Suck CO2 Back Out of the Atmosphere
+
+Changes in the global value of ecosystem services - ScienceDirect
+
+
+</Text>
+        </Document>
+        <Document ID="157">
+            <Title>Conclusions</Title>
+        </Document>
+        <Document ID="20">
+            <Title>Biomass Fate</Title>
+            <Text>Because the effectiveness of an ATS facility correlates with its areal productivity, the fate of the biomass is an essential consideration for project planning, ideally producing revenue to help offset treatment costs. Biomass produced from waters with low enough concentrations of toxic species could be used in agriculture as a fertilizer/soil amendment. Biomass whose toxin concentration is unacceptable fertilizer use must be processed to reduce toxin concentration if used to grow food, used for non food-growing processes such as co-digestion with animal waste, or landfilled. Toxic biomass could be converted into higher value products such as specialty chemicals or biofuel, with the residue, now at potentially higher toxin concentration (due to volume reduction), further detoxified or safely stored. At worst, the biomass could be dried, or converted to char or ash by volatilizing non-toxic components to reduce volume, and stored long-term. One promising agricultural product is algal compost, produced solely from algal biomass, and usable as a container growth medium without further amendment {Shiralipour and Epstein, 2005, #22388}. A 1.0 ha (2.5 ac) facility producing 5.5 × 101 t yr-1 of algal compost sold for $1.0 × 102 t-1 ($9.1 × 101 ton-1), would generate $5.5 × 103 yr-1, offsetting roughly fourteen percent of $4.0 × 104 yr-1 OpEx, and improving the economics.</Text>
+        </Document>
+        <Document ID="174">
+            <Title>(Pate, 2013) Resource Requirements for Large Scale Production of Algae Biofuels (abstract)</Title>
+            <Text>
+
+Resource Requirements for Large Scale Production of Algae Biofuels
+
+{Pate, 2013, #84710}</Text>
+        </Document>
+        <Document ID="149">
+            <Title>case 1_04-cv-21448-ASG</Title>
+            <Text>case 1_04-cv-21448-ASG
+Miccosukee Tribe of Indians v. United States of America
+
+{Miccosukee Tribe of Indians v. United States of America, #94966}
+
+Gold Decision
+
+Miccosukee Tribe of Indians v. United States of America
+S.D. Fla. (2010)
+
+http://law.justia.com/cases/federal/district-courts/florida/flsdce/
+
+1:2004cv21448</Text>
+        </Document>
+        <Document ID="166">
+            <Title>*Expenses</Title>
+            <Text>The CapEx required to recycle excess global agricultural nutrients is similar to that required to build a continental road transportation network. We assume that OpEx for algae cultivation will be greater than for roads, as roads are designed to mostly be left alone whereas ATS™ units require weekly attention. We do expect automation to increase the number of hectares a single operator can manage, perhaps eventually approaching the 5-7 people needed per thousand hectares (2-3 people per thousand acres) as seen in high performance agriculture. At [todo]# × 107 ha this high level of efficiency would account for [todo]# × 5 × 104 skilled jobs worldwide once a complete network is built out and operating at something approaching a steady state. To handle carbon, expanding algal cultivation by an order of magnitude, marine construction will be required, as all continental sources of N and P will already be spoken for, leaving the oceans as the only source of aquatic macro nutrients. Near shore marine construction is substantially more expensive than on-shore construction, and floating islands are likely to be even more expensive on an areal basis, both for CapEx and OpEx.
+
+We thus assume that a 1 ha ATS facility can be built for $1M. One person-day is required for harvesting; with a five-day workweek and weekly harvesting, one person can thus operate 5 ha of ATS. Harvesting and biomass handling are skilled tasks, thus an operator might command a salary of $50,000. We adopt the current floway lifetime assumption of 20 years, and a ratio of OpEx to CapEx of 10%. Our better-case scenario assumes lower CapEx and OpEx, and a 40-year floway lifetime, anticipating that with experience, improvements will be made to floway engineering, and that not all locations will require the same level of investment. For additional thoughts on ATS CapEx and OpEx, see {Yun et al., 2015, #44995}.</Text>
+        </Document>
+        <Document ID="21">
+            <Title>ATS and Planetary Boundaries</Title>
+            <Text>If globally distributed throughout the world’s river basins at large enough scale, ATS could directly reverse the transgressions of planetary boundaries {Steffen et al., 2015, #78923} involving N and P cycling. Here we estimate the scope of such an intervention both from a global perspective and by prioritizing some of the 405 major hydrological basins, based on publicly available nutrient and geospatial datasets. We discuss potential issues with land availability, CapEx and OpEx, and sociopolitical considerations, ultimately extrapolating our analysis to complete recycling of net anthropogenic carbon. Our stance is conservative, as our intent is to determine an approximate upper limit to the effort needed to counteract these global threats. Improvements in biomass productivity and reduction in costs, reduce the CapEx and OpEx needed for our proposed intervention. Improving our model’s accuracy and precision will require a multi-year global program of building and operating ATS pilot projects, affording development of a predictive productivity model and providing a more extensive knowledge base specific regional characteristics.</Text>
+        </Document>
+        <Document ID="191">
+            <Title>*Interactions among Boundaries</Title>
+            <Text>The rate of C fixation by algal biomass from global nutrient recycling would be nearly ten percent of the 2017 rate of atmospheric anthropogenic C increase, an interaction providing direct beneficial effect not depicted in Steffen et al., 2015. Additionally, during photosynthesis, the treated water will have a pH higher than the source water, thus counteracting acidification effects local to discharge of the cleaned water. We add these interactions to their conceptual model (Figure 6) and estimate the outcome of doing nothing, recycling N and P (with and without our added interactions) and recyclingWe extrapolate, both with and without our additional interactions, the planetary boundary impacts over 50, 100, and 200 years for four cases: doing nothing, and intervening with our worse, median, and better case assumptions (Figure 5). By definition, the status of biogeochemical cycling reaches the safest level in fifty years. The net indirect effect of the interaction of boundaries via biosphere integrity is a small [todo] improvement in status than would otherwise have been the case. The net additional effect of our intervention on the status of the other boundaries, is that they are either unaffected (stratospheric ozone depletion), or additionally improved (Table 5).
+
+The analysis of interactions between planetary boundaries in Steffen et al {Steffen et al., 2015, #78923} is limited to direct interactions between biosphere integrity and the remaining boundaries, including a reflexive interaction upon itself. Interactions among the other boundaries are thus indirect via Biosphere integrity. Additionally, of their two measures of Biosphere integrity, one is not yet quantifiable, nor are their measures of Novel entities or Atmospheric aerosol loading. Their analysis provides a global perspective, but there is no reason that much of their approach cannot be applied at smaller scales anywhere on the planet. Expanding algal photosynthesis impacts many factors that directly contribute to biosphere integrity via both extinction rates and biodiversity intactness, as well as indirect contributions between other boundaries via interlinked improvements to Biogeochemical cycling, Climate change, Ocean acidification, and possibly Atmospheric aerosol loading, by potentially releasing dimethyl sulfide, a chemical species that evolves into sulfate particles known to induce cloud nucleation. By applying and measuring these contributions to the challenge of improving the status of the directly affected boundaries (Biogeochemical cycling, CO2-based Climate change, Ocean acidification) at smaller scales, we can begin to understand and model the mechanics and interactions which improve the status of the indirectly affected boundaries as well.
+
+In our model, reversing Biogeochemical cycling transgressions directly impedes transgression of Climate change and Ocean acidification boundaries due to the obligate sequestration of C as N and P are sequestered. Complete reversal of biogeochemical cycling boundaries via algal photosynthesis could sequester up to ~16% of net anthropogenic carbon, approximately half of the maximal 1/3 influence we ascribe to the combined effects of multiple boundary status changes on another boundary. We thus assign a moderate interaction strength to each of the N and P cycles, unidirectional from biogeochemical cycles towards Climate change and Ocean acidification. These interactions are not bidirectional, as while sequestering nutrients also sequesters carbon, reducing carbon does not necessarily have a substantial direct effect on nutrient cycling. Expanded algal primary production may increase atmospheric loading of cloud nucleation particles via release of dimethyl sulfide {Charlson et al., 1987, #54604}, potentially increasing Earth’s albedo and impeding transgression of the Climate change boundary. However, as Atmospheric aerosol loading is unquantified, we cannot computationally establish a causal linkage between this boundary and Climate change nor between our intervention and this boundary.</Text>
+        </Document>
+        <Document ID="158">
+            <Title>Summary</Title>
+            <Text>Here we illustrate the contribution of global agriculture to impending transgressions of planetary boundaries involving biogeochemical cycling (Fig. 2A-B) {Steffen et al., 2015, #78923}, and estimate the magnitude of the investment required to counteract these transgressions using benthic algal cultivation implemented by ATS. If effect we are modeling a return to pre-industrial conditions of all freshwater drainage. Such a complete effort may not be strictly necessary, but this conservative stance allows us to determine an upper limit on the required effort, demonstrating that even under worse-case assumptions our project is achievable. Thus we assume modest biomass productivity and include relatively high capital and operating expenses. We extend our analysis to the much larger and perhaps more speculative goal of stabilizing net anthropogenic C, partly to establish a scale of comparison, and partly to show that it is not inconceivable to at least partially manage C cycling through algal cultivation as well. To the extent that future efforts to curb anthropogenic C emissions succeed, the algal cultivation area needed to help manage this pollutant will also be reduced.</Text>
+        </Document>
+        <Document ID="22">
+            <Title>Data Processing</Title>
+            <Text>Data processing was organized using R Studio 1.0.143 {RStudio Team, 2016, #53167}, integrating R 3.3.2 and many common packages; source code is available at http://github/calahan/EACCRPBT and http://github/calahan/CLab. Datasets are open access, and were obtained from NaturalEarth (continents) {Natural Earth, 2015, #75070}, the Global Runoff Data Center (GRDC) (basins, lakes, and rivers) {Global Runoff Data Centre, 2007, #36285; Global Runoff Data Centre, 2007, #86930}, and EarthStat (N and P nutrient loading) {West et al., 2014, #62583}. An 8 GB Apple MacBook Pro/2.5 GHz Intel Core i5 running OS X 10.11.6 was used for all data processing.</Text>
+        </Document>
+        <Document ID="175">
+            <Title>(Mulbry et al., 2008) Treatment of dairy and swine manure effluents using freshwater algae- fatty acid content and composition of algal biomass at different manure loading rates</Title>
+            <Text>Treatment of dairy and swine manure effluents using freshwater algae- fatty acid content and composition of algal biomass at different manure loading rates
+
+{Mulbry et al., 2008, #98411}</Text>
+        </Document>
+        <Document ID="167">
+            <Title>Nutrient Excesses</Title>
+            <Text>It is no surprise that the highest priority basins for N and P recycling are also the major highly productive agricultural basins. These basins are among the largest in surface area, and can thus be expected to be responsible for the majority of nutrient flows. This situation is compounded by the fact that agriculture is a low-margin enterprise. To maintain economic viability a farm must provide as much product per hectare as possible annually, often ignoring long-term considerations such as soil health if they impose unaffordable expenses. Increasing fertilizer application beyond the amount considered ecologically healthy increases production, but substantial quantities of this extra fertilizer are not retained in the soil and eventually percolate into drainage. Large basins that would already have high priority due to their size become even more important as their impact is multiplied by the economics of nutrient application. The question of which nutrient is limiting in a given basin is of importance when removal of either nutrient is expensive and the goal is to treat as little polluted water as possible in order to achieve the most improvement with limited funds. However, algal cultivation simultaneously removes both nutrients, although design and operational flexibility provides the ability to favor one nutrient over the other. Thus for our analysis, we assume that the limiting nutrient is recycled within the algal cultivation facility in order to remove the excess non-limiting nutrient, so it is the non-limiting nutrient that defines the total algal cultivation area needed. To avoid a bias in favor of one nutrient or the other, we prioritize grid cells and basins by combining N and P excesses into a single value (Fig. 2C, D).</Text>
+        </Document>
+        <Document ID="23">
+            <Title>Methods</Title>
+        </Document>
+        <Document ID="159">
+            <Title>Area Required</Title>
+            <Text>Globally, excesses of 5.0 × 107 t yr-1 (5.5 × 107 ton yr-1) N and 8.1 × 106 t yr-1 (8.9 × 106 ton yr-1)P  are applied to the 140 crops curated in theEarthStat datasets {West et al., 2014, #62583}. N-limitation is present in 513,622 grid cells and 224 basins, with P-limitation present in 185,166 grid cells and 95 basins (Figure 4A-B). Complete recycling of a limiting nutrient in a given grid cell or basin would leave an excess of the non-limiting nutrient. We thus compute, based on the latitude of each grid cell, the algal cultivation area required to recycle P in N-limited grid cells, and to recycle N in P-limited grid cells, summing these areas over each basin. We model productivity at the equator at 9.1 × 101 t ha-1 yr-1 (3.3 × 101 ton ac-1 yr-1). The highest latitude with excess nutrient data is 70°, with a productivity of 2.7 × 101 t ha-1 yr-1 (9.9 × 100 ton ac-1 yr-1). Globally, 4.9 × 107 ha (1.2 × 108 ac) of algal cultivation area is required for complete N and P recycling, with 4.7 × 107 (1.2 × 108 ac) required in N-limited grid cells and 2.8 × 106 ha (6.9 × 106 ac) required in P-limited grid cells. For nutrient recycling in the major basins curated in the GRDC data sets, a total of 3.8 × 107 ha (9.4 × 107 ac)is required, with 3.4 × 107 ha (8.4 × 107 ac)in N-limited basins and 2.8 × 106 ha (6.9 × 106 ac) in P-limited basins. The implied biomass, 3.1 × 1012 kg yr-1, is less than a thousandth of a percent of world net primary productivity, and approximately three hundredths of a percent of world agriculture. The mean productivity of all grid cells is 6.4 × 101 t ha-1 yr-1 (2.3 × 106 ton ac-1 yr-1).</Text>
+        </Document>
+        <Document ID="24">
+            <Title>Parameters</Title>
+            <Text>Figure and model parameters are stored in the Excel workbook EACCRPBT.xlsx and imported as variables into the R code used to generate figures and tables. We assume AFDW biomass mass ratios of 0.5, 0.048, and 0.0030 for C, N and P respectively, derived from analysis of algal biomass {Vardon et al., 2012, #78258} and the Redfield atomic ratios {Hillebrand and Sommer, 1999, #12928}. CapEx and OpEx estimates are derived from HydroMentia reports.</Text>
+        </Document>
+        <Document ID="25">
+            <Title>Basin Ranking and Nutrient Removal Area</Title>
+            <Text>To rank river basins by priority, each value from the nutrient data sets was assigned to a basin based on its coordinates. Basin-specific values were summed for each nutrient. To obtain a ranking score for each basin, we added constants to its N and P sums to avoid non-positive numbers, and took the square root of the product of these sums. Color palettes were chosen to emphasize in warm tones the grid cells and basins responsible for half the total combined nutrient excess. To determine the algal productivity for a given grid cell, we applied a linear productivity model created by assigning maximum productivity, 9.1 × 101 t ha-1 yr-1 (3.4 × 101 ton ac-1 yr-1) to 0° latitude and intermediate productivity, 5.5 × 101 t ha-1 yr-1 (2.0 × 101 ton ac-1 yr-1) to ±40° latitude (Figure 3), to the trapezoidal area implied by each grid cell’s latitude. To determine the algal cultivation area needed for nutrient recycling in each grid cell we determined the quantity of biomass needed to recycle the non-limiting nutrient for that grid cell and divided it by the productivity. To determine the algal cultivation area required for each basin we summed the areas required for each grid cell contained within that basin. To determine global mean algal productivity we divided the total biomass production rate by the total area required.</Text>
+        </Document>
+        <Document ID="50">
+            <Title>(Carnegie, 2016) The Cost of Roadway Construction, Operations and Maintenance in New Jersey</Title>
+            <Text>The Cost of Roadway Construction, Operations and Maintenance in New Jersey
+
+{Carnegie, 2016, #10643}</Text>
+        </Document>
+        <Document ID="26">
+            <Title>Results</Title>
+        </Document>
+        <Document ID="51">
+            <Title>(Carpenter et al., 1991) Measurements of primary productivity and nitrogenase activity of coral reef algae in a chamber incorporating oscillatory flow</Title>
+            <Text>Measurements of primary productivity and nitrogenase activity of coral reef algae in a chamber incorporating oscillatory flow
+
+{Carpenter et al., 1991, #87446}</Text>
+        </Document>
+        <Document ID="194">
+            <Title>Figure 5</Title>
+            <Text>#
+Figure 5. Gross expense and biomass production for recycling N/P and C. Two scenarios are illustrated: High CapEx/OpEx with a 20 year floway life expectancy (worse case; “hi hi lo”), and low CapEx/OpEx with a 40 year floway life expectancy (better case; “lo lo hi”). (A) Worse and better cases for N/P recycling eventually require spending $6.1 trillion and $2.3 trillion annually, respectively. (B) N/P recycling produces 3.1 × 109 t yr-1 algal biomass. (C) Worse and better cases for C recycling require eventually spending $43 trillion and $16 trillion annually, respectively. (D) C recycling produces, at minimum, 2.2 × 1010 t yr-1 algal biomass. (C and D) N and P recycling included for scale.</Text>
+        </Document>
+        <Document ID="27">
+            <Title>Figure 2</Title>
+            <Text>#
+Figure 2. Global distribution of nutrient excesses and deficits. Gray color indicates no nutrient data. (A) N excess. Red shades indicate grid cells with the largest excesses, representing 10% of the total; yellow-to-orange shades indicate grid cells responsible for the next-highest 40% of total excess; green shades represent the lowest 50%. (B) P excess. Coloring scheme is as in A, but with the addition of darker green indicating grid cells with P deficit. (C) Combined N and P excess, coloring scheme as in A. (D) Ranking 405 major basins by summing the nutrient excesses of the grid cells belonging to each basin; coloring scheme as in A.</Text>
+        </Document>
+        <Document ID="52">
+            <Title>(Carpenter et al., 1998) Nonpoint Pollution of Surface Waters with Phosphorus</Title>
+            <Text>Nonpoint Pollution of Surface Waters with Phosphorus and Nitrogen
+
+{Carpenter et al., 1998, #83654}</Text>
+        </Document>
+    </Documents>
+</SearchIndexes>

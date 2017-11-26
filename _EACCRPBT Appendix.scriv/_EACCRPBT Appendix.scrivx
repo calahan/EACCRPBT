@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="dudeons-MacBook-Pro" Modified="2017-11-22 14:49:50 -0500" ModID="E55CD7DE-826A-40E0-A4A7-3D1E8F61AF4D">
+    <Binder>
+        <BinderItem ID="0" UUID="B6991AA0-E6E3-4999-B25C-CAD7949D81E5" Type="DraftFolder" Created="2017-10-24 07:35:25 -0400" Modified="2017-10-24 07:35:25 -0400">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="4" UUID="2E5246F7-51B4-42C1-903E-930620655B2F" Type="Text" Created="2017-07-17 14:18:00 -0400" Modified="2017-09-04 14:46:24 -0400">
+                    <Title>Table A1</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="3" UUID="674F3290-0CA9-4C6F-A322-8FED102D0215" Type="Text" Created="2017-10-24 07:35:25 -0400" Modified="2017-10-24 09:20:29 -0400">
+                    <Title>Table A2</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="5" UUID="E7DBB7DD-29C3-430A-9E34-47709DABD915" Type="Text" Created="2017-10-24 09:20:31 -0400" Modified="2017-11-22 14:49:50 -0500">
+                    <Title>Table A3</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>117,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="1" UUID="341076DB-572D-4A04-B405-CA552C3EF871" Type="ResearchFolder" Created="2017-10-24 07:35:25 -0400" Modified="2017-10-24 07:35:25 -0400">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem ID="2" UUID="F6A42376-8A6D-4344-BE70-DDD83DA3F36E" Type="TrashFolder" Created="2017-10-24 07:35:25 -0400" Modified="2017-10-24 07:35:25 -0400">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="327B62CA-1873-4A2D-8449-29AB76B32A84" Color="0.962266 0.962266 0.962266">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="876DFA52-7902-453A-ADF0-97C404D18ED8" Color="0.922 0.91 0.98">
+            <Title>Search Results</Title>
+        </Collection>
+    </Collections>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.9 0.92 0.95">Concept</Label>
+            <Label ID="1" Color="0.985 0.875 0.85">Chapter</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">First Draft</Status>
+            <Status ID="2">Revised Draft</Status>
+            <Status ID="3">Final Draft</Status>
+            <Status ID="4">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2017-10-24 07:35:24 -0400" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="113" Characters="597" Date="2017-11-22 14:49:42 -0500"></PreviousSession>
+    </ProjectTargets>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScrivenerProject>

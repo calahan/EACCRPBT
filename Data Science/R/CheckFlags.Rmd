@@ -1,0 +1,35 @@
+---
+title: "CheckFlags"
+author: "Dean Calahan"
+date: "7/25/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r Check, echo=FALSE}
+library(Calahanlab)
+proj.dir <- "/Users/dean/Documents/Projects/ATS/Publications/Peer Reviewed/Blockbuster/"
+todo <- GrepScriv("../../_EACCRPBT.scriv", "\\[todo\\]")
+octothorpe <- GrepScriv("../../_EACCRPBT.scriv", "#")
+refcluster <- GrepScriv("../../_EACCRPBT.scriv", "\\}\\s*\\{") # too many escapes, not working, cut losses.
+```
+#### "[todo]"
+```{r [todo], echo=FALSE}
+for(i in 2:length(todo)) {
+    cat(paste0(todo[i], "\n"))
+}
+```
+#### "octothorpe"
+```{r octothorpe, echo=FALSE}
+for(i in 2:length(octothorpe)) {
+    cat(paste0(octothorpe[i], "\n"))
+}
+```
+#### "}...{"
+```{r refcluster, echo=FALSE}
+for(i in 2:length(refcluster)) {
+    cat(paste0(refcluster[i], "\n"))
+}
+```

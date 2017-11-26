@@ -1,0 +1,21 @@
+---
+title: "Synchronize References"
+author: "Dean Calahan"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r Check, echo=FALSE}
+library(Calahanlab)
+proj.dir <- "/Users/dean/Documents/Projects/ATS/Publications/Peer Reviewed/Blockbuster/"
+refs.fn <- paste0(proj.dir, "References/_References.xml")
+pdf.dir <- "/Users/dean/Documents/PDFs/"
+alias.dir <- paste0(proj.dir, "References/")
+gd.dir <- "/Users/dean/Google Drive/Papers/Blockbuster/References/"
+
+refs.df <- RefDataFrame(refs.fn)
+LitSync(refs.df, pdf.dir, gd.dir, "cit.title")
+```
