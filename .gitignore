@@ -4,6 +4,7 @@
 .Ruserdata
 .DS_Store
 Blockbuster.RProj
+*.html
 Data/EarthStat/*
 Data/GRDC/*
 Data/NaturalEarth/*
