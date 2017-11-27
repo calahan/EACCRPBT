@@ -4,21 +4,33 @@ author: "Dean Calahan"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: html_document
 ---
-
-```{r setup, include=FALSE}
+```{r Setup, include=FALSE}
+# note that the default working directory for 
 knitr::opts_chunk$set(echo = TRUE)
-```
-```{r Check, echo=FALSE}
 library(Calahanlab)
-proj.dir <- "/Users/dean/Documents/Projects/ATS/Publications/For Peer Review/Submitted/Blockbuster/"
-refs.fn <- paste0(proj.dir, "References/_References.bdb.xml")
-pdf.dir <- "/Users/dean/Documents/PDFs/"
-alias.dir <- paste0(proj.dir, "References/")
-refs.df <- RefDataFrame(refs.fn)
-bm.pdfs.needed <- LitNeeded(refs.df, pdf.dir, conv="title")
-bm.als.needed <- LitNeeded(refs.df, alias.dir, conv="title.al")
-bm.pdfs.extra <- LitExtra(refs.df, alias.dir, conv="title.al")
-sc.todos <- GrepScriv("../../_EACCRPBT.scriv", "\\[todo\\]")
+
+# Working directory is the directory containing the .Rmd when running knitr
+if(isTRUE(getOption('knitr.in.progress'))) {
+    ref_dir <- "../../References/"
+    pdf_dir <- "../../../../../../PDFs/"
+    ms_fn <- "../../_EACCRPBT.scriv"
+} else {
+    ref_dir <- "References/"
+    pdf_dir <- "../../../../PDFs/"
+    ms_fn <- "_EACCRPBT.scriv"
+}
+
+refs_fn <- paste0(ref_dir, "_References.bdb.xml")
+```
+Refs exists?: `r file.exists(refs_fn)`  
+PDFs exists?: `r dir.exists(pdf_dir)`  
+Scriv exists?: `r file.exists(ms_fn)`
+```{r Check, echo=FALSE}
+refs_df <- RefDataFrame(refs_fn)
+pdfs_needed <- LitNeeded(refs_df, pdf_dir, conv="title")
+aliases_needed <- LitNeeded(refs_df, ref_dir, conv="title.al")
+pdfs_extra <- LitExtra(refs_df, ref_dir, conv="title.al")
+scr_todos <- GrepScriv(ms_fn, "\\[todo\\]")
 # word counts
 # double spaces
 # blank lines
@@ -30,34 +42,23 @@ sc.todos <- GrepScriv("../../_EACCRPBT.scriv", "\\[todo\\]")
 # spreadsheet
 # "alias copy"
 ```
-####Files needed in `r pdf.dir`   
-```{r PDFs, echo=FALSE}
-bm.pdfs.needed
-#for(i in 1:length(bm.pdfs.needed)) {
-#    cat(paste0(bm.pdfs.needed[i], "\n"))
-#}
+####Files needed in `r pdf_dir`   
+```{r FilesNeeded, echo=FALSE}
+pdfs_needed
 ```
-####Files needed in `r alias.dir`   
+####Files needed in `r ref_dir`   
 ```{r AliasesNeeded, echo=FALSE}
-####Files needed in `r alias.dir`   
-bm.als.needed
-#for(i in 1:length(bm.als.needed)) {
-#    cat(paste0(bm.als.needed[i], "\n"))
-#}
+aliases_needed
 ```
-####Extra files in `r alias.dir`   
+####Extra files in `r ref_dir`   
 ```{r AliasesExtra, echo=FALSE}
-bm.pdfs.extra
-####Files needed in `r alias.dir`   
-#for(i in 1:length(bm.als.needed)) {
-#    cat(paste0(bm.als.needed[i], "\n"))
-#}
+pdfs_extra
 ```
-####Entries with no DOI
+####Entries whose DOI is NA
 ```{r DOI, echo=FALSE}
-refs.df$title[is.na(refs.df$doi)]
+refs_df$title[is.na(refs_df$doi)]
 ```
-####Entries with no URL
+####Entries whose URL is NA
 ```{r URL, echo=FALSE}
-refs.df$title[is.na(refs.df$url)]
+refs_df$title[is.na(refs_df$url)]
 ```
