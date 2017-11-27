@@ -2,12 +2,12 @@ library(ggplot2)
 
 # Directory names
 work_dir <- "../Working/"               # PanDoc friendly for intermediate results
-cont_dir <-  "../data/NaturalEarth/"    # Continents shapefile
-lake_dir <-  "../data/GRDC/"            # Lakes shapefile
-river_dir <-  "../data/GRDC/"           # Rivers shapefile
-basin_dir <- "../data/GRDC/"            # Basin polygons shapefile
-nut_dir <- "../data/EarthStat/FertilizerBalance_Ascii/" # ESRI grid data of nutrients
-ss_dir <- "../../Data Science/data/Spreadsheets/"       # ATS locations
+cont_dir <-  "../../Data/NaturalEarth/"    # Continents shapefile
+lake_dir <-  "../../Data/GRDC/"            # Lakes shapefile
+river_dir <-  "../../Data/GRDC/"           # Rivers shapefile
+basin_dir <- "../../Data/GRDC/"            # Basin polygons shapefile
+nut_dir <- "../../Data/EarthStat/FertilizerBalance_Ascii/" # ESRI grid data of nutrients
+ss_dir <- "../../Data/Spreadsheets/"       # ATS locations
 fig_dir <- "../../Visual Elements/Figures/" # Figures
 tbl_dir <- "../../Visual Elements/Tables/"  # Tables
 

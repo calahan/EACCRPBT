@@ -1,12 +1,14 @@
 library(Calahanlab)
+
+setwd("Code/R")
 source("EACCRPBT.R")
 source("Settings.R")
 
 #[todo] look into read.asciigrid, ESRI ascii grid loader
 
 # Directories and filenames
-nut_dir <- "../data/EarthStat/FertilizerBalance_Ascii/"
-basin_dir <- "../data/GRDC/"
+nut_dir <- "../../Data/EarthStat/FertilizerBalance_Ascii/"
+basin_dir <- "../../Data/GRDC/"
 basin <- "GRDC_405_basins_from_mouth"
 basin_fn <- paste0(basin_dir, basin)
 work_dir <- "../Working/"
