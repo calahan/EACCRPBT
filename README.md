@@ -30,12 +30,41 @@ and its subdirectories are created, if necessary, by the program code.
 |--Code
 |  |--R
 |  |--Working
-|  
-|--Data  
-|  |--EarthStat  
-|  |--GRDC  
-|  |--NaturalEarth  
-|  |--Spreadsheets  
+|
+|--Data
+|  |--EarthStat
+|  |  |--FertilizerBalance_Ascii
+|  |     |--nitrogenbalanceonlandscape_140crops.txt
+|  |     |--phosphorusbalanceonlandscape_140crops.txt
+|  |
+|  |--GRDC
+|  |  |--GRDC_405_basins_from_mouth
+|  |  |  |--GRDC_405_basins_from_mouth.dbf
+|  |  |  |--GRDC_405_basins_from_mouth.prj
+|  |  |  |--GRDC_405_basins_from_mouth.shp
+|  |  |  |--GRDC_405_basins_from_mouth.shx
+|  |  |
+|  |  |--GRDC_lakes_join_rivers
+|  |     |--GRDC_lakes_join_rivers.dbf
+|  |     |--GRDC_lakes_join_rivers.prj
+|  |     |--GRDC_lakes_join_rivers.shp
+|  |     |--GRDC_lakes_join_rivers.shx
+|  |
+|  |--NaturalEarth
+|  |  |--ne_110m_land
+|  |  |  |--ne_110m_land.dbf
+|  |  |  |--ne_110m_land.prj
+|  |  |  |--ne_110m_land.shp
+|  |  |  |--ne_110m_land.shx
+|  |  |
+|  |  |--ne_110m_wgs84_bounding_box
+|  |     |--ne_110m_wgs84_bounding_box.dbf
+|  |     |--ne_110m_wgs84_bounding_box.prj
+|  |     |--ne_110m_wgs84_bounding_box.shp
+|  |     |--ne_110m_wgs84_bounding_box.shx
+|  |
+|  |--Spreadsheets
+|     |--EACCRPBT.xlsx
 |  
 |--Visual Elements
 |  |--Figures  
