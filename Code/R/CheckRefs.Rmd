@@ -31,10 +31,10 @@ pdfs_needed <- LitNeeded(refs_df, pdf_dir, conv="title")
 aliases_needed <- LitNeeded(refs_df, ref_dir, conv="title.al")
 pdfs_extra <- LitExtra(refs_df, ref_dir, conv="title.al")
 scr_todos <- GrepScriv(ms_fn, "\\[todo\\]")
+dbl_spc <- GrepScriv(ms_fn, "  ")
+scr_octothorpes <- GrepScriv(ms_fn, "\\[#\\]")
 # word counts
-# double spaces
 # blank lines
-# "#"
 # units
 # directory tree
 # file dates/times
@@ -61,4 +61,8 @@ refs_df$title[is.na(refs_df$doi)]
 ####Entries whose URL is NA
 ```{r URL, echo=FALSE}
 refs_df$title[is.na(refs_df$url)]
+```
+####Scrivenings with "todo"
+```{r Todo, echo=FALSE}
+scr_todos
 ```

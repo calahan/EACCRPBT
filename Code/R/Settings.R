@@ -20,7 +20,7 @@ basin <- "GRDC_405_basins_from_mouth"
 Nsums <- "Nsums"
 Psums <- "Psums"
 NPsums <- "NPSums"
-NP_lim <- "NP.lim"
+NP_lim <- "NP_lim"
 
 bbox_fn <- paste0(cont_dir, bbox)
 cont_fn <- paste0(cont_dir, cont)
