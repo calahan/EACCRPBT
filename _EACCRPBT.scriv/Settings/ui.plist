@@ -163,10 +163,10 @@
 		</dict>
 	</dict>
 	<key>selectedCollectionTabIndex</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>supportingDocumentEditor.binderDocuments</key>
 	<array>
-		<integer>6</integer>
+		<integer>30</integer>
 	</array>
 	<key>supportingDocumentEditor.currentEditorViewMode</key>
 	<integer>0</integer>
@@ -180,14 +180,6 @@
 		<integer>99</integer>
 		<key>NavigationHistoryArray</key>
 		<array>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>206</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
 			<dict>
 				<key>BinderDocIDs</key>
 				<array>
@@ -993,12 +985,20 @@
 				<key>ViewMode</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>30</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 	</dict>
 	<key>supportingDocumentEditor.scrollRect</key>
-	<string>{{0, 352}, {848, 532}}</string>
+	<string>{{0, 165}, {848, 532}}</string>
 	<key>supportingDocumentEditor.selectedRanges</key>
-	<string>{1896, 1}</string>
+	<string>{670, 0}</string>
 	<key>supportingDocumentEditor.textEditorState</key>
 	<dict>
 		<key>hasMultiplePages</key>

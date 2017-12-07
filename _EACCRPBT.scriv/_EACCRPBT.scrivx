@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="dudeons-MacBook-Pro" Modified="2017-12-04 19:37:58 -0500" ModID="5FF26468-C5B5-4E2B-9BE7-D30C604F3BA4">
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="dudeons-MacBook-Pro" Modified="2017-12-06 12:01:28 -0500" ModID="7F1FFA1F-291C-47A0-87FA-16E7F2835328">
     <Binder>
         <BinderItem ID="0" UUID="FE069D65-DA4F-45A8-9CA1-D8DA21160B10" Type="DraftFolder" Created="2017-07-12 11:08:08 -0400" Modified="2017-07-12 11:08:08 -0400">
             <Title>Draft</Title>
@@ -1942,7 +1942,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="57376F70-40A4-4615-8146-8BC33E1D40BC" Color="0.922 0.91 0.98">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No">[todo]</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No">Table 2</SearchSettings>
         </Collection>
     </Collections>
     <LabelSettings>
@@ -1969,7 +1969,7 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2017-07-12 11:08:07 -0400" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2017-12-04 19:05:49 -0500"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2017-12-06 05:53:07 -0500"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
