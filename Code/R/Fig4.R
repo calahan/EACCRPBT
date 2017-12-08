@@ -34,11 +34,11 @@ ftbasin_df$id <- as.numeric(ftbasin_df$id) + 1 # indexing from 1 rather than 0
 
 # Useful values
 P2N <- P_prp/N_prp
-lim_df <- NutrientLimits(nutP_df, nutN_df, P_prp, N_prp) # Returns $val in tons
+#lim_df <- NutrientLimits(nutP_df, nutN_df, P_prp, N_prp) # Returns $val in tons
 basin_ct <- nrow(Nsums_df)
 
 # Trapezoid calculations
-trap_df <- data.frame(long=lim_df$long, lat=lim_df$lat, val=lim_df$arearat)
+trap_df <- data.frame(long=NP_lim_df$long, lat=NP_lim_df$lat, val=NP_lim_df$arearat)
 ttrap_df <- TransformNutrientData(trap_df, fig_CRS)
 ttrap_val <- ttrap_df[which(!is.na(ttrap_df$val)),]$val
 s_ttrap_val <- sort(ttrap_val, decreasing=TRUE)

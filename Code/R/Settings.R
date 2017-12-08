@@ -11,7 +11,8 @@ ss_dir <- "Data/Spreadsheets/"              # ATS locations
 fig_dir <- "Visual Elements/Figures/"       # Figures
 tbl_dir <- "Visual Elements/Tables/"        # Tables
 
-# File names/identifiers
+# File names
+areas <- "areas"
 bbox <- "ne_110m_wgs84_bounding_box"
 cont <- "ne_110m_land"
 lake <- "GRDC_lakes_join_rivers"
@@ -20,8 +21,10 @@ basin <- "GRDC_405_basins_from_mouth"
 Nsums <- "Nsums"
 Psums <- "Psums"
 NPsums <- "NPSums"
-NP_lim <- "NP_lim"
+NP_lim <- "NPlim"
 
+# Fully qualified path names
+area_fn <- paste0(work_dir, areas)
 bbox_fn <- paste0(cont_dir, bbox)
 cont_fn <- paste0(cont_dir, cont)
 lake_fn <- paste0(lake_dir, lake)

@@ -6,21 +6,14 @@ source("Code/R/Settings.R")
 
 #[todo] look into read.asciigrid, ESRI ascii grid loader
 
-# Directories and filenames
-nut_dir <- "Data/EarthStat/FertilizerBalance_Ascii/"
-basin_dir <- "Data/GRDC/"
-basin <- "GRDC_405_basins_from_mouth"
-basin_fn <- paste0(basin_dir, basin)
-# work_dir <- "../Working/"
-Nsums_fn <- paste0(work_dir, "Nsums")
-Psums_fn <- paste0(work_dir, "Psums")
-NPsums_fn <- paste0(work_dir, "NPsums")
-
 # External datasets
 nutN_df <- LoadNutrientData(nut_dir, "nitrogen")
 nutP_df <- LoadNutrientData(nut_dir, "phosphorus")
 nutNP_df <- NutrientDataProduct(nutN_df, nutP_df)
 basin_df <- readOGR(basin_fn, basin)
+
+# Calculate nutrient data per trapezoid
+lim_df <- NutrientLimits(nutP_df, nutN_df, P_prp, N_prp) # $val in tons
 
 # Sum nutrient data over basins
 Nsums_df <- SumNutrientsByBasin(nutN_df, basin_df)
@@ -30,20 +23,19 @@ write.table(Nsums_df, Nsums_fn)
 write.table(Psums_df, Psums_fn)
 write.table(NPsums_df, NPsums_fn)
 
-# ATS Area needed, taking N or P limitation into account (Fig 3)
+# ATS Area needed, taking N or P limitation into account
 P2N <- P_prp/N_prp
 lim_df <- NutrientLimits(nutP_df, nutN_df, P_prp, N_prp)
 NP_lim_df <- TransformNutrientData(lim_df, fig_CRS, c("val", "rat", "nut", "area", "ATSarea", "biomass", "prod", "arearat"))
-NP_lim_fn <- paste0(work_dir, "NP_lim")
+#NP_lim_fn <- paste0(work_dir, "NPlim")
 write.table(NP_lim_df, NP_lim_fn)
 
 area_df <- data.frame(long=lim_df$long, lat=lim_df$lat, val=lim_df$ATSarea) # ATSarea in ha
 area_sums_df <- SumNutrientsByBasin(area_df, basin_df)
-area_fn <- paste0(work_dir, "areas")
+#area_fn <- paste0(work_dir, "areas")
 write.table(area_sums_df, area_fn)
 
 #
-# # Economic model assumptions
 # The table of results, which includes the input parameters to the economic model,
 # takes a long time to compute, so only do so if the saved data do not exist.
 tblA3_df_fn <- paste0(work_dir, "tblA3")
@@ -185,6 +177,3 @@ if(!file.exists(tblA3_df_fn)) {
     )
     write.table(tblA3_df, tblA3_df_fn)
 }
-# else {
-#     tblA3_df <- read.table(tblA3_df_fn, stringsAsFactors = FALSE)
-# }
