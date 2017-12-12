@@ -5,7 +5,7 @@ library(tiff)
 source("Code/R/Settings.R")
 
 this_fig_dir <- paste0(fig_dir, "Figure 1/")
-ss_ix <- 7 #[todo] put these by default in ss_ix=1 and set them via Settings.R
+#ss_ix <- 7 #[todo] put these by default in ss_ix=1 and set them via Settings.R
 
 # Load geospatial data sets.
 bbox_df <- readOGR(bbox_fn, bbox)
@@ -16,7 +16,7 @@ river_df <- readOGR(river_fn, river)
 # Prepare ATS locations data.
 loc <- "EACCRPBT.xlsx"
 loc_fn <- paste0(ss_dir, loc)
-loc_df <- gdata::read.xls(loc_fn, ss_ix) # Warning or notification appears to be OK (Wide character in print at .../Library/R/3.3/library/gdata/perl/xls2csv.pl line 327.)
+loc_df <- gdata::read.xls(loc_fn, 2) # Warning or notification appears to be OK (Wide character in print at .../Library/R/3.3/library/gdata/perl/xls2csv.pl line 327.)
 # tbl_loc_df <- data.frame(long=loc_df$long, lat=loc_df$lat, citation=loc_df$citation)
 map_loc_df <- loc_df[loc_df$status=="good",]
 map_loc_df <- data.frame(long=map_loc_df$long, lat=map_loc_df$lat, type=map_loc_df$type)

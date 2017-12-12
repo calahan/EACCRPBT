@@ -419,120 +419,120 @@ TransformNutrientData <- function(nut_df, proj, cols=c("val")) {
         CRS(proj)))
     return(df)
 }
-## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-## Code under development goes here until it hasn't had any bugs for a while,
-## then it gets alphabetized or placed into Calahanlab.R
-## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-Vals2Levels <- function(low, high, actual, max_level) {
-# Convert boundary values to levels, with ceiling at max_levels
-# Level "0" is rendered at set level 0.5 * max_levels so there is something to show
-    zu_delta <- high - low # delta between low and high zones of uncertainty
-    zu_zero <- low - zu_delta # origin of green zone (effective zero, can be < 0)
-    sh_act <- actual - zu_zero # shift actual values down by the minimum level
-    sh_hi <- high - zu_zero # shift high values down by the minimum level
-    dup_levs <- function(t){return(c(t[1], t[1], t[2], t[2], t[3], t[3], t[4], t[4], t[5], t[6], t[7], t[7], t[8], t[8], t[9], t[10], t[11], t[11]))}
-    new_vals <- mapply(min, round((2/3) * max_level * sh_act / sh_hi, 0), 100)
-# cat("zu_delta, zu_zero\n")
-# cat(zu_delta)
-# cat("\n")
-# cat(zu_zero)
-# cat("\n")
-# cat(new_vals)
-# cat("\n")
-# cat("sh_act, sh_hi, new_vals\n")
-# cat(sh_act)
-# cat("\n")
-# cat(sh_hi)
-# cat("\n")
-# cat(new_vals)
-# cat("\n")
-    ret_levs <- dup_levs(mapply(min, round((2/3) * max_level * sh_act / sh_hi, 0), 100))
-    ret_levs[which(ret_levs < 10)] <- 10
-    return(ret_levs)
-    #return(round((2/3) * max_level * sh_act / sh_hi, 0))
-}
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
+# ## Code under development goes here until it hasn't had any bugs for a while,
+# ## then it gets alphabetized or placed into Calahanlab.R
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
+# Vals2Levels <- function(low, high, actual, max_level) {
+# # Convert boundary values to levels, with ceiling at max_levels
+# # Level "0" is rendered at set level 0.5 * max_levels so there is something to show
+#     zu_delta <- high - low # delta between low and high zones of uncertainty
+#     zu_zero <- low - zu_delta # origin of green zone (effective zero, can be < 0)
+#     sh_act <- actual - zu_zero # shift actual values down by the minimum level
+#     sh_hi <- high - zu_zero # shift high values down by the minimum level
+#     dup_levs <- function(t){return(c(t[1], t[1], t[2], t[2], t[3], t[3], t[4], t[4], t[5], t[6], t[7], t[7], t[8], t[8], t[9], t[10], t[11], t[11]))}
+#     new_vals <- mapply(min, round((2/3) * max_level * sh_act / sh_hi, 0), 100)
+# # cat("zu_delta, zu_zero\n")
+# # cat(zu_delta)
+# # cat("\n")
+# # cat(zu_zero)
+# # cat("\n")
+# # cat(new_vals)
+# # cat("\n")
+# # cat("sh_act, sh_hi, new_vals\n")
+# # cat(sh_act)
+# # cat("\n")
+# # cat(sh_hi)
+# # cat("\n")
+# # cat(new_vals)
+# # cat("\n")
+#     ret_levs <- dup_levs(mapply(min, round((2/3) * max_level * sh_act / sh_hi, 0), 100))
+#     ret_levs[which(ret_levs < 10)] <- 10
+#     return(ret_levs)
+#     #return(round((2/3) * max_level * sh_act / sh_hi, 0))
+# }
 #
-SimpleBoundEvolution <- function(Vin, Vzl, Vzh, year, CO2_base, CO2_rate) {
-# Vin
-# Vzl
-# Vzh
-# year
-# CO2_base
-# CO2_rate
-# Basal calculation of evolution of boundary status over time
-    Vret <- vector(mode="numeric", length=11)
-
-    # Non-quantified boundary statuses (NE, AL, BIF, indices 1, 3, 9)
-    for(i in c(1, 3, 9)) {
-        Vret[i] <- NA
-    }
-
-    # Fiat values (OD, LC, indices=2, 7, 8)
-    # OD assumed to linearly progress to pre-industrial in 50 yr
-    if(year >= 50) {
-        Vret[2] <- Vzl[2] # pre-industrial after 50 yr
-    } else {
-        Vret[2] <- Vzh[2] - (year / 50) * (Vzh[2] - Vzl[2]) # linear decline over 1st 50 yr
-    }
-    # FU increase 55% from baseline per 30 yr, or 1.8% per year
-    Vret[7] <- Vin[7] + (0.55/30) * year * Vin[7]
-    # LC losses assumed to be 13% from baseline per 30 yrs, or 0.43% per year
-    Vret[8] <- Vin[8] + (0.13/30) * year * Vin[8]
-
-    # Population-based values (BFN, BFP, FU, BIE, indices 5, 6, 10)
-    pop_rat <- Population[year]/Population[1]
-    for(i in c(5, 6, 10)) {
-        Vret[i] <- pop_rat * Vin[i]
-    }
-
-    # CO2-based values (OA, CC, indices 4, 11)
-    CO2_rat <- (CO2_base + year * CO2_rate) / CO2_base
-    for(i in c(4, 11)) {
-        Vret[i] <- CO2_rat * Vin[i]
-    }
-
-    return(Vret)
-}
+# SimpleBoundEvolution <- function(Vin, Vzl, Vzh, year, CO2_base, CO2_rate) {
+# # Vin
+# # Vzl
+# # Vzh
+# # year
+# # CO2_base
+# # CO2_rate
+# # Basal calculation of evolution of boundary status over time
+#     Vret <- vector(mode="numeric", length=11)
 #
-ComplexBoundEvolution <- function(Vin, Vzl, Vzh, year, CO2_base, CO2_rate, n_rem, p_rem) {
-# Calculation of evolution of boundary status over time with N and P removal
-    Vret <- vector(mode="numeric", length=11)
-
-    # Non-quantified boundary statuses (NE, AL, BIF, indices 1, 3, 9)
-    for(i in c(1, 3, 9)) {
-        Vret[i] <- NA
-    }
-
-    # Fiat values (OD, LC, indices=2, 7, 8)
-    # OD assumed to linearly progress to pre-industrial in 50 yr
-    if(year >= 50) {
-        Vret[2] <- Vzl[2] # pre-industrial after 50 yr
-    } else {
-        Vret[2] <- Vzh[2] - (year / 50) * (Vzh[2] - Vzl[2]) # linear decline over 1st 50 yr
-    }
-    # FU increase 55% from baseline per 30 yr, or 1.8% per year
-    Vret[7] <- Vin[7] + (0.55/30) * year * Vin[7]
-    # LC losses assumed to be 13% from baseline per 30 yrs, or 0.43% per year
-    Vret[8] <- Vin[8] + (0.13/30) * year * Vin[8]
-
-    # Population-based values (BFN, BFP, BIE, indices 5, 6, 10)
-    pop_rat <- Population[year]/Population[1]
-    for(i in c(5, 6, 10)) {
-        Vret[i] <- pop_rat * Vin[i]
-    }
-
-    # Apply effect of nutrient removal (BFN, BFP, indices 5, 6)
-    Vret[5] <- Vret[5] - n_rem
-    Vret[6] <- Vret[6] - p_rem
-
-    # CO2-based values (OA, CC, indices 4, 11)
-    CO2_rat <- (CO2_base + year * CO2_rate) / CO2_base
-    for(i in c(4, 11)) {
-        Vret[i] <- CO2_rat * Vin[i]
-    }
-
-    return(Vret)
-}
+#     # Non-quantified boundary statuses (NE, AL, BIF, indices 1, 3, 9)
+#     for(i in c(1, 3, 9)) {
+#         Vret[i] <- NA
+#     }
+#
+#     # Fiat values (OD, LC, indices=2, 7, 8)
+#     # OD assumed to linearly progress to pre-industrial in 50 yr
+#     if(year >= 50) {
+#         Vret[2] <- Vzl[2] # pre-industrial after 50 yr
+#     } else {
+#         Vret[2] <- Vzh[2] - (year / 50) * (Vzh[2] - Vzl[2]) # linear decline over 1st 50 yr
+#     }
+#     # FU increase 55% from baseline per 30 yr, or 1.8% per year
+#     Vret[7] <- Vin[7] + (0.55/30) * year * Vin[7]
+#     # LC losses assumed to be 13% from baseline per 30 yrs, or 0.43% per year
+#     Vret[8] <- Vin[8] + (0.13/30) * year * Vin[8]
+#
+#     # Population-based values (BFN, BFP, FU, BIE, indices 5, 6, 10)
+#     pop_rat <- Population[year]/Population[1]
+#     for(i in c(5, 6, 10)) {
+#         Vret[i] <- pop_rat * Vin[i]
+#     }
+#
+#     # CO2-based values (OA, CC, indices 4, 11)
+#     CO2_rat <- (CO2_base + year * CO2_rate) / CO2_base
+#     for(i in c(4, 11)) {
+#         Vret[i] <- CO2_rat * Vin[i]
+#     }
+#
+#     return(Vret)
+# }
+# #
+# ComplexBoundEvolution <- function(Vin, Vzl, Vzh, year, CO2_base, CO2_rate, n_rem, p_rem) {
+# # Calculation of evolution of boundary status over time with N and P removal
+#     Vret <- vector(mode="numeric", length=11)
+#
+#     # Non-quantified boundary statuses (NE, AL, BIF, indices 1, 3, 9)
+#     for(i in c(1, 3, 9)) {
+#         Vret[i] <- NA
+#     }
+#
+#     # Fiat values (OD, LC, indices=2, 7, 8)
+#     # OD assumed to linearly progress to pre-industrial in 50 yr
+#     if(year >= 50) {
+#         Vret[2] <- Vzl[2] # pre-industrial after 50 yr
+#     } else {
+#         Vret[2] <- Vzh[2] - (year / 50) * (Vzh[2] - Vzl[2]) # linear decline over 1st 50 yr
+#     }
+#     # FU increase 55% from baseline per 30 yr, or 1.8% per year
+#     Vret[7] <- Vin[7] + (0.55/30) * year * Vin[7]
+#     # LC losses assumed to be 13% from baseline per 30 yrs, or 0.43% per year
+#     Vret[8] <- Vin[8] + (0.13/30) * year * Vin[8]
+#
+#     # Population-based values (BFN, BFP, BIE, indices 5, 6, 10)
+#     pop_rat <- Population[year]/Population[1]
+#     for(i in c(5, 6, 10)) {
+#         Vret[i] <- pop_rat * Vin[i]
+#     }
+#
+#     # Apply effect of nutrient removal (BFN, BFP, indices 5, 6)
+#     Vret[5] <- Vret[5] - n_rem
+#     Vret[6] <- Vret[6] - p_rem
+#
+#     # CO2-based values (OA, CC, indices 4, 11)
+#     CO2_rat <- (CO2_base + year * CO2_rate) / CO2_base
+#     for(i in c(4, 11)) {
+#         Vret[i] <- CO2_rat * Vin[i]
+#     }
+#
+#     return(Vret)
+# }
 #
 SimpleBoundFB <- function(Vin, Vtemp, Vbf, Vbr) {
 # Simple Boundary Feedback
