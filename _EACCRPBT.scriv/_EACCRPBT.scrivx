@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="dudeons-MacBook-Pro" Modified="2017-12-07 18:33:37 -0500" ModID="2E253611-2D84-4E3C-A978-3D53D9C3F1F3">
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="dudeons-MacBook-Pro" Modified="2017-12-12 10:31:15 -0500" ModID="806276F8-3458-4212-A804-2721A84EA4CF">
     <Binder>
         <BinderItem ID="0" UUID="FE069D65-DA4F-45A8-9CA1-D8DA21160B10" Type="DraftFolder" Created="2017-07-12 11:08:08 -0400" Modified="2017-07-12 11:08:08 -0400">
             <Title>Draft</Title>
@@ -61,14 +61,14 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="11" UUID="3AF7F284-0BAC-43B0-8376-2839D43AE859" Type="Text" Created="2017-07-12 11:39:59 -0400" Modified="2017-11-28 17:33:50 -0500">
+                        <BinderItem ID="11" UUID="3AF7F284-0BAC-43B0-8376-2839D43AE859" Type="Text" Created="2017-07-12 11:39:59 -0400" Modified="2017-12-12 10:30:12 -0500">
                             <Title>Abstract</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <NotesTextSelection>0,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>75,0</TextSelection>
+                                <TextSelection>1218,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                     </Children>
@@ -83,14 +83,14 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="5" UUID="522DB1DB-5A51-44C4-9F4E-31AE6C7EC3BC" Type="Text" Created="2017-07-12 11:08:45 -0400" Modified="2017-11-28 17:43:35 -0500">
+                        <BinderItem ID="5" UUID="522DB1DB-5A51-44C4-9F4E-31AE6C7EC3BC" Type="Text" Created="2017-07-12 11:08:45 -0400" Modified="2017-12-12 10:31:15 -0500">
                             <Title>The Threat</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <NotesTextSelection>0,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1640,0</TextSelection>
+                                <TextSelection>228,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                         <BinderItem ID="6" UUID="57BCCA5D-A732-425D-BFFA-7A770076A762" Type="Text" Created="2017-07-12 11:08:49 -0400" Modified="2017-09-05 13:47:15 -0400">
@@ -153,24 +153,24 @@
                                 <TextSelection>420,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="200" UUID="EA3E5339-92DF-4CD1-A58F-FB6822D302E9" Type="Text" Created="2017-07-25 18:53:19 -0400" Modified="2017-08-31 19:38:32 -0400">
+                        <BinderItem ID="200" UUID="EA3E5339-92DF-4CD1-A58F-FB6822D302E9" Type="Text" Created="2017-07-25 18:53:19 -0400" Modified="2017-12-10 15:46:15 -0500">
                             <Title>Figure 1</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <NotesTextSelection>0,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>788,0</TextSelection>
+                                <TextSelection>1,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="29" UUID="BA8CAECE-2831-49C2-B887-ADE2F2BD9385" Type="Text" Created="2017-07-12 11:57:38 -0400" Modified="2017-08-30 20:30:26 -0400">
+                        <BinderItem ID="29" UUID="BA8CAECE-2831-49C2-B887-ADE2F2BD9385" Type="Text" Created="2017-07-12 11:57:38 -0400" Modified="2017-12-10 19:47:48 -0500">
                             <Title>Table 1</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <NotesTextSelection>0,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>110,0</TextSelection>
+                                <TextSelection>1852,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                         <BinderItem ID="20" UUID="E950DE97-D92F-4D73-B58D-03A55FADB327" Type="Text" Created="2017-07-12 11:52:30 -0400" Modified="2017-08-31 19:43:20 -0400">
@@ -277,14 +277,14 @@
                                 <TextSelection>670,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="27" UUID="BD224190-53E9-4BC2-98AD-66E7F61E8AC5" Type="Text" Created="2017-07-12 11:57:31 -0400" Modified="2017-09-05 18:32:48 -0400">
+                        <BinderItem ID="27" UUID="BD224190-53E9-4BC2-98AD-66E7F61E8AC5" Type="Text" Created="2017-07-12 11:57:31 -0400" Modified="2017-12-10 19:29:49 -0500">
                             <Title>Figure 2</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <NotesTextSelection>0,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>452,0</TextSelection>
+                                <TextSelection>1,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                         <BinderItem ID="159" UUID="22F0A607-F5CE-447E-99D5-08F091F63A80" Type="Text" Created="2017-07-12 18:14:42 -0400" Modified="2017-09-05 15:49:44 -0400">
@@ -297,24 +297,24 @@
                                 <TextSelection>711,47</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="209" UUID="1C0A89BF-886B-42B0-BBA4-08ACC2F8F2D1" Type="Text" Created="2017-08-01 10:53:22 -0400" Modified="2017-09-05 15:51:29 -0400">
+                        <BinderItem ID="209" UUID="1C0A89BF-886B-42B0-BBA4-08ACC2F8F2D1" Type="Text" Created="2017-08-01 10:53:22 -0400" Modified="2017-12-10 19:30:20 -0500">
                             <Title>Figure 3</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <NotesTextSelection>0,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>165,0</TextSelection>
+                                <TextSelection>1,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="217" UUID="9147ADEC-736D-40C3-9FC6-8D9A8A69BB8D" Type="Text" Created="2017-08-16 19:41:09 -0400" Modified="2017-09-05 17:18:30 -0400">
+                        <BinderItem ID="217" UUID="9147ADEC-736D-40C3-9FC6-8D9A8A69BB8D" Type="Text" Created="2017-08-16 19:41:09 -0400" Modified="2017-12-10 19:31:28 -0500">
                             <Title>Figure 4</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <NotesTextSelection>0,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>365,0</TextSelection>
+                                <TextSelection>1,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                         <BinderItem ID="206" UUID="008FDDC1-864B-40FC-B572-2742A94CB054" Type="Text" Created="2015-11-07 14:35:27 -0500" Modified="2017-09-05 18:07:37 -0400">
@@ -327,34 +327,34 @@
                                 <TextSelection>1107,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="210" UUID="71FF797C-57F3-41CD-A887-C397AB5CDACC" Type="Text" Created="2017-08-02 13:32:12 -0400" Modified="2017-09-04 14:45:59 -0400">
+                        <BinderItem ID="210" UUID="71FF797C-57F3-41CD-A887-C397AB5CDACC" Type="Text" Created="2017-08-02 13:32:12 -0400" Modified="2017-12-10 19:47:30 -0500">
                             <Title>Table 2</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <NotesTextSelection>0,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1,0</TextSelection>
+                                <TextSelection>496,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="221" UUID="D708B7BC-D873-4666-83FC-74158F332F3F" Type="Text" Created="2017-08-22 13:26:01 -0400" Modified="2017-09-05 18:08:33 -0400">
+                        <BinderItem ID="221" UUID="D708B7BC-D873-4666-83FC-74158F332F3F" Type="Text" Created="2017-08-22 13:26:01 -0400" Modified="2017-12-10 19:47:30 -0500">
                             <Title>Table 3</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <NotesTextSelection>0,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>30,0</TextSelection>
+                                <TextSelection>395,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="194" UUID="E7FED94A-F1B6-440F-84DC-74E136172B54" Type="Text" Created="2015-08-11 18:58:17 -0400" Modified="2017-09-05 18:17:42 -0400">
+                        <BinderItem ID="194" UUID="E7FED94A-F1B6-440F-84DC-74E136172B54" Type="Text" Created="2015-08-11 18:58:17 -0400" Modified="2017-12-10 19:31:40 -0500">
                             <Title>Figure 5</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <NotesTextSelection>0,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>700,0</TextSelection>
+                                <TextSelection>1,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                     </Children>
@@ -1942,7 +1942,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="57376F70-40A4-4615-8146-8BC33E1D40BC" Color="0.922 0.91 0.98">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No">Figure</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No">millen</SearchSettings>
         </Collection>
     </Collections>
     <LabelSettings>
@@ -1969,7 +1969,7 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2017-07-12 11:08:07 -0400" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="54" Characters="430" Date="2017-12-07 09:57:55 -0500"></PreviousSession>
+        <PreviousSession Words="0" Characters="5" Date="2017-12-12 09:49:02 -0500"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>

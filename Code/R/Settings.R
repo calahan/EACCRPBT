@@ -71,7 +71,7 @@ theme_opts <- list(theme(axis.line = element_blank(),
 
 # Assign economic and ecological variables from XL sheet EACCRPBT.xlsx:R Variables"
 ss_fn <- paste0(ss_dir, "EACCRPBT.xlsx")
-econ_ss <- gdata::read.xls(ss_fn, 8)
-ret <- mapply(assign, as.character(econ_ss$var), econ_ss$val, MoreArgs = list(envir = .GlobalEnv))
-pop_df <- gdata::read.xls(ss_fn, 9)
-Population <- pop_df$population
+Rvars_ws <- gdata::read.xls(ss_fn, 1)
+ret <- mapply(assign, as.character(Rvars_ws$var), Rvars_ws$val, MoreArgs = list(envir = .GlobalEnv))
+#pop_df <- gdata::read.xls(ss_fn, 9)
+#Population <- pop_df$population

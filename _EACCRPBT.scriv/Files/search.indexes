@@ -21,7 +21,142 @@ To determine the secondary effects of changes in boundary status arising from li
         </Document>
         <Document ID="29">
             <Title>Table 1</Title>
-            <Text>
+            <Text>Table 1
+long
+lat
+citation
+ 146.8
+-19.3
+{Adey and Loveland, 2007, #51828}
+ -80.5
+ 26.7
+{Adey et al., 1993, #62}
+ -74.5
+ 40.4
+{Adey et al., 1996, #59863}
+ -76.3
+ 37.9
+{Adey et al., 2013, #773}
+-120.9
+ 50.8
+{Bothwell, 1983, #24121}
+-119.7
+ 50.8
+{Bothwell, 1989, #88089}
+ -64.7
+ 17.4
+{Carpenter et al., 1991, #87446}
+ 120.3
+ 23.0
+{Chang et al., 2011, #74666}
+ 117.8
+ 24.5
+{Chen et al., 2015, #5692}
+-121.1
+ 37.5
+{Craggs et al., 1996, #78913}
+ -80.4
+ 27.4
+{D'Aiuto et al., 2015, #56014}
+ -80.4
+ 37.2
+{Huang et al., 2013, #766}
+ -79.0
+ 36.0
+{HydroMentia, 2013, #63002}
+ -80.9
+ 27.2
+{HydroMentia, 2013, #95236}
+ -82.0
+ 27.9
+{HydroMentia, 2013, #95236}
+ -81.9
+ 26.7
+{HydroMentia, 2017, #63002}
+ -80.9
+ 27.3
+{HydroMentia, 2017, #63002}
+ -80.9
+ 27.5
+{HydroMentia, 2017, #63002}
+ -80.4
+ 27.6
+{HydroMentia, 2017, #63002}
+ -80.4
+ 27.6
+{HydroMentia, 2017, #63002}
+ -80.5
+ 27.6
+{HydroMentia, 2017, #63002}
+ -81.4
+ 28.6
+{HydroMentia, 2017, #63002}
+ -82.5
+ 29.9
+{HydroMentia, 2017, #63002}
+ -85.0
+ 34.8
+{HydroMentia, 2017, #63002}
+ -76.5
+ 39.2
+{HydroMentia, 2017, #63002}
+ -76.5
+ 39.2
+{HydroMentia, 2017, #63002}
+ -76.3
+ 39.8
+{HydroMentia, 2017, #63002}
+ -73.8
+ 40.6
+{HydroMentia, 2017, #63002}
+   3.6
+ 51.1
+{Liu et al., 2016, #46476}
+  16.4
+ 48.2
+{Mayr et al., 2015, #17666}
+ 146.8
+-19.3
+{Morrissey et al., 1988, #63991}
+ -76.9
+ 39.0
+{Mulbry et al., 2008, #98411}
+ -76.7
+ 38.8
+{Mulbry et al., 2010, #528}
+ -76.5
+ 39.1
+{Mulbry et al., 2010, #528}
+ -76.3
+ 39.4
+{Mulbry et al., 2010, #528}
+ -76.2
+ 38.6
+{Ray et al., 2015, #84240}
+ -76.4
+ 37.2
+{Rothman et al., 2013, #23278}
+ -94.2
+ 36.2
+{Sandefur et al., 2011, #789}
+ -94.1
+ 36.1
+{Sandefur et al., 2014, #73121}
+ -82.3
+ 29.6
+{Sindelar et al., 2015, #38897}
+ -98.8
+ 29.5
+{Stewart, 2004, #96157}
+  16.2
+ 51.6
+{Sukačová et al., 2015, #3065}
+-103.3
+ 34.2
+{Yan and Arellano, 2015, #82538}
+ -75.9
+ 39.0
+Kangas and Mulbry, 2013
 Table 1. Locations of outdoor algal turf scrubber studies and production-scale facilities (see also Fig. 1E).</Text>
         </Document>
         <Document ID="179">
@@ -259,7 +394,7 @@ Removing sediment to reduce invasion of Typha x glauca. Need to mine for better 
         </Document>
         <Document ID="5">
             <Title>The Threat</Title>
-            <Text>The resource demands of Earth’s population, which may exceed eleven billion people by 2100 {United Nations, 2015, #94734}, will likely continue to intensify stresses on ecosystem services  {Millenium Ecosystem Assessment, 2003, #16012; Boyd and Banzhaf, 2007, #49938}. One of the most pressing threats is overloading of the global N and P biogeochemical cycles via excess agricultural fertilizer/manure application and incompletely treated sewage, a consequence of inadequate infrastructure investment {Rockström et al., 2009, #94424; Steffen et al., 2015, #78923}. The fresh and marine waters that receive these excess nutrients are experiencing an increase in the frequency and extent of harmful algal blooms (HABs), leading to larger, more frequent, and more persistent hypoxic dead zones, as well as increasing negative human health effects {Hallegraeff, 1993, #70258; Heisler et al., 2008, #9953}.  Additionally, unsustainable fossil fuel extraction and combustion are overloading the global C biogeochemical cycle, warming our climate  and acidifying our oceans {Pachauri et al., 2014, #63677; Mostofa et al., 2015, #46684}. Human activity and biogeochemical cycles are tightly coupled with photosynthesis, as primary production fixes environmental C, N, and P into biomass. Thus if photosynthesis could be greatly expanded on a global scale and the resulting biomass effectively managed, stresses on multiple Earth systems could be relieved. With sufficiently large increases in primary production, negative impacts on N and P cycling could be stabilized and eventually reversed, with concomitant major relief of stress on C cycling.</Text>
+            <Text>The resource demands of Earth’s population, which may exceed eleven billion people by 2100 {United Nations, 2015, #94734}, will likely continue to intensify stresses on ecosystem services {World Resources Institute, 2005, #12568; Boyd and Banzhaf, 2007, #49938}. One of the most pressing threats is overloading of the global N and P biogeochemical cycles via excess agricultural fertilizer/manure application and incompletely treated sewage, a consequence of inadequate infrastructure investment {Rockström et al., 2009, #94424; Steffen et al., 2015, #78923}. The fresh and marine waters that receive these excess nutrients are experiencing an increase in the frequency and extent of harmful algal blooms (HABs), leading to larger, more frequent, and more persistent hypoxic dead zones, as well as increasing negative human health effects {Hallegraeff, 1993, #70258; Heisler et al., 2008, #9953}.  Additionally, unsustainable fossil fuel extraction and combustion are overloading the global C biogeochemical cycle, warming our climate  and acidifying our oceans {Pachauri et al., 2014, #63677; Mostofa et al., 2015, #46684}. Human activity and biogeochemical cycles are tightly coupled with photosynthesis, as primary production fixes environmental C, N, and P into biomass. Thus if photosynthesis could be greatly expanded on a global scale and the resulting biomass effectively managed, stresses on multiple Earth systems could be relieved. With sufficiently large increases in primary production, negative impacts on N and P cycling could be stabilized and eventually reversed, with concomitant major relief of stress on C cycling.</Text>
         </Document>
         <Document ID="69">
             <Title>(Global Runoff Data Centre, 2007) Major River Basins of the World</Title>
@@ -452,7 +587,55 @@ Market capacity far in excess of production capacity in FL.</Text>
         </Document>
         <Document ID="210">
             <Title>Table 2</Title>
-            <Text>
+            <Text>Table 2
+Basin
+ATSArea
+ATSProp
+Yangtze
+5077454.0
+0.13342392
+Ganges
+4962623.1
+0.13040643
+Indus
+2414066.0
+0.06343615
+Huai
+2257165.2
+0.05931316
+Mississippi
+2046874.7
+0.05378720
+Huang
+2037279.5
+0.05353506
+Parana
+1809560.0
+0.04755111
+Yongding
+ 924073.2
+0.02428254
+Amur
+ 855217.1
+0.02247316
+Xi Jiang
+ 786430.8
+0.02066561
+Krishna
+ 691956.8
+0.01818305
+Godavari
+ 675388.1
+0.01774766
+Mekong
+ 578318.5
+0.01519689
+Brahmaputra
+ 536416.3
+0.01409580
+Uruguay
+ 518129.8
+0.01361527
 Table 2. Highest priority basins.</Text>
         </Document>
         <Document ID="42">
@@ -785,7 +968,52 @@ Can work out LHFL and areal loading only indirectly. Perhaps convert ATS functio
         </Document>
         <Document ID="221">
             <Title>Table 3</Title>
-            <Text>
+            <Text>Table 3. Main Variables and Model Paramenters
+variable
+value
+unit
+cap_lo
+2.5e+05
+$ ha-1
+cap_hi
+1e+06
+$ ha-1
+op_lo
+3.3e+04
+$ ha-1 yr-1
+op_hi
+7e+04
+$ ha-1 yr-1
+op_life_long
+4e+01
+yr
+op_life_short
+2e+01
+yr
+betterNP.exp
+2.3e+12
+$
+betterNP.bm
+3.1e+09
+t yr-1
+worseNP.exp
+6.1e+12
+$
+worseNP.bm
+3.1e+09
+t yr-1
+betterC.exp
+1.6e+13
+$
+betterC.bm
+2.2e+10
+t yr-1
+worseC.exp
+4.3e+13
+$
+worseC.bm
+2.2e+10
+t yr-1
 Table 3. Main variables and model parameters.</Text>
         </Document>
         <Document ID="124">
@@ -1272,7 +1500,6 @@ Figure 4. Limiting nutrient and algal cultivation required for nutrient recyclin
         <Document ID="209">
             <Title>Figure 3</Title>
             <Text>#
-
 Figure 3. Relation of biomass productivity to degrees of latitude (north or south). Model was constructed by assigning 9.1 × 103 t ha-1 yr-1 to 0° and 9.1 × 103 t ha-1 yr-1 to 40° and deriving a linear relation.</Text>
         </Document>
         <Document ID="161">
