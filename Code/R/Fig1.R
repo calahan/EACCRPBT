@@ -1,6 +1,6 @@
 library(Calahanlab)
 library(ggplot2)
-library(rgdal)
+#library(rgdal)
 library(tiff)
 source("Code/R/Settings.R")
 
@@ -62,8 +62,8 @@ yoff <- -35
 cex <- 1.0
 AssemblePanels(fig_fn, per_row, in_fn, fig_wid, fig_gap, fig_rdpi, labels, lable_cols, xoff, yoff, cex)
 AddArrows2TIFF(fig_fn, fig_fn,
-               c(219, 1231, 607, 1337, 1377, 1425, 1501, 1516),   # x's
-               c(2062, 2152, 996, 1840, 1850, 1856, 1864, 1924),  # y's
+               c(219, 1231, 607, 1337, 1377, 1425, 1501, 1558),   # x's
+               c(2062, 2152, 996, 1840, 1850, 1856, 1864, 1940),  # y's
                c(25, 25, 25, 15, 15, 15, 15, 15),                 # base widths
                c(40, 40, 40, 24, 24, 24, 24, 24),                 # base heights
                c(40, 40, 40, 24, 24, 24, 24, 24),                 # head widths
