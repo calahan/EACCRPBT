@@ -1,11 +1,9 @@
 library(Calahanlab)
 library(ggplot2)
-#library(rgdal)
 library(tiff)
 source("Code/R/Settings.R")
 
-this_fig_dir <- paste0(fig_dir, "Figure 1/")
-#ss_ix <- 7 #[todo] put these by default in ss_ix=1 and set them via Settings.R
+fig_dir <- paste0(fig_dir, "Figure 1/")
 
 # Load geospatial data sets.
 bbox_df <- readOGR(bbox_fn, bbox)
@@ -14,10 +12,7 @@ lake_df <- readOGR(lake_fn, lake)
 river_df <- readOGR(river_fn, river)
 
 # Prepare ATS locations data.
-loc <- "EACCRPBT.xlsx"
-loc_fn <- paste0(ss_dir, loc)
-loc_df <- gdata::read.xls(loc_fn, 2) # Warning or notification appears to be OK (Wide character in print at .../Library/R/3.3/library/gdata/perl/xls2csv.pl line 327.)
-# tbl_loc_df <- data.frame(long=loc_df$long, lat=loc_df$lat, citation=loc_df$citation)
+loc_df <- gdata::read.xls(ss_fn, 2) # Warning or notification appears to be OK (Wide character in print at .../Library/R/3.3/library/gdata/perl/xls2csv.pl line 327.)
 map_loc_df <- loc_df[loc_df$status=="good",]
 map_loc_df <- data.frame(long=map_loc_df$long, lat=map_loc_df$lat, type=map_loc_df$type)
 map_loc_df$size <- 0.1
@@ -34,7 +29,7 @@ ftriver_df <- fortify(spTransform(river_df, proj))
 fmap_loc_df <- as.data.frame(spTransform(map_loc_df, proj))
 
 # Create map image, trim white border.
-fig_fn <- paste0(this_fig_dir, "E.tiff")
+fig_fn <- paste0(fig_dir, "E.tiff")
 fig_rline <- 0.01               # river line size
 fig_bline <- 0.1                # basin line size
 plot <- ggplot(data = ftbbox_df, aes(x = long, y = lat)) +
@@ -50,8 +45,8 @@ RemoveWhiteEdges(fig_fn, fig_fn, fig_rdpi)
 
 # Assemble figure
 #
-fig_fn <- paste0(this_fig_dir, "Figure 1.tiff")
-in_fn <- paste0(this_fig_dir, c("A.tiff", "B.tiff", "C.tiff", "D.tiff", "E.tiff"))
+fig_fn <- paste0(fig_dir, "Figure 1.tiff")
+in_fn <- paste0(fig_dir, c("A.tiff", "B.tiff", "C.tiff", "D.tiff", "E.tiff"))
 per_row <- c(1,2,2)
 fig_gap <- 1/16
 dpi <- 300
