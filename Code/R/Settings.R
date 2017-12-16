@@ -73,5 +73,3 @@ theme_opts <- list(theme(axis.line = element_blank(),
 ss_fn <- paste0(ss_dir, "EACCRPBT.xlsx")
 Rvars_ws <- gdata::read.xls(ss_fn, 1)
 ret <- mapply(assign, as.character(Rvars_ws$var), Rvars_ws$val, MoreArgs = list(envir = .GlobalEnv))
-#pop_df <- gdata::read.xls(ss_fn, 9)
-#Population <- pop_df$population
