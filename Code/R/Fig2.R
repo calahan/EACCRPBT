@@ -5,14 +5,14 @@ source("Code/R/EACCRPBT.R")
 source("Code/R/Settings.R")
 
 # Folders and files
-this_fig_dir <- paste0(fig_dir, "Figure 2/")
+fig_dir <- paste0(fig_dir, "Figure 2/")
 
-A_fn <- paste0(this_fig_dir, "A.tiff")
-B_fn <- paste0(this_fig_dir, "B.tiff")
-C_fn <- paste0(this_fig_dir, "C.tiff")
-D_fn <- paste0(this_fig_dir, "D.tiff")
-fig_fn <- paste0(this_fig_dir, "Figure 2.tiff")
-panel_fns <- paste0(this_fig_dir, c("A.tiff", "B.tiff", "C.tiff", "D.tiff"))
+A_fn <- paste0(fig_dir, "A.tiff")
+B_fn <- paste0(fig_dir, "B.tiff")
+C_fn <- paste0(fig_dir, "C.tiff")
+D_fn <- paste0(fig_dir, "D.tiff")
+fig_fn <- paste0(fig_dir, "Figure 2.tiff")
+panel_fns <- paste0(fig_dir, c("A.tiff", "B.tiff", "C.tiff", "D.tiff"))
 
 # Load and transform geographical data
 bbox_df <- readOGR(bbox_fn, bbox)
