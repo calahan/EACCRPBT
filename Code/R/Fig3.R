@@ -4,8 +4,8 @@ source("Code/R/EACCRPBT.R")
 source("Code/R/Settings.R")
 
 # Figure 3 - linear productivity model
-this_fig_dir <- paste0(fig_dir, "Figure 3/")
-fig_fn <- paste0(this_fig_dir, "Figure 3.tiff")
+fig_dir <- paste0(fig_dir, "Figure 3/")
+fig_fn <- paste0(fig_dir, "Figure 3.tiff")
 
 a3_df <- data.frame(lat=c(0, 90))
 a3_df$prod <- mod_m * a3_df$lat + mod_b
