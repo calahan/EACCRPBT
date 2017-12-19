@@ -8,14 +8,14 @@ input_df <- read.table(input_fn)
 ret <- mapply(assign, as.character(input_df$var), input_df$val, MoreArgs = list(envir = .GlobalEnv))
 
 # Variables specific to this module
-this_fig_dir <- paste0(fig_dir, "Figure 5/")
-fig_fn <- paste0(this_fig_dir, "Figure 5.tiff")
-A_fn <- paste0(this_fig_dir, "A.tiff")
-B_fn <- paste0(this_fig_dir, "B.tiff")
-C_fn <- paste0(this_fig_dir, "C.tiff")
-D_fn <- paste0(this_fig_dir, "D.tiff")
-E_fn <- paste0(this_fig_dir, "E.tiff")
-F_fn <- paste0(this_fig_dir, "F.tiff")
+fig_dir <- paste0(fig_dir, "Figure 5/")
+fig_fn <- paste0(fig_dir, "Figure 5.tiff")
+A_fn <- paste0(fig_dir, "A.tiff")
+B_fn <- paste0(fig_dir, "B.tiff")
+C_fn <- paste0(fig_dir, "C.tiff")
+D_fn <- paste0(fig_dir, "D.tiff")
+E_fn <- paste0(fig_dir, "E.tiff")
+F_fn <- paste0(fig_dir, "F.tiff")
 imgs <- c(A_fn, B_fn, C_fn, D_fn, E_fn, F_fn)
 
 tbl3_title <- "Table 3. Main Variables and Model Paramenters"

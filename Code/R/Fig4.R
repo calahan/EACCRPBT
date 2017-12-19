@@ -4,13 +4,13 @@ library(rgdal)
 source("Code/R/EACCRPBT.R")
 source("Code/R/Settings.R")
 
-this_fig_dir <- paste0(fig_dir, "Figure 4/")
-fig_fn <- paste0(this_fig_dir, "Figure 4.tiff")
-A_fn <- paste0(this_fig_dir, "A.tiff")
-B_fn <- paste0(this_fig_dir, "B.tiff")
-C_fn <- paste0(this_fig_dir, "C.tiff")
-D_fn <- paste0(this_fig_dir, "D.tiff")
-panel_fns <- paste0(this_fig_dir, c("A.tiff", "B.tiff", "C.tiff", "D.tiff"))
+fig_dir <- paste0(fig_dir, "Figure 4/")
+fig_fn <- paste0(fig_dir, "Figure 4.tiff")
+A_fn <- paste0(fig_dir, "A.tiff")
+B_fn <- paste0(fig_dir, "B.tiff")
+C_fn <- paste0(fig_dir, "C.tiff")
+D_fn <- paste0(fig_dir, "D.tiff")
+panel_fns <- paste0(fig_dir, c("A.tiff", "B.tiff", "C.tiff", "D.tiff"))
 
 # Load geospatial data sets.
 bbox_df <- readOGR(bbox_fn, bbox)
@@ -34,11 +34,11 @@ ftbasin_df$id <- as.numeric(ftbasin_df$id) + 1 # indexing from 1 rather than 0
 
 # Useful values
 P2N <- P_prp/N_prp
-#lim_df <- NutrientLimits(nutP_df, nutN_df, P_prp, N_prp) # Returns $val in tons
 basin_ct <- nrow(Nsums_df)
 
 # Trapezoid calculations
 trap_df <- data.frame(long=NP_lim_df$long, lat=NP_lim_df$lat, val=NP_lim_df$arearat)
+trap_df <- trap_df[!is.na(trap_df$val),]
 ttrap_df <- TransformNutrientData(trap_df, fig_CRS)
 ttrap_val <- ttrap_df[which(!is.na(ttrap_df$val)),]$val
 s_ttrap_val <- sort(ttrap_val, decreasing=TRUE)
@@ -130,14 +130,13 @@ plot <- ggplot(data=ftbbox_df, aes(x=long, y=lat)) +
     scale_fill_gradientn(colors=c("red", "yellow", "green"), values=c(max(s_areas), s_areas[areas_50], s_areas[areas_90], min(s_areas))/max(s_areas), na.value=NA) +
     geom_path(data=ftriver_df, aes(x=long, y=lat, group=group), color=fig_wcol, size=fig_rline) +
     geom_polygon(data=ftlake_df, aes(x=long, y=lat, group=group), fill=fig_wcol) +
-#    geom_polygon(data=ftats_poly, aes(x=long, y=lat, group=group), fill="white") +
     theme_opts
 ggsave(fig_fn, plot=plot, width=3*orig_map_wid, height=3*orig_map_hgt, dpi=fig_rdpi)
 RemoveWhiteEdges(fig_fn, fig_fn, fig_rdpi)
 ResaveTIFF(fig_fn, fig_fn, fig_rdpi, fig_rdpi, 8)
 
 # Assemble panels into figure
-fig_fn <- paste0(this_fig_dir, "Figure 4.tiff")
+fig_fn <- paste0(fig_dir, "Figure 4.tiff")
 per_row <- c(2,2)
 fig_gap <- 1/16
 dpi <- 300

@@ -25,10 +25,11 @@ write.table(NPsums_df, NPsums_fn)
 
 # ATS Area needed, taking N or P limitation into account
 P2N <- P_prp/N_prp
-lim_df <- NutrientLimits(nutP_df, nutN_df, P_prp, N_prp)
-NP_lim_df <- TransformNutrientData(lim_df, fig_CRS, c("val", "rat", "nut", "area", "ATSarea", "biomass", "prod", "arearat"))
-#NP_lim_fn <- paste0(work_dir, "NPlim")
+NP_lim_df <- NutrientLimits(nutP_df, nutN_df, P_prp, N_prp)
 write.table(NP_lim_df, NP_lim_fn)
+#NP_lim_df <- TransformNutrientData(lim_df, fig_CRS, c("val", "rat", "nut", "area", "ATSarea", "biomass", "prod", "arearat"))
+#NP_lim_fn <- paste0(work_dir, "NPlim")
+#write.table(NP_lim_df, NP_lim_fn)
 
 area_df <- data.frame(long=lim_df$long, lat=lim_df$lat, val=lim_df$ATSarea) # ATSarea in ha
 area_sums_df <- SumNutrientsByBasin(area_df, basin_df)
