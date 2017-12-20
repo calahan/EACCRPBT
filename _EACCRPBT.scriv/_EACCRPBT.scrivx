@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="dudeons-MacBook-Pro" Modified="2017-12-19 13:01:06 -0500" ModID="6199D93C-93B3-454D-890F-A1DC3446421E">
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="dudeons-MacBook-Pro" Modified="2017-12-19 13:33:41 -0500" ModID="2E3DE919-26B2-42E6-B61E-988DDF021F58">
     <Binder>
         <BinderItem ID="0" UUID="FE069D65-DA4F-45A8-9CA1-D8DA21160B10" Type="DraftFolder" Created="2017-07-12 11:08:08 -0400" Modified="2017-07-12 11:08:08 -0400">
             <Title>Draft</Title>
@@ -1962,7 +1962,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="57376F70-40A4-4615-8146-8BC33E1D40BC" Color="0.922 0.91 0.98">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No">lane mile</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No">net </SearchSettings>
         </Collection>
     </Collections>
     <LabelSettings>
