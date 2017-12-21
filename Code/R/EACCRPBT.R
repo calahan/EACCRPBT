@@ -1,5 +1,25 @@
+# Copyright 2017 by Steven Dean Calahan
+#
+# This file is part of the publication "Expanding Algal Cultivation Can Reverse
+# Planetary Boundary Transgressions" (EACCRPBT).
+#
+# The software component of EACCRPBT is free software: you can redistribute it
+# and/or modify it under the terms of the GNU General Public License as published
+# by the Free Software Foundation, either version 3 of the License, or (at your
+# option) any later version.
+
+# The software component of EACCRPBT is distributed in the hope that it will be
+# useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public
+# License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with the software component of EACCRPBT. If not, see <http://www.gnu.org/licenses/>.
+#
 library(rgdal)
 library(tiff)
+library(Calahanlab)
+source("Code/R/Settings.R")
 
 #
 BasinNames <- function(df) {
@@ -206,6 +226,7 @@ LoadNutrientData <- function(dir, nutrient) {
 # Spatial Reference: GCS_WGS_1984
 # Datum: D_WGS_1984
 #
+# [todo] look into read.asciigrid, ESRI ascii grid loader
 # Notes: Saving the data frame with write.table then reloading doesn't necessarily
 # work as a perf enhancment; loading the resulting file is slower than building
 # from scratch.
