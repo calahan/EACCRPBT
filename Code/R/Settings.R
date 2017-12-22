@@ -16,18 +16,29 @@
 # You should have received a copy of the GNU General Public License
 # along with the software component of EACCRPBT. If not, see <http://www.gnu.org/licenses/>.
 #
+library(Calahanlab)
 library(ggplot2)
 
 # Directory names
-work_dir <- "Code/Working/"                 # PanDoc friendly for intermediate results
-cont_dir <-  "Data/NaturalEarth/"           # Continents shapefile
-lake_dir <-  "Data/GRDC/"                   # Lakes shapefile
-river_dir <-  "Data/GRDC/"                  # Rivers shapefile
-basin_dir <- "Data/GRDC/"                   # Basin polygons shapefile
-nut_dir <- "Data/EarthStat/FertilizerBalance_Ascii/"    # ESRI grid data of nutrients
-ss_dir <- "Data/Spreadsheets/"              # ATS locations
-fig_dir <- "Visual Elements/Figures/"       # Figures
-tbl_dir <- "Visual Elements/Tables/"        # Tables
+# work_dir <- "Code/Working/"                 # PanDoc friendly for intermediate results
+# cont_dir <-  "Data/NaturalEarth/"           # Continents shapefile
+# lake_dir <-  "Data/GRDC/"                   # Lakes shapefile
+# river_dir <-  "Data/GRDC/"                  # Rivers shapefile
+# basin_dir <- "Data/GRDC/"                   # Basin polygons shapefile
+# nut_dir <- "Data/EarthStat/FertilizerBalance_Ascii/"    # ESRI grid data of nutrients
+# ss_dir <- "Data/Spreadsheets/"              # ATS locations
+# fig_dir <- "Visual Elements/Figures/"       # Figures
+# tbl_dir <- "Visual Elements/Tables/"        # Tables
+
+work_dir <- PathString(list("Code", "Working"))                 # PanDoc friendly for intermediate results
+cont_dir <- PathString(list("Data", "NaturalEarth"))            # Continents shapefile
+lake_dir <- PathString(list("Data", "GRDC"))                    # Lakes shapefile
+river_dir <- PathString(list("Data", "GRDC"))                   # Rivers shapefile
+basin_dir <- PathString(list("Data", "GRDC"))                   # Basin polygons shapefile
+nut_dir <- PathString(list("Data", "EarthStat", "FertilizerBalance_Ascii"))    # ESRI grid data of nutrients
+ss_dir <- PathString(list("Data", "Spreadsheets"))              # ATS locations
+fig_dir <- PathString(list("Visual Elements", "Figures"))       # Figures
+tbl_dir <- PathString(list("Visual Elements", "Tables"))        # Tables
 
 # File names
 areas <- "areas"
