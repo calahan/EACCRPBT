@@ -1,86 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <SearchIndexes Version="1.0">
     <Documents>
+        <Document ID="7">
+            <Title>Introduction</Title>
+            <Text>This appendix contains a complete listing (Table A1) of prioritized basins listed in Table 2 in the manuscript  and codebooks for the datasets computed by Precompute.R.</Text>
+        </Document>
         <Document ID="3">
-            <Title>Table A2</Title>
+            <Title>Nsums, Psums, NPsums codebook</Title>
         </Document>
         <Document ID="4">
             <Title>Table A1</Title>
             <Text>
 Table A1. Summary of results for all basins.</Text>
         </Document>
-        <Document ID="5">
-            <Title>Table A3</Title>
-            <Text>Variable
-Value
-Unit
-N_xs
-5.00 × 1010
-kg yr-1
-P_xs
-8.10 × 109
-kg yr-1
-trap_N_ct
-5.10 × 105
-ct
-basin_N_ct
-2.20 × 102
-ct
-trap_P_ct
-1.90 × 105
-ct
-basin_P_ct
-9.50 × 101
-ct
-prod_hi
-9.10 × 104
-kg ha-1 yr-1
-prod_lo
-5.50 × 104
-kg ha-1 yr-1
-mod_lat_hi
-4.00 × 101
-deg
-mod_lat_eq
-0.00 × 100
-deg
-max_lat_nut
-7.00 × 101
-deg
-max_lat_prod
-2.70 × 104
-kg ha-1 yr-1
-N_area
-4.70 × 107
-ha
-P_area
-2.80 × 106
-ha
-tot_area
-4.90 × 107
-ha
-N_bas_area
-3.40 × 107
-ha
-P_bas_area
-3.90 × 106
-ha
-tot_bas_area
-3.80 × 107
-ha
-biomass
-3.10 × 1012
-kg yr-1
-world_npp
-3.30 × 102
-rat
-ag_npp
-9.10 × 100
-rat
-mean_prod
-6.40 × 101
-t ha-1 yr-1
-</Text>
+        <Document ID="9">
+            <Title>Areas codebook</Title>
+        </Document>
+        <Document ID="6">
+            <Title>Title</Title>
+            <Text>Appendix to “Expanded Algal Cultivation Can Reverse Planetary Boundary Transgressions”</Text>
+        </Document>
+        <Document ID="10">
+            <Title>NPlim codebook</Title>
         </Document>
     </Documents>
 </SearchIndexes>

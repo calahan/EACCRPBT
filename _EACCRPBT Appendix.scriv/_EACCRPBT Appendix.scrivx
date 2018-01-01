@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="dudeons-MacBook-Pro" Modified="2017-11-22 14:49:50 -0500" ModID="E55CD7DE-826A-40E0-A4A7-3D1E8F61AF4D">
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="dudeons-MacBook-Pro" Modified="2018-01-01 15:33:16 -0500" ModID="45638AC5-A34C-4DA1-B9E5-80ED480623CD">
     <Binder>
         <BinderItem ID="0" UUID="B6991AA0-E6E3-4999-B25C-CAD7949D81E5" Type="DraftFolder" Created="2017-10-24 07:35:25 -0400" Modified="2017-10-24 07:35:25 -0400">
             <Title>Draft</Title>
@@ -7,6 +7,26 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
+                <BinderItem ID="6" UUID="4444D361-231B-4E22-A293-EDD6B1D7CDF7" Type="Text" Created="2018-01-01 14:42:51 -0500" Modified="2018-01-01 14:43:58 -0500">
+                    <Title>Title</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>86,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="7" UUID="0BC78B13-CF3F-44E0-A046-3B4DC5C86802" Type="Text" Created="2018-01-01 14:44:13 -0500" Modified="2018-01-01 15:30:49 -0500">
+                    <Title>Introduction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>168,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
                 <BinderItem ID="4" UUID="2E5246F7-51B4-42C1-903E-930620655B2F" Type="Text" Created="2017-07-17 14:18:00 -0400" Modified="2017-09-04 14:46:24 -0400">
                     <Title>Table A1</Title>
                     <MetaData>
@@ -14,11 +34,11 @@
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>0,0</TextSelection>
+                        <TextSelection>7,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="3" UUID="674F3290-0CA9-4C6F-A322-8FED102D0215" Type="Text" Created="2017-10-24 07:35:25 -0400" Modified="2017-10-24 09:20:29 -0400">
-                    <Title>Table A2</Title>
+                <BinderItem ID="3" UUID="674F3290-0CA9-4C6F-A322-8FED102D0215" Type="Text" Created="2017-10-24 07:35:25 -0400" Modified="2018-01-01 15:32:20 -0500">
+                    <Title>Nsums, Psums, NPsums codebook</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <NotesTextSelection>0,0</NotesTextSelection>
@@ -27,14 +47,24 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="5" UUID="E7DBB7DD-29C3-430A-9E34-47709DABD915" Type="Text" Created="2017-10-24 09:20:31 -0400" Modified="2017-11-22 14:49:50 -0500">
-                    <Title>Table A3</Title>
+                <BinderItem ID="9" UUID="81C8268F-A059-418A-8647-70E1D37B42BA" Type="Text" Created="2018-01-01 15:32:35 -0500" Modified="2018-01-01 15:32:53 -0500">
+                    <Title>Areas codebook</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>117,0</TextSelection>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="10" UUID="E276DE8E-968B-41AA-9E03-CC9D12B0F7EA" Type="Text" Created="2018-01-01 15:32:54 -0500" Modified="2018-01-01 15:32:59 -0500">
+                    <Title>NPlim codebook</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -84,7 +114,7 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2017-10-24 07:35:24 -0400" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="113" Characters="597" Date="2017-11-22 14:49:42 -0500"></PreviousSession>
+        <PreviousSession Words="36" Characters="254" Date="2018-01-01 14:20:46 -0500"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
