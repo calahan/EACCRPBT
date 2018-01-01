@@ -267,11 +267,13 @@ MetersPerDegree <- function(lat, rad=6378) {
     return(2 * pi * ((rad * 1000) * cos(lat * 2 * pi / 360)) / 360)
 }
 #
-NutrientDataProduct <- function(nut1_df, nut2_df) {
-# Actually the sqrt of the product
-    # Defined only where both nutrients exist
-    t1 <- !is.na(nut1_df$val)
-    t2 <- !is.na(nut2_df$val)
+RankNutrientData <- function(nut1_df, nut2_df) {
+# Heuristic: Locations with excess of both nut1 and nut2 rank highest. Where nut_1$val
+# and nut_2$val are postive, the ranking metric is the square root of their product.
+# Locations
+# Defined only where both nutrients exist
+    t1 <- !is.na(nut1_df$val) & nut1_df$val > 0
+    t2 <- !is.na(nut2_df$val) & nut2_df$val > 0
     t3 <- t1 & t2
     ret_df <- nut1_df
     ret_df$val <- NA
@@ -299,8 +301,8 @@ NutrientLimits <- function(a_df, b_df, a_prop, b_prop) {
     lim_df <- data.frame(long=a_df$long, lat=a_df$lat, val=NA, rat=NA, nut=NA, area=NA, ATSarea=NA, biomass=NA)
     lim_df[a_ix,]$nut <- "P"
     lim_df[b_ix,]$nut <- "N"
-    lim_df[a_ix,]$rat <- rats[which(a_lim)]             # [todo]is this used?
-    lim_df[b_ix,]$rat <- rats[which(b_lim)]             # [todo]is this used?
+    # lim_df[a_ix,]$rat <- rats[which(a_lim)]             # [todo]is this used?
+    # lim_df[b_ix,]$rat <- rats[which(b_lim)]             # [todo]is this used?
     lim_df[a_ix,]$val <- b_df[a_ix,]$val/1000           # going from kg to t, want the value of the non-limiting nutrient
     lim_df[b_ix,]$val <- a_df[b_ix,]$val/1000           # going from kg to t, want the value of the non-limiting nutrient
     lim_df$area <- LatLongTrapezoidArea(lim_df$lat, 1/12)/(100*100) # function returns m^2, want ha

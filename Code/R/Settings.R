@@ -20,17 +20,7 @@ library(Calahanlab)
 library(ggplot2)
 
 # Directory names
-# work_dir <- "Code/Working/"                 # PanDoc friendly for intermediate results
-# cont_dir <-  "Data/NaturalEarth/"           # Continents shapefile
-# lake_dir <-  "Data/GRDC/"                   # Lakes shapefile
-# river_dir <-  "Data/GRDC/"                  # Rivers shapefile
-# basin_dir <- "Data/GRDC/"                   # Basin polygons shapefile
-# nut_dir <- "Data/EarthStat/FertilizerBalance_Ascii/"    # ESRI grid data of nutrients
-# ss_dir <- "Data/Spreadsheets/"              # ATS locations
-# fig_dir <- "Visual Elements/Figures/"       # Figures
-# tbl_dir <- "Visual Elements/Tables/"        # Tables
-
-work_dir <- PathString(list("Code", "Working"))                 # PanDoc friendly for intermediate results
+work_dir <- PathString(list("Code", "Working"))                 # To store results of Precompute.R
 cont_dir <- PathString(list("Data", "NaturalEarth"))            # Continents shapefile
 lake_dir <- PathString(list("Data", "GRDC"))                    # Lakes shapefile
 river_dir <- PathString(list("Data", "GRDC"))                   # Rivers shapefile

@@ -21,7 +21,7 @@ source("Code/R/EACCRPBT.R")
 # External datasets
 nutN_df <- LoadNutrientData(nut_dir, "nitrogen")
 nutP_df <- LoadNutrientData(nut_dir, "phosphorus")
-nutNP_df <- NutrientDataProduct(nutN_df, nutP_df)
+#nutNP_df <- RankNutrientData(nutN_df, nutP_df)
 basin_df <- readOGR(basin_fn, basin)
 
 # Calculate nutrient data per trapezoid
