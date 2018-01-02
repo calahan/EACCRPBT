@@ -30,10 +30,10 @@ lim_df <- NutrientLimits(nutP_df, nutN_df, P_prp, N_prp) # $val in tons
 # Sum nutrient data over basins
 Nsums_df <- SumNutrientsByBasin(nutN_df, basin_df)
 Psums_df <- SumNutrientsByBasin(nutP_df, basin_df)
-NPsums_df <- SumNutrientsByBasin(nutNP_df, basin_df)
+#NPsums_df <- SumNutrientsByBasin(nutNP_df, basin_df)
 write.table(Nsums_df, Nsums_fn)
 write.table(Psums_df, Psums_fn)
-write.table(NPsums_df, NPsums_fn)
+#write.table(NPsums_df, NPsums_fn)
 
 # ATS Area needed, taking N or P limitation into account
 P2N <- P_prp/N_prp

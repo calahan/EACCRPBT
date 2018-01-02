@@ -39,7 +39,7 @@ river <- "GRDC_687_rivers"
 basin <- "GRDC_405_basins_from_mouth"
 Nsums <- "Nsums"
 Psums <- "Psums"
-NPsums <- "NPSums"
+#NPsums <- "NPSums"
 NP_lim <- "NPlim"
 
 # Fully qualified path names
@@ -51,7 +51,7 @@ river_fn <- paste0(river_dir, river)
 basin_fn <- paste0(basin_dir, basin)
 Nsums_fn <- paste0(work_dir, Nsums)
 Psums_fn <- paste0(work_dir, Psums)
-NPsums_fn <- paste0(work_dir, NPsums)
+#NPsums_fn <- paste0(work_dir, NPsums)
 NP_lim_fn <- paste0(work_dir, NP_lim)
 
 # Figure settings
