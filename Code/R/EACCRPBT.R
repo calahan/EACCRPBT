@@ -434,11 +434,11 @@ SumNutrientsByBasin <- function(nut_df, basin_df) {
 }
 #
 TransformNutrientData <- function(nut_df, proj, cols=c("val")) {
-# Transform nutrient data to Robinson. [todo] Hard coded initial proj4string
+# Transform nutrient data to Robinson.
     df <- data.frame(spTransform(
         SpatialPointsDataFrame(subset(nut_df, select=c(long, lat)),
                                subset(nut_df, select=cols),
-                               proj4string = CRS('+init=epsg:4326')),
+                               proj4string = CRS('+init=epsg:4326')), # hard-coded just to have something
         CRS(proj)))
     return(df)
 }

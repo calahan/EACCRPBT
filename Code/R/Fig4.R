@@ -8,9 +8,9 @@ fig_dir <- paste0(fig_dir, "Figure 4/")
 fig_fn <- paste0(fig_dir, "Figure 4.tiff")
 A_fn <- paste0(fig_dir, "A.tiff")
 B_fn <- paste0(fig_dir, "B.tiff")
-C_fn <- paste0(fig_dir, "C.tiff")
-D_fn <- paste0(fig_dir, "D.tiff")
-panel_fns <- paste0(fig_dir, c("A.tiff", "B.tiff", "C.tiff", "D.tiff"))
+# C_fn <- paste0(fig_dir, "C.tiff")
+# D_fn <- paste0(fig_dir, "D.tiff")
+panel_fns <- paste0(fig_dir, c("A.tiff", "B.tiff"))
 
 # Load geospatial data sets.
 bbox_df <- readOGR(bbox_fn, bbox)
@@ -37,13 +37,16 @@ P2N <- P_prp/N_prp
 basin_ct <- nrow(Nsums_df)
 
 # Trapezoid calculations
-trap_df <- data.frame(long=NP_lim_df$long, lat=NP_lim_df$lat, val=NP_lim_df$arearat)
+# Gather coordinates,
+trap_df <- data.frame(long=NP_lim_df$long, lat=NP_lim_df$lat, val=NP_lim_df$ATSarea)
+#trap_df <- data.frame(long=NP_lim_df$long, lat=NP_lim_df$lat, nut= NP_lim_df$nut, area= NP_lim_df$ATSarea, rat=NP_lim_df$arearat)
 trap_df <- trap_df[!is.na(trap_df$val),]
 ttrap_df <- TransformNutrientData(trap_df, fig_CRS)
+
 ttrap_val <- ttrap_df[which(!is.na(ttrap_df$val)),]$val
 s_ttrap_val <- sort(ttrap_val, decreasing=TRUE)
-trap_10 <- max(which(s_ttrap_val > 0.1))
-trap_01 <- max(which(s_ttrap_val > 0.01))
+# trap_10 <- max(which(s_ttrap_val > 0.1))
+# trap_01 <- max(which(s_ttrap_val > 0.01))
 ntrap_90 <- WhichFewResponsible(s_ttrap_val, 0.9)
 ntrap_50 <- WhichFewResponsible(s_ttrap_val, 0.5)
 
@@ -76,37 +79,8 @@ for(i in 1:basin_ct) {
 ATSarea_df <- data.frame(id=id, basin_area=basin_area, ATs_area=area_sums$val, long=long, lat=lat, name=area_sums$name, nut=lims)
 ftarea_sums <- merge(ftbasin_df, area_sums, by="id")
 
-# 4A - N or P Limited, trapezoids.
+# 4A - ATS Area needed, trapezoids
 fig_fn <- A_fn
-plot <- ggplot(data=ftbbox_df, aes(x=long, y=lat)) +
-    geom_polygon(fill=fig_wcol) +
-    geom_polygon(data=ftcont_df, aes(x=long, y=lat, group=group), fill=fig_ccol) +
-    geom_point(data=NP_lim_df, aes(x=long, y=lat, color=nut), shape=fig_pt_sh, size=fig_pt_sz) +
-    scale_color_manual(values=NP_pal) +
-    geom_polygon(data=ftbasin_df, aes(x=long, y=lat, group=group), fill=NA, color=fig_bcol, size=fig_bline) +
-    geom_path(data=ftriver_df, aes(x=long, y=lat, group=group), color=fig_wcol, size=fig_rline) +
-    geom_polygon(data=ftlake_df, aes(x=long, y=lat, group=group), fill=fig_wcol) +
-    theme_opts
-ggsave(fig_fn, plot=plot, width=3*orig_map_wid, height=3*orig_map_hgt, dpi=fig_rdpi)
-RemoveWhiteEdges(fig_fn, fig_fn, fig_rdpi)
-ResaveTIFF(fig_fn, fig_fn, fig_rdpi, fig_rdpi, 8)
-
-# 4B - N or P Limited, basins.
-fig_fn <- B_fn
-plot <- ggplot(data=ftbbox_df, aes(x=long, y=lat)) +
-    geom_polygon(fill=fig_wcol) +
-    geom_polygon(data=ftcont_df, aes(x=long, y=lat, group=group), fill=fig_ccol) +
-    geom_polygon(data=plot_df[plot_df$hole==FALSE,], aes(x=long, y=lat, group=group, fill=lim), color=fig_bcol, size=fig_bline) +
-    scale_fill_manual(values=NP_pal) +
-    geom_path(data=ftriver_df, aes(x=long, y=lat, group=group), color=fig_wcol, size=fig_rline) +
-    geom_polygon(data=ftlake_df, aes(x=long, y=lat, group=group), fill=fig_wcol) +
-    theme_opts
-ggsave(fig_fn, plot=plot, width=3*orig_map_wid, height=3*orig_map_hgt, dpi=fig_rdpi)
-RemoveWhiteEdges(fig_fn, fig_fn, fig_rdpi)
-ResaveTIFF(fig_fn, fig_fn, fig_rdpi, fig_rdpi, 8)
-
-# 4C - ATS Area needed, trapezoids
-fig_fn <- C_fn
 plot <- ggplot(data=ftbbox_df, aes(x=long, y=lat)) +
     geom_polygon(fill=fig_wcol) +
     geom_polygon(data=ftcont_df, aes(x=long, y=lat, group=group), fill=fig_ccol) +
@@ -121,8 +95,8 @@ ggsave(fig_fn, plot=plot, width=3*orig_map_wid, height=3*orig_map_hgt, dpi=fig_r
 RemoveWhiteEdges(fig_fn, fig_fn, fig_rdpi)
 ResaveTIFF(fig_fn, fig_fn, fig_rdpi, fig_rdpi, 8)
 
-# 4D - ATS Area needed, basins.
-fig_fn <- D_fn
+# 4B - ATS Area needed, basins.
+fig_fn <- B_fn
 plot <- ggplot(data=ftbbox_df, aes(x=long, y=lat)) +
     geom_polygon(fill=fig_wcol) +
     geom_polygon(data=ftcont_df, aes(x=long, y=lat, group=group), fill=fig_ccol) +
@@ -137,11 +111,12 @@ ResaveTIFF(fig_fn, fig_fn, fig_rdpi, fig_rdpi, 8)
 
 # Assemble panels into figure
 fig_fn <- paste0(fig_dir, "Figure 4.tiff")
-per_row <- c(2,2)
+#per_row <- c(2,2)
+per_row <- c(1,1)
 fig_gap <- 1/16
 dpi <- 300
-labels <- LETTERS[1:4]
-label_cols <- rep("black", 4)
+labels <- LETTERS[1:2]
+label_cols <- rep("black", 2)
 xoff <- 30
 yoff <- -35
 cex <- 1.0
