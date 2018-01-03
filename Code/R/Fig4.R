@@ -1,3 +1,21 @@
+# Copyright 2017 by Steven Dean Calahan
+#
+# This file is part of the publication "Expanding Algal Cultivation Can Reverse
+# Planetary Boundary Transgressions" (EACCRPBT).
+#
+# The software component of EACCRPBT is free software: you can redistribute it
+# and/or modify it under the terms of the GNU General Public License as published
+# by the Free Software Foundation, either version 3 of the License, or (at your
+# option) any later version.
+
+# The software component of EACCRPBT is distributed in the hope that it will be
+# useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public
+# License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with the software component of EACCRPBT. If not, see <http://www.gnu.org/licenses/>.
+#
 library(Calahanlab)
 library(ggplot2)
 library(rgdal)
@@ -18,9 +36,11 @@ cont_df <- readOGR(cont_fn, cont)
 lake_df <- readOGR(lake_fn, lake)
 river_df <- readOGR(river_fn, river)
 basin_df <- readOGR(basin_fn, basin)
-NP_lim_df <- read.table(NP_lim_fn)
+
 nutN_df <- LoadNutrientData(nut_dir, "nitrogen")
 nutP_df <- LoadNutrientData(nut_dir, "phosphorus")
+
+NP_lim_df <- read.table(NP_lim_fn)
 Nsums_df <- read.table(Nsums_fn)
 Psums_df <- read.table(Psums_fn)
 

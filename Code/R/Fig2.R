@@ -101,3 +101,73 @@ xoff <- 30
 yoff <- -35
 cex <- 1.0
 AssemblePanels(fig_fn, per_row, panel_fns, fig_wid, fig_gap, fig_rdpi, labels, label_cols, xoff, yoff, cex)
+
+# Save information to be used to create ¶Nutrient Excesses
+totalcells <- nrow(nutN_df)
+totalNxs <- sum(s_Nval)
+totalPxs <- sum(s_Pval_pos)
+Ncells <- sum(!is.na(nutN_df$val) & !is.na(nutP_df$val))
+Pcells <- sum(!is.na(nutP_df$val))
+cellminN <- min(nutN_df$val, na.rm=TRUE)
+cellmaxN <- max(nutN_df$val, na.rm=TRUE)
+cellminP <-  min(nutP_df$val, na.rm=TRUE)
+cellmaxP <- max(nutP_df$val, na.rm=TRUE)
+cellhalfN <- N_wfr_50_pct
+cellhalfP <- P_wfr_50_pct
+basinNpct <- sum(Nsumsval)/totalNxs
+basinPpct <- sum(Psumsval)/totalPxs
+basinNmin <- min(Nsumsval)
+basinNmax <- max(Nsumsval)
+basinPmin <- min(Psumsval)
+basinPmax <- max(Psumsval)
+basinNhalf <- Nsums_wfr_50
+basinNhalf <- Nsums_wfr_50
+maxNname <- as.character(Nsums_df[which(Nsums_df$val == max(Nsums_df$val)),]$name)
+maxNval <-max(Nsums_df$val)
+maxPname <- as.character(Psums_df[which(Psums_df$val == max(Psums_df$val)),]$name)
+maxPval <-max(Psums_df$val)
+
+fn <- paste0(work_dir, "pNutrientExcesses_vals")
+write.table(data.frame(name=c("totalcells",
+                              "totalNxs",
+                              "totalPxs",
+                              "Ncells",
+                              "Pcells",
+                              "cellminN",
+                              "cellmaxN",
+                              "cellminP",
+                              "cellmaxP",
+                              "cellhalfN",
+                              "cellhalfP",
+                              "basinNpct",
+                              "basinPpct",
+                              "maxNval",
+                              "maxPval"),
+                       val=c(totalcells,
+                             totalNxs,
+                             totalPxs,
+                             Ncells,
+                             Pcells,
+                             cellminN,
+                             cellmaxN,
+                             cellminP,
+                             cellmaxP,
+                             cellhalfN,
+                             cellhalfP,
+                             basinNpct,
+                             basinPpct,
+                             maxNval,
+                             maxPval
+                       )),
+            fn)
+
+fn <- paste0(work_dir, "pNutrientExcesses_txt")
+write.table(data.frame(name=c("maxNname",
+                              "maxPname"),
+                         val=c(maxNname,
+                               maxPname
+                       )),
+            fn)
+
+# t <- read.table(textvars_fn)
+# t

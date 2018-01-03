@@ -29,7 +29,7 @@ lim_df <- NutrientLimits(nutP_df, nutN_df, P_prp, N_prp) # $val in tons
 
 # Sum nutrient data over basins
 Nsums_df <- SumNutrientsByBasin(nutN_df, basin_df)
-Psums_df <- SumNutrientsByBasin(nutP_df, basin_df)
+Psums_df <- SumNutrientsByBasin(nutP_df[!is.na(nutP_df$val) & nutP_df$val > 0,], basin_df) # ignore P < 0
 #NPsums_df <- SumNutrientsByBasin(nutNP_df, basin_df)
 write.table(Nsums_df, Nsums_fn)
 write.table(Psums_df, Psums_fn)
@@ -42,3 +42,21 @@ write.table(NP_lim_df, NP_lim_fn)
 area_df <- data.frame(long=lim_df$long, lat=lim_df$lat, val=lim_df$ATSarea) # ATSarea in ha
 area_sums_df <- SumNutrientsByBasin(area_df, basin_df)
 write.table(area_sums_df, area_fn)
+
+SciNotString <- function(num, digits) {
+    exp_floor <- floor(log10(num))
+    significand <- format(num/10^exp_floor, digits=digits)
+    return(paste0(significand, " × 10^", exp_floor))
+}
+
+# Variables for creating first paragraph of results.
+area_needed <- sum(NP_lim_df$ATSarea, na.rm=TRUE)
+
+# Sentence summarizing our main conclusion
+paste0("We conclude that ",
+       SciNotString(sum(area_needed), 2),
+       " ha of algal cultivation area, properly distributed, is capable of incorporating global excess nutrients into algal biomass."
+       )
+
+
+
