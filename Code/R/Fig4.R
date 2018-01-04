@@ -1,4 +1,4 @@
-# Copyright 2017 by Steven Dean Calahan
+# Copyright 2017-2018 by Steven Dean Calahan
 #
 # This file is part of the publication "Expanding Algal Cultivation Can Reverse
 # Planetary Boundary Transgressions" (EACCRPBT).
