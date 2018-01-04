@@ -84,6 +84,7 @@ BasinNames <- function(df) {
       proc_names <- CapWords(tolower(proc_names))
       proc_names <- gsub("Macarthur", "MacArthur", proc_names)
       proc_names <- gsub("Mackenzie", "MacKenzie", proc_names)
+      proc_names <- gsub("\\(hudson", "(Hudson", proc_names)
       proc_names <- gsub("\\(ca-sk\\)", "(CA-SK)", proc_names)
       proc_names <- gsub("\\(ca-nl\\)", "(CA-NL)", proc_names)
       proc_names <- gsub("\\(ra\\)", "(RA)", proc_names)
