@@ -20,12 +20,15 @@ library(Calahanlab)
 library(rtf)
 source("Code/R/Settings.R")
 
-# Table 2 (highest priority basins), and Table A2 (all basins)
+# Table 2 (highest priority basins), and Table A1 (all basins)
+# [todo] Note there still needs to be some manual editing of the generated RTF files.
+# [todo] Specifically look at rounding and replacing × with ◊.
+
 n <- 15 # number of top basins to include in highest priority
 
 # Folders and files
 tbl2_title <- "Table 2"
-tblA2_title <- "Table A2"
+tblA2_title <- "Table A1"
 tbl2_fn <- paste0(tbl_dir, tbl2_title, ".doc")
 tblA2_fn <- paste0(tbl_dir, tblA2_title, ".doc")
 areas_fn <- paste0(work_dir, "areas")
@@ -37,17 +40,22 @@ areas_df <- areas_df[order(areas_df$val, decreasing=TRUE),]
 area_tot <- sum(areas_df$val)
 area_cumsum <- cumsum(areas_df$val)/area_tot
 
+# Using format() on a vector, with numbers beyond its summarizing (e.g. digits=2 for 0.0001) defaults to ugly. Pre-clean to avoid.
+area_prop <- areas_df$val/area_tot
+area_prop_cl <- format(100 * area_prop[area_prop > .001], digits=2)
+area_prop_cl <- c(area_prop_cl, rep("< 1", length(area_prop) - length(area_prop_cl)))
+
 tbl2_df <- data.frame(Basin=areas_df[1:n,]$name,
                       ATSArea=Sci2RTF(areas_df[1:n,]$val, digits=2),
-                      ATSProp=Sci2RTF(areas_df[1:n,]$val/area_tot, digits=2),
-                      ATSCum=Sci2RTF(area_cumsum[1:n], digits=2))
-colnames(tbl2_df) <- c("Basin Name", "ATS Area (ha)", "ATS Area (prop.)", "ATS Area (cum. prop.)")
+                      ATSProp=format(100 * areas_df[1:n,]$val/area_tot, digits=2, scientific=FALSE),
+                      ATSCum=format(100 * area_cumsum[1:n], digits=2))
+colnames(tbl2_df) <- c("Basin Name", "ATS Area (ha)", "ATS Area (%, vs. basin)", "ATS Area (%, vs. total)")
 
 tblA2_df <- data.frame(Basin=areas_df$name,
                        ATSArea=Sci2RTF(areas_df$val, digits=2),
-                       ATSProp=Sci2RTF(areas_df$val/area_tot, digits=2),
-                       ATSCum=Sci2RTF(area_cumsum, digits=2))
-colnames(tblA2_df) <- c("Basin Name", "ATS Area (ha)", "ATS Area (prop.)", "ATS Area (cum. prop.)")
+                       ATSProp=area_prop_cl,
+                       ATSCum=format(100 * area_cumsum, digits=2))
+colnames(tblA2_df) <- c("Basin Name", "ATS Area (ha)", "ATS Area (%, vs. basin)", "ATS Area (%, vs. total)")
 
 tbl2_rtf <- RTF(tbl2_fn, width=8.5, height=11, font.size=12, omi=c(1,1,1,1))
 addHeader(tbl2_rtf, "Table 2")
