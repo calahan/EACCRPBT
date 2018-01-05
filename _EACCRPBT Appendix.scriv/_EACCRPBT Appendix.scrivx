@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="dudeons-MacBook-Pro" Modified="2018-01-02 12:59:12 -0500" ModID="6FFF3D5E-CBA8-4EF8-81CA-3A061EA067B5">
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="dudeons-MacBook-Pro" Modified="2018-01-04 19:06:21 -0500" ModID="5FE51C51-0189-4E9E-A5F4-6695B4987412">
     <Binder>
         <BinderItem ID="0" UUID="B6991AA0-E6E3-4999-B25C-CAD7949D81E5" Type="DraftFolder" Created="2017-10-24 07:35:25 -0400" Modified="2017-10-24 07:35:25 -0400">
             <Title>Draft</Title>
@@ -77,14 +77,14 @@
                         <TextSelection>164,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="4" UUID="2E5246F7-51B4-42C1-903E-930620655B2F" Type="Text" Created="2017-07-17 14:18:00 -0400" Modified="2017-09-04 14:46:24 -0400">
+                <BinderItem ID="4" UUID="2E5246F7-51B4-42C1-903E-930620655B2F" Type="Text" Created="2017-07-17 14:18:00 -0400" Modified="2018-01-04 19:06:21 -0500">
                     <Title>Table A1</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>7,0</TextSelection>
+                        <TextSelection>197,1</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -146,7 +146,7 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2017-10-24 07:35:24 -0400" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="150" Characters="941" Date="2018-01-02 12:07:45 -0500"></PreviousSession>
+        <PreviousSession Words="1691" Characters="9142" Date="2018-01-04 18:57:23 -0500"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
