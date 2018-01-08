@@ -54,6 +54,7 @@ tnutP_df <- TransformNutrientData(nutP_df, fig_CRS)
 # Load basin sums computed by Precompute.R, combined N & P values
 Nsums_df <- read.table(Nsums_fn)
 Psums_df <- read.table(Psums_fn)
+#NPsums_df <- read.table(NPsums_fn)
 
 # Statistics about the data.
 #cells_ct <- nrow(nutN_df)

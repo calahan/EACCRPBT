@@ -21,7 +21,6 @@ source("Code/R/EACCRPBT.R")
 # External datasets
 nutN_df <- LoadNutrientData(nut_dir, "nitrogen")
 nutP_df <- LoadNutrientData(nut_dir, "phosphorus")
-#nutNP_df <- RankNutrientData(nutN_df, nutP_df)
 basin_df <- readOGR(basin_fn, basin)
 
 # Calculate nutrient data per trapezoid
@@ -30,10 +29,8 @@ lim_df <- NutrientLimits(nutP_df, nutN_df, P_prp, N_prp) # $val in tons
 # Sum nutrient data over basins
 Nsums_df <- SumNutrientsByBasin(nutN_df, basin_df)
 Psums_df <- SumNutrientsByBasin(nutP_df[!is.na(nutP_df$val) & nutP_df$val > 0,], basin_df) # ignore P < 0
-#NPsums_df <- SumNutrientsByBasin(nutNP_df, basin_df)
 write.table(Nsums_df, Nsums_fn)
 write.table(Psums_df, Psums_fn)
-#write.table(NPsums_df, NPsums_fn)
 
 # ATS Area needed, taking N or P limitation into account
 P2N <- P_prp/N_prp
@@ -49,8 +46,10 @@ SciNotString <- function(num, digits) {
     return(paste0(significand, " × 10^", exp_floor))
 }
 
-# Variables for creating first paragraph of results.
+# Variables for creating results paragraphs of results.
 area_needed <- sum(NP_lim_df$ATSarea, na.rm=TRUE)
+N_area_needed <- sum(NP_lim_df[NP_lim_df$nut == "N",]$ATSarea, na.rm=TRUE)
+P_area_needed <- sum(NP_lim_df[NP_lim_df$nut == "P",]$ATSarea, na.rm=TRUE)
 
 # Sentence summarizing our main conclusion
 paste0("We conclude that ",
