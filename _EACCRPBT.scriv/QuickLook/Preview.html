@@ -144,16 +144,13 @@ citation<br/>
 <hr/>
 <ul>
 <li>
-<p class="binderItem"><strong>Data Processing</strong><br/>Data Processing: Data processing was organized using R Studio 1.0.143 {RStudio Team, 2016, #53167}, integrating R 3.4.2{R Core Team, 2015, #89220} and various R packages; source code and instructions for reproducing these findings are available at http://github.com/calahan/EACCRPBT and http://github.com/calahan/Calahanlab. Datasets were obtained from NaturalEarth (continents) {Natural Earth, 2015, #75070}, the Global Runoff Data Center (GRDC) (basins, lakes, and rivers) {Global Runoff Data Centr...</p>
+<p class="binderItem"><strong>Data Processing</strong><br/>Data Processing: Data processing was organized using R Studio 1.0.143 {RStudio Team, 2016, #53167}, integrating R 3.4.2{R Core Team, 2015, #89220} and various R packages; source code and instructions for reproducing our findings are available at http://github.com/calahan/EACCRPBT and http://github.com/calahan/Calahanlab. Model parameters were organized in the spreadsheet EACCRPBT.xlsx and imported as variables into the R code used to generate figures and tables. Datasets were obtained from Natur...</p>
 </li>
 <li>
-<p class="binderItem"><strong>Parameters</strong><br/>Figure and model parameters are organized in the Excel workbook EACCRPBT.xlsx and imported as variables into the R code used to generate figures and tables. We assume AFDW biomass mass ratios of 0.5, 0.048, and 0.0030 for C, N and P respectively, derived from analysis of algal biomass {Vardon et al., 2012, #78258} and the Redfield atomic ratios {Hillebrand and Sommer, 1999, #12928}. CapEx and OpEx estimates are derived from HydroMentia reports. To determine annual highway costs, lane length and ...</p>
+<p class="binderItem"><strong>Parameters</strong><br/>We assume biomass mass ratios of 0.83, 0.15,  and 0.02 for C, N and P respectively, derived from the Redfield stoichiometric ratios {Hillebrand and Sommer, 1999, #12928}. CapEx and OpEx estimates are derived from HydroMentia reports. Values for economic parameters were chosen to represent best and worst cases for CapEx (250000 and 1e+06 $ ha-1 respectively)OpEx (33000 and 70000$ ha-1 yr-1 respectively) and facility lifetime (20 yr for low CapEx and 40 yr for high Capex). Best and worst case OpeE...</p>
 </li>
 <li>
-<p class="binderItem"><strong>Basin Ranking</strong><br/>To identify the limiting nutrient for each location with excess nutrients, its P/N mass ratio, RPN was determined and compared to the P/N mass ratio of biomass computed from the Redfield ratios, RR = 0.0625, with locations having RPN < RR considered P limited and locations having RPN ≥ RR considered N limited. To determine the amount of algal biomass needed to incorporate the non-limiting nutrient for each location, BLOC, we divided the excess of that nutrient, EN, in t yr-1, by the Redfield rat...</p>
-</li>
-<li>
-<p class="binderItem"><strong>Economic Model</strong><br/>Values for economic parameters were chosen to represent best and worst cases for CapEx, OpEx and facility lifetime (Table 3). The economic model creates an R data frame by populating the first row (year 1) with initial conditions then applies the model’s spending growth formula to that row to produce the next row (year 2), repeating for year 3 to year 100. The model’s constant spending formula is then applied similarly for the following hundred years. To determine the initial rate, we chose para...</p>
+<p class="binderItem"><strong>Ranking</strong><br/>To identify the limiting nutrient for each grid cell with excess nutrients, we obtained mass ratios for the nutrients C, N, and P by converting their stoichiometric Redfield ratios into mass ratios (RC, RN, and RP respectively), and obtained the Redfield P/N mass ratio, RPN = RP/RN. Then for each grid cell we divided the excess P mass by the excess N mass to obtain its P/N mass ratio, GCPN, and compared this value to RPN, with locations having RPN < GCPN considered P limited and locations having...</p>
 </li>
 </ul>
 <hr/>
@@ -163,17 +160,17 @@ citation<br/>
 <hr/>
 <ul>
 <li>
-<p class="binderItem"><strong>Nutrient Excesses</strong><br/>Nutrient data {Potter et al., 2010, #43603} are organized on a 0.5’ × 0.5’ grid of latitude and longitude, with 9,318,244 total grid cells, 698,788 having N and P data and 228,398 having P data only (Fig. 2). Values represent kg of excess nutrient per grid cell, and are positive for N but positive or negative for P. We consider only positive values, as nutrient deficits are not transferrable among grid cells or basins. Excess N and P total 5 × 1010 kg and 9.1 × 109 kg, respectively. Excess N per...</p>
+<p class="binderItem"><strong>Nutrient Excess</strong><br/>Nutrient data {Potter et al., 2010, #43603} are organized on a 0.5’ × 0.5’ grid of latitude and longitude, with 9,318,244 total grid cells, 698,788 having N and P data and 228,398 having P data only (Fig. 2). Values represent kg of excess nutrient per grid cell, and are positive for N but positive or negative for P. We consider only positive values, as nutrient deficits are not transferrable among grid cells or basins. Excess N per grid cell ranges from 0 kg to 2.8 × 10^6 kg. Excess P per grid c...</p>
 </li>
 <li>
-<p class="binderItem"><strong>Figure 2</strong><br/><br/>
-Figure 2. Global distribution of nutrient excesses and deficits. Gray indicates no nutrient data. (A) N excess. Red shades indicate grid cells with the largest excesses, representing 10% of the total; yellow-to-orange shades indicate grid cells responsible for the next-highest 40% of total excess; green shades represent the lowest 50%. (B) P excess. Coloring scheme is as in A, but with the addition of darker green indicating grid cells with P deficit.</p>
+<p class="binderItem"><strong>Area Required</strong><br/>Globally, excess N and P applied to the 140 crops curated in the EarthStat datasets {West et al., 2014, #62583} total 5 × 10^7 t (5.5 × 10^7 T) and 9.1 × 10^6 t (1 × 10^7 T), respectively. We abbreviate metric tons with 't' and US tons with 'T'. Related to the Redfield ratios, these excesses imply N-limitation in 413,808 grid cells and P-limitation in284,980 grid cells (Figure 4A). As complete recycling of a limiting nutrient in a given grid cell or basin would leave an excess of the non-limitin...</p>
 </li>
 <li>
-<p class="binderItem"><strong>Area Required</strong><br/>Globally, excesses of 5.0 × 107 t yr-1 (5.5 × 107 ton yr-1) N and 8.1 × 106 t yr-1 (8.9 × 106 ton yr-1)P  are applied to the 140 crops curated in theEarthStat datasets {West et al., 2014, #62583}. N-limitation is present in 513,622 grid cells and 224 basins, with P-limitation present in 185,166 grid cells and 95 basins (Figure 4A-B). As complete recycling of a limiting nutrient in a given grid cell or basin would leave an excess of the non-limiting nutrient, we compute the algal cultivation area...</p>
+<p class="binderItem"><strong>Economic Model</strong><br/>To estimate an upper limit to the gross expenses required to implement global N and P recycling, we assume relatively high CaEx and OpEx, a relatively short floway lifespan, unexceptional algal productivity (Table 3), and no future reductions in excess C, N, and P. We adopt an investment scenario starting with an initial annual spending rate that increases by a fixed percentage each year for 100 years (Table 4, Figs. 4A, 4C), then remains at that level for the next 100 years, setting the initial...</p>
 </li>
 <li>
-<p class="binderItem"><strong>Wetland Area</strong><br/>{Mitsch et al., 2015, #95957}{Zapater-Pereyra et al., 2015, #11644}{Vergeles et al., 2015, #75643}{Zhang et al., 2015, #93587}{Hoffmann et al., 2011, #95223}{Vymazal, 2010, #45132}{Brisson and Chazarenc, 2009, #13438}{Babatunde et al., 2008, #37397}{Siracusa and La, 2006, #50155}{Day et al., 2004, #79665}{Halverson, 2004, #58045}{Vymazal, 2002, #33530}{Kivaisi, 2001, #28974}{Verhoeven and Meuleman, 1999, #34609}{Environmental Protection Agency, 1993, #32863}</p>
+<p class="binderItem"><strong>Figure 2</strong><br/>#<br/>
+Figure 2. Global distribution of nutrient excesses and deficits. Gray indicates locations with no nutrient data. (A) N excess. Red shades indicate grid cells with the largest excesses, representing 10% of the total; yellow-to-orange shades indicate grid cells responsible for the next-highest 40% of total excess; green shades represent the lowest 50%. (B) P excess. Coloring scheme is as in A, but with the addition of darker green indicating grid cells with P deficit.</p>
 </li>
 <li>
 <p class="binderItem"><strong>Figure 3</strong><br/>#<br/>
@@ -182,9 +179,6 @@ Figure 3. Relation of biomass productivity to degrees of latitude (north or sout
 <li>
 <p class="binderItem"><strong>Figure 4</strong><br/>#<br/>
 Figure 4.Algal cultivation required for nutrient recycling. (A) Grid cells ranked by algal cultivation area required to recycle each grid cell’s non-limiting nutrient, red cells indicating the 10% requiring the highest cultivation area, yellow the next 40%, and green the lowest 50%. (B) Basins ranked by algal cultivation area required to recycle each basin’s limiting nutrient, color scheme as in C.</p>
-</li>
-<li>
-<p class="binderItem"><strong>Gross Expense</strong><br/>To estimate an upper limit to the gross expenses required to implement global N and P recycling, we assume worst case CaEx, and OpEx, a relatively short floway lifespan, unexceptional algal productivity (Table 3), and no future reductions in excess C, N, and P. We adopt an investment scenario starting with an initial annual spending rate that increases by a fixed percentage each year for 100 years (Table 4, Figs. 4A, 4C), then remains at that level for the next 100 years, setting the initial spe...</p>
 </li>
 <li>
 <p class="binderItem"><strong>Table 2</strong><br/>Table 2 <br/>
@@ -256,7 +250,7 @@ Uruguay<br/>
 Table 2. Highest priority basins.</p>
 </li>
 <li>
-<p class="binderItem"><strong>Table 3</strong><br/>Table 3. Main Variables and Model Paramenters<br/>
+<p class="binderItem"><strong>Table 3</strong><br/>Table 3.<br/>
 variable<br/>
 value<br/>
 unit<br/>
@@ -301,8 +295,56 @@ worseC.exp<br/>
 $<br/>
 worseC.bm<br/>
 2.2e+10<br/>
+t yr-1</p>
+</li>
+<li>
+<p class="binderItem"><strong>Table 3</strong><br/>variable<br/>
+value<br/>
+unit<br/>
+cap_lo<br/>
+2.50 ◊ 105<br/>
+$ ha-1<br/>
+cap_hi<br/>
+1.00 ◊ 106<br/>
+$ ha-1<br/>
+op_lo<br/>
+3.30 ◊ 104<br/>
+$ ha-1 yr-1<br/>
+op_hi<br/>
+7.00 ◊ 104<br/>
+$ ha-1 yr-1<br/>
+op_life_long<br/>
+4.00 ◊ 101<br/>
+yr<br/>
+op_life_short<br/>
+2.00 ◊ 101<br/>
+yr<br/>
+betterNP.exp<br/>
+2.30 ◊ 1012<br/>
+$<br/>
+betterNP.bm<br/>
+3.10 ◊ 109<br/>
 t yr-1<br/>
-Table 3. Main variables and model parameters.</p>
+worseNP.exp<br/>
+6.10 ◊ 1012<br/>
+$<br/>
+worseNP.bm<br/>
+3.10 ◊ 109<br/>
+t yr-1<br/>
+betterC.exp<br/>
+1.60 ◊ 1013<br/>
+$<br/>
+betterC.bm<br/>
+2.20 ◊ 1010<br/>
+t yr-1<br/>
+worseC.exp<br/>
+4.30 ◊ 1013<br/>
+$<br/>
+worseC.bm<br/>
+2.20 ◊ 1010<br/>
+t yr-1<br/>
+<br/>
+Table 3. Economic model parameters.</p>
 </li>
 <li>
 <p class="binderItem"><strong>Figure 5</strong><br/>#<br/>
@@ -335,6 +377,9 @@ Figure 5. Gross expense and biomass production for recycling N/P and C. Two scen
 </li>
 <li>
 <p class="binderItem"><strong>Sociopolitical Obstacles</strong><br/>Sociopolitical and economic obstacles are more likely than technical ones to impede rapid expansion of algal cultivation. The continued growth in severity and size of HABs worldwide, in the presence of demands or mandates to address them demonstrates that the responsible political and commercial regimes can be reluctant to either create public goods of the required extent or mitigate inevitable ecosystem damage. However, in some jurisdictions progress has occurred. For example, governments of US...</p>
+</li>
+<li>
+<p class="binderItem"><strong>*additional*</strong><br/>To determine annual highway costs, lane length and cost data were obtained from United States Federal Highway Administration publications.{FHWA, 2015, #85081; FHWA, 2015, #84398}"</p>
 </li>
 </ul>
 <hr/>

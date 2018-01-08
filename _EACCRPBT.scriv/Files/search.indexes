@@ -254,8 +254,8 @@ Plus, need to discuss need for continual monitoring and refinement in discussion
 {Lehmann and Kleber, 2015, #45193}</Text>
         </Document>
         <Document ID="30">
-            <Title>Nutrient Excesses</Title>
-            <Text>Nutrient data {Potter et al., 2010, #43603} are organized on a 0.5’ × 0.5’ grid of latitude and longitude, with 9,318,244 total grid cells, 698,788 having N and P data and 228,398 having P data only (Fig. 2). Values represent kg of excess nutrient per grid cell, and are positive for N but positive or negative for P. We consider only positive values, as nutrient deficits are not transferrable among grid cells or basins. Excess N and P total 5 × 1010 kg and 9.1 × 109 kg, respectively. Excess N per grid cell ranges from 0 kg to 2.8 × 106 kg. Excess P per cell ranges from 0 kg to 5.8 × 105 kg {West et al., 2014, #62583}. Half of the excess N and P is accounted for by 6.8% and 7.0% of their respective grid cells. The 405 major basins curated by the Global Runoff Data Center are responsible for 77% of global nutrient excess, for both N and P (Table A1). Excess N per curated basin ranges from 0 to 5.1 × 109 kg yr-1. Excess P per basin ranges from 0 kg yr-1 to 1 × 109 kg yr-1. Half of the nutrient excess is contributed by five (N) or six (P) basins (Table 1). The Yangze contributes the most N, while the Ganges contributes the most P.</Text>
+            <Title>Nutrient Excess</Title>
+            <Text>Nutrient data {Potter et al., 2010, #43603} are organized on a 0.5’ × 0.5’ grid of latitude and longitude, with 9,318,244 total grid cells, 698,788 having N and P data and 228,398 having P data only (Fig. 2). Values represent kg of excess nutrient per grid cell, and are positive for N but positive or negative for P. We consider only positive values, as nutrient deficits are not transferrable among grid cells or basins. Excess N and P total 5 × 1010 kg and 9.1 × 109 kg, respectively. Excess N per grid cell ranges from 0 kg to 2.8 × 106 kg. Excess P per cell ranges from 0 kg to 5.8 × 105 kg {West et al., 2014, #62583}. Half of the excess N and P is accounted for by 6.8% and 7.0% of their respective grid cells. The 405 major basins curated by the Global Runoff Data Center are responsible for 77% of global nutrient excess, for both N and P (Table A1). Excess N per curated basin ranges from 0 to 5.1 × 109 kg yr-1. Excess P per basin ranges from 0 kg yr-1 to 1 × 109 kg yr-1. Half of the total nutrient excess is contributed by five (N) or six (P) basins (Table 1). The Yangze contributes the most N, while the Ganges contributes the most P.</Text>
         </Document>
         <Document ID="33">
             <Title>References</Title>
@@ -972,7 +972,7 @@ Can work out LHFL and areal loading only indirectly. Perhaps convert ATS functio
         </Document>
         <Document ID="221">
             <Title>Table 3</Title>
-            <Text>Table 3. Main Variables and Model Paramenters
+            <Text>Table 3.
 variable
 value
 unit
@@ -1018,7 +1018,7 @@ $
 worseC.bm
 2.2e+10
 t yr-1
-Table 3. Main variables and model parameters.</Text>
+</Text>
         </Document>
         <Document ID="124">
             <Title>(Steffen et al., 2015) Planetary boundaries- Guiding human development on</Title>
@@ -1229,8 +1229,8 @@ American Farm Bureau Federation v. United States Environmental Protection Agency
 {Sandefur et al., 2014, #73121}</Text>
         </Document>
         <Document ID="206">
-            <Title>Gross Expense</Title>
-            <Text>To estimate an upper limit to the gross expenses required to implement global N and P recycling, we assume worst case CaEx, and OpEx, a relatively short floway lifespan, unexceptional algal productivity (Table 3), and no future reductions in excess C, N, and P. We adopt an investment scenario starting with an initial annual spending rate that increases by a fixed percentage each year for 100 years (Table 4, Figs. 4A, 4C), then remains at that level for the next 100 years, setting the initial spending at a level that results in complete recycling at year 100. This exponential spending increase combined with the limited lifetime of an ATS facility produces the “ringing” phenomenon apparent in biomass production (Figs. 4B, 4C). Our parameters insure that once the spending rate becomes constant, the total operational area is never below the minimum needed to achieve the required recycling. In our worst case scenario for N and P recycling, spending begins at $4.9 × 108 yr-1and grows to $6.1 × 1012 yr-1. In our best case scenario, spending begins at $1.8 × 108 yr-1and grows to $2.3 × 1012 yr-1.
+            <Title>Economic Model</Title>
+            <Text>To estimate an upper limit to the gross expenses required to implement global N and P recycling, we assume relatively high CaEx and OpEx, a relatively short floway lifespan, unexceptional algal productivity (Table 3), and no future reductions in excess C, N, and P. We adopt an investment scenario starting with an initial annual spending rate that increases by a fixed percentage each year for 100 years (Table 4, Figs. 4A, 4C), then remains at that level for the next 100 years, setting the initial spending at a level that results in complete recycling at year 100. This exponential spending increase combined with the limited lifetime of an ATS facility produces the “ringing” phenomenon apparent in biomass production (Figs. 4B, 4C). Our parameters insure that once the spending rate becomes constant, the total operational area is never below the minimum needed to achieve the required recycling. In our worst case scenario for N and P recycling, spending begins at $4.9 × 108 yr-1and grows to $6.1 × 1012 yr-1. In our best case scenario, spending begins at $1.8 × 108 yr-1and grows to $2.3 × 1012 yr-1.
 
 [Moved from elsewhere]
  CapEx can vary; we assume a range of $2.5 × 105 ha-1 ($1.0 × 105 ac-1) (monetary values in approximate 2017 US dollars) where minimal site preparation is required, to $1.0 × 106 ha-1 ($4.0 × 105 ac-1) with complex site preparation. OpEx can range from $4.0 × 104 ha-1 yr-1 ($1.6 × 104 ac-1 yr-1) for single-pass operation to $7.0 × 104 ha-1 yr-1 ($2.8 × 104 ac-1 yr-1), for more sophisticated operations.
@@ -1462,7 +1462,24 @@ The plant covers 8.3 ha, and 5.1 ha of them have been occupied by 6 reservoirs w
         </Document>
         <Document ID="233">
             <Title>Wetland Area</Title>
-            <Text>{Mitsch et al., 2015, #95957}{Zapater-Pereyra et al., 2015, #11644}{Vergeles et al., 2015, #75643}{Zhang et al., 2015, #93587}{Hoffmann et al., 2011, #95223}{Vymazal, 2010, #45132}{Brisson and Chazarenc, 2009, #13438}{Babatunde et al., 2008, #37397}{Siracusa and La, 2006, #50155}{Day et al., 2004, #79665}{Halverson, 2004, #58045}{Vymazal, 2002, #33530}{Kivaisi, 2001, #28974}{Verhoeven and Meuleman, 1999, #34609}{Environmental Protection Agency, 1993, #32863}</Text>
+            <Text>√{Day et al., 2004, #79665}
+{Halverson, 2004, #58045} [not highly amenable]
+{Hoffmann et al., 2011, #95223} [no productivity data]
+{Kivaisi, 2001, #28974} [can’t readily extract areal productivity]
+{Knight et al., 2000, #42975} [can’t readily extract areal productivity]
+{Labella et al., 2015, #41532} [can’t readily extract areal productivity]
+{Mitsch et al., 2015, #95957} [can’t readily extract areal productivity]
+{Siracusa and La, 2006, #50155} [can’t readily extract areal productivity, however interesting modeling]
+{Vergeles et al., 2015, #75643}
+{Verhoeven and Meuleman, 1999, #34609}
+{Environmental Protection Agency, 1993, #32863} [can’t readily extract areal productivity, however interesting modeling]
+{Vymazal, 2002, #33530}
+{Vymazal, 2010, #45132}
+{Zapater-Pereyra et al., 2015, #11644}
+{Zhang et al., 2015, #93587}
+{DeBusk et al., 2004, #80106}
+{Jasper et al., 2014, #29891}
+</Text>
         </Document>
         <Document ID="128">
             <Title>(Sukačovǎ et al., 2015) Phosphorus removal using a microalgal biofilm in a new biofilm photobioreactor for tertiary wastewater treatment</Title>
@@ -1697,7 +1714,7 @@ Reference original patent.</Text>
         </Document>
         <Document ID="181">
             <Title>Economic Model</Title>
-            <Text>Values for economic parameters were chosen to represent best and worst cases for CapEx, OpEx and facility lifetime (Table 3). The economic model creates an R data frame by populating the first row (year 1) with initial conditions then applies the model’s spending growth formula to that row to produce the next row (year 2), repeating for year 3 to year 100. The model’s constant spending formula is then applied similarly for the following hundred years. To determine the initial rate, we chose parameters such that the minimum algal biomass is always at least sufficient to completely recycle the relevant nutrient(s).</Text>
+            <Text>Values for economic parameters were chosen to represent best and worst cases for CapEx (250000 and 1e+06 $ ha-1 respectively)OpEx (33000 and 70000$ ha-1 yr-1 respectively) and facility lifetime (20 yr for low CapEx and 40 yr for high Capex). Best and worst case OpeEx values were chosen to reflect fully encumbered lower and higher end middle-class salaries in the US and additional operational costs of 10% of CapEx (Table 3). The economic model creates an R data frame by populating the first row (year 1) with initial conditions then applies the model’s spending growth formula, (0.1% yr-1), to that row to produce the next row (year 2), repeating the procedure for year 3 to year 50 . Constant spending formula is then applied similarly for the following 50 yr. To determine the initial rate, we chose parameters such that once fully built out, the minimum algal biomass is always sufficient to completely recycle the relevant nutrient(s).</Text>
         </Document>
         <Document ID="156">
             <Title>Discussion</Title>
@@ -1717,6 +1734,13 @@ Reference original patent.</Text>
 Which of these are indoors?
 
 Jinadasa et al., 2006 is tropical, but a FTW</Text>
+        </Document>
+        <Document ID="237">
+            <Title>Wetlands</Title>
+            <Text>{Babatunde et al., 2008, #37397} [not useful]
+{Brisson and Chazarenc, 2009, #13438} [nothing here for us]
+
+</Text>
         </Document>
         <Document ID="229">
             <Title>Links</Title>
@@ -1764,6 +1788,56 @@ http://law.justia.com/cases/federal/district-courts/florida/flsdce/
 
 1:2004cv21448</Text>
         </Document>
+        <Document ID="238">
+            <Title>Table 3</Title>
+            <Text>variable
+value
+unit
+cap_lo
+2.50 ◊ 105
+$ ha-1
+cap_hi
+1.00 ◊ 106
+$ ha-1
+op_lo
+3.30 ◊ 104
+$ ha-1 yr-1
+op_hi
+7.00 ◊ 104
+$ ha-1 yr-1
+op_life_long
+4.00 ◊ 101
+yr
+op_life_short
+2.00 ◊ 101
+yr
+betterNP.exp
+2.30 ◊ 1012
+$
+betterNP.bm
+3.10 ◊ 109
+t yr-1
+worseNP.exp
+6.10 ◊ 1012
+$
+worseNP.bm
+3.10 ◊ 109
+t yr-1
+betterC.exp
+1.60 ◊ 1013
+$
+betterC.bm
+2.20 ◊ 1010
+t yr-1
+worseC.exp
+4.30 ◊ 1013
+$
+worseC.bm
+2.20 ◊ 1010
+t yr-1
+
+Table 3. Economic model parameters.</Text>
+        </Document>
         <Document ID="21">
             <Title>ATS and Planetary Boundaries</Title>
             <Text>If globally distributed throughout the world’s river basins at large enough scale, increased algae cultivation could directly reverse the transgressions of planetary boundaries {Steffen et al., 2015, #78923} involving the N and P biogeochemical cycles. Here we estimate the scope of such an intervention both from a global perspective and by prioritizing major hydrological basins, as curated in publicly available nutrient and geospatial datasets. We discuss potential issues with land availability, economics, and sociopolitical considerations, ultimately extrapolating our analysis to complete recycling of net anthropogenic carbon. Our stance is conservative, as our intent is to determine an approximate upper limit to the effort needed to counteract these global threats and compare our proposed intervention with other global projects of similar scale. Improvements in biomass productivity and efficiencies in design, construction, and operation will reduce the investment required. Improving our model’s accuracy and precision will require a multi-year global program of building and operating pilot projects, affording development of a predictive productivity model and providing a more extensive knowledge base specific regional requirements.</Text>
@@ -1776,7 +1850,7 @@ http://law.justia.com/cases/federal/district-courts/florida/flsdce/
         </Document>
         <Document ID="22">
             <Title>Data Processing</Title>
-            <Text>Data Processing: Data processing was organized using R Studio 1.0.143 {RStudio Team, 2016, #53167}, integrating R 3.4.2{R Core Team, 2015, #89220} and various R packages; source code and instructions for reproducing these findings are available at http://github.com/calahan/EACCRPBT and http://github.com/calahan/Calahanlab. Datasets were obtained from NaturalEarth (continents) {Natural Earth, 2015, #75070}, the Global Runoff Data Center (GRDC) (basins, lakes, and rivers) {Global Runoff Data Centre, 2007, #36285; Global Runoff Data Centre, 2007, #86930}, and EarthStat (N and P nutrient loading) {West et al., 2014, #62583}. Obtaining GRDC data requires completing an application form. An 8 GB Apple MacBook Pro/2.5 GHz Intel Core i5 running OS X 10.11.6 was used for all data processing.</Text>
+            <Text>Data Processing: Data processing was organized using R Studio 1.0.143 {RStudio Team, 2016, #53167}, integrating R 3.4.2{R Core Team, 2015, #89220} and various R packages; source code and instructions for reproducing our findings are available at http://github.com/calahan/EACCRPBT and http://github.com/calahan/Calahanlab. Model parameters were organized in the spreadsheet EACCRPBT.xlsx and imported as variables into the R code used to generate figures and tables. Datasets were obtained from NaturalEarth (continents) {Natural Earth, 2015, #75070}, the Global Runoff Data Center (GRDC) (basins, lakes, and rivers) {Global Runoff Data Centre, 2007, #36285; Global Runoff Data Centre, 2007, #86930}, and EarthStat (N and P nutrient loading) {West et al., 2014, #62583} (obtaining GRDC data requires completing an application form). An 8 GB Apple MacBook Pro/2.5 GHz Intel Core i5 running OS X 10.11.6 was used for all data processing.</Text>
         </Document>
         <Document ID="175">
             <Title>(Mulbry et al., 2008) Treatment of dairy and swine manure effluents using freshwater algae- fatty acid content and composition of algal biomass at different manure loading rates</Title>
@@ -1800,7 +1874,7 @@ http://law.justia.com/cases/federal/district-courts/florida/flsdce/
         </Document>
         <Document ID="24">
             <Title>Parameters</Title>
-            <Text>Figure and model parameters are organized in the Excel workbook EACCRPBT.xlsx and imported as variables into the R code used to generate figures and tables. We assume AFDW biomass mass ratios of 0.5, 0.048, and 0.0030 for C, N and P respectively, derived from analysis of algal biomass {Vardon et al., 2012, #78258} and the Redfield atomic ratios {Hillebrand and Sommer, 1999, #12928}. CapEx and OpEx estimates are derived from HydroMentia reports. To determine annual highway costs, lane length and cost data were obtained from United States Federal Highway Administration publications.{FHWA, 2015, #85081; FHWA, 2015, #84398}</Text>
+            <Text>We assume AFDW biomass mass ratios of 0.5, 0.048, and 0.0030 for C, N and P respectively, derived from analysis of algal biomass {Vardon et al., 2012, #78258} and the Redfield atomic ratios {Hillebrand and Sommer, 1999, #12928}. CapEx and OpEx estimates are derived from HydroMentia reports. To determine annual highway costs, lane length and cost data were obtained from United States Federal Highway Administration publications.{FHWA, 2015, #85081; FHWA, 2015, #84398}</Text>
         </Document>
         <Document ID="25">
             <Title>Basin Ranking</Title>
@@ -1829,7 +1903,7 @@ Figure 5. Gross expense and biomass production for recycling N/P and C. Two scen
         <Document ID="27">
             <Title>Figure 2</Title>
             <Text>#
-Figure 2. Global distribution of nutrient excesses and deficits. Gray indicates no nutrient data. (A) N excess. Red shades indicate grid cells with the largest excesses, representing 10% of the total; yellow-to-orange shades indicate grid cells responsible for the next-highest 40% of total excess; green shades represent the lowest 50%. (B) P excess. Coloring scheme is as in A, but with the addition of darker green indicating grid cells with P deficit.</Text>
+Figure 2. Global distribution of nutrient excesses and deficits. Gray indicates locations with no nutrient data. (A) N excess. Red shades indicate grid cells with the largest excesses, representing 10% of the total; yellow-to-orange shades indicate grid cells responsible for the next-highest 40% of total excess; green shades represent the lowest 50%. (B) P excess. Coloring scheme is as in A, but with the addition of darker green indicating grid cells with P deficit.</Text>
         </Document>
         <Document ID="52">
             <Title>(Carpenter et al., 1998) Nonpoint Pollution of Surface Waters with Phosphorus</Title>
