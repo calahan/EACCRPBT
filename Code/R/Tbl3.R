@@ -22,9 +22,9 @@ source("Code/R/EACCRPBT.R")
 source("Code/R/Settings.R")
 
 # Get precomputed results that contain the ATS area needed
-input_fn <- paste0(work_dir, "tblA3")
-input_df <- read.table(input_fn)
-ret <- mapply(assign, as.character(input_df$var), input_df$val, MoreArgs = list(envir = .GlobalEnv))
+# input_fn <- paste0(work_dir, "tblA3")
+# input_df <- read.table(input_fn)
+# ret <- mapply(assign, as.character(input_df$var), input_df$val, MoreArgs = list(envir = .GlobalEnv))
 
 tbl3_title <- "Table 3"
 NP100_fn <- paste0(work_dir, "LoCapLoOpHiLifeNP100")

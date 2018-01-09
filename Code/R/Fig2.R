@@ -187,6 +187,3 @@ write.table(data.frame(name=c("maxNname",
                                maxPname
                        )),
             fn)
-
-# t <- read.table(textvars_fn)
-# t

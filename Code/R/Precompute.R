@@ -50,12 +50,3 @@ SciNotString <- function(num, digits) {
 area_needed <- sum(NP_lim_df$ATSarea, na.rm=TRUE)
 N_area_needed <- sum(NP_lim_df[NP_lim_df$nut == "N",]$ATSarea, na.rm=TRUE)
 P_area_needed <- sum(NP_lim_df[NP_lim_df$nut == "P",]$ATSarea, na.rm=TRUE)
-
-# Sentence summarizing our main conclusion
-paste0("We conclude that ",
-       SciNotString(sum(area_needed), 2),
-       " ha of algal cultivation area, properly distributed, is capable of incorporating global excess nutrients into algal biomass."
-       )
-
-
-
