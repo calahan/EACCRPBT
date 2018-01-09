@@ -21,9 +21,9 @@ source("Code/R/Settings.R")
 
 # Prepare ATS location data
 ss_name <- "EACCRPBT.xlsx"
-#ss_ix <- 7 # Which worksheet contains the data?
+ss_ix <- 2 # Worksheet 2 contains the location data
 ss_fn <- paste0(ss_dir, ss_name)
-ss_df <- gdata::read.xls(ss_fn, 2) # Warning or notification appears to be OK (Wide character in print at .../Library/R/3.3/library/gdata/perl/xls2csv.pl line 327.)
+ss_df <- gdata::read.xls(ss_fn, ss_ix) # Warning or notification appears to be OK (Wide character in print at .../Library/R/3.3/library/gdata/perl/xls2csv.pl line 327.)
 tbl_df <- data.frame(long=ss_df$long, lat=ss_df$lat, citation=ss_df$citation)
 
 # Create table

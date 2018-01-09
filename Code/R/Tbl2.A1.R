@@ -28,9 +28,9 @@ n <- 15 # number of top basins to include in highest priority
 
 # Folders and files
 tbl2_title <- "Table 2"
-tblA2_title <- "Table A1"
+tblA1_title <- "Table A1"
 tbl2_fn <- paste0(tbl_dir, tbl2_title, ".doc")
-tblA2_fn <- paste0(tbl_dir, tblA2_title, ".doc")
+tblA1_fn <- paste0(tbl_dir, tblA1_title, ".doc")
 areas_fn <- paste0(work_dir, "areas")
 
 # Read and order precomputed data
@@ -51,18 +51,18 @@ tbl2_df <- data.frame(Basin=areas_df[1:n,]$name,
                       ATSCum=format(100 * area_cumsum[1:n], digits=2))
 colnames(tbl2_df) <- c("Basin Name", "ATS Area (ha)", "ATS Area (%, vs. basin)", "ATS Area (%, vs. total)")
 
-tblA2_df <- data.frame(Basin=areas_df$name,
+tblA1_df <- data.frame(Basin=areas_df$name,
                        ATSArea=Sci2RTF(areas_df$val, digits=2),
                        ATSProp=area_prop_cl,
                        ATSCum=format(100 * area_cumsum, digits=2))
-colnames(tblA2_df) <- c("Basin Name", "ATS Area (ha)", "ATS Area (%, vs. basin)", "ATS Area (%, vs. total)")
+colnames(tblA1_df) <- c("Basin Name", "ATS Area (ha)", "ATS Area (%, vs. basin)", "ATS Area (%, vs. total)")
 
 tbl2_rtf <- RTF(tbl2_fn, width=8.5, height=11, font.size=12, omi=c(1,1,1,1))
 addHeader(tbl2_rtf, "Table 2")
 addTable(tbl2_rtf, tbl2_df)
 done(tbl2_rtf)
 
-tblA2_rtf <- RTF(tblA2_fn, width=8.5, height=11, font.size=12, omi=c(1,1,1,1))
-addHeader(tblA2_rtf, "Table A2")
-addTable(tblA2_rtf, tblA2_df)
-done(tblA2_rtf)
+tblA1_rtf <- RTF(tblA1_fn, width=8.5, height=11, font.size=12, omi=c(1,1,1,1))
+addHeader(tblA1_rtf, "Table A1")
+addTable(tblA1_rtf, tblA1_df)
+done(tblA1_rtf)

@@ -85,11 +85,11 @@ p2 <- paste0("Nutrient data {Potter et al., 2010, #43603} are organized on a 0.5
             0,
             " kg to ",
             SciNotString(cellmaxP, 2),
-            " kg {West et al., 2014, #62583}. Half of the excess N and P is accounted for by ",
+            " kg. Half of the excess N and P is accounted for by ",
             format(cellhalfN, digits=2, zero.print=TRUE),
             "% and ",
             format(cellhalfP, digits=2, zero.print=TRUE),
-            ".0% of their respective grid cells. The 405 major basins curated by the Global Runoff Data Center are responsible for ",
+            ".0% of their respective grid cells. The 405 major basins curated by the Global Runoff Data Center {Global Runoff Data Centre, 2007, #36285} are responsible for ",
             format(100*basinNpct, digits=2),
             "% of global nutrient excess, for both N and P (Tables 1, A1). Excess N per curated basin ranges from 0 to ",
             SciNotString(maxNval, 2),
@@ -150,4 +150,7 @@ p3 <- paste0("Globally, excess N and P applied to the 140 crops curated in the E
             " kg yr-1, is less than a thousandth of a percent of world net primary productivity, and approximately three hundredths of a percent of world agriculture. The mean productivity of all grid cells is ",
             6.4e+1
             ," t ha-1 yr-1 (2.3 × 106 T ac-1 yr-1)."
+)
+
+p4 <- paste0(
 )
