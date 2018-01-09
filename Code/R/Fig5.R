@@ -21,10 +21,14 @@ source("Code/R/EACCRPBT.R")
 source("Code/R/Settings.R")
 
 # Get precomputed results that contain the ATS area needed
-input_fn <- paste0(work_dir, "tblA3")
-input_df <- read.table(input_fn)
-ret <- mapply(assign, as.character(input_df$var), input_df$val, MoreArgs = list(envir = .GlobalEnv))
-
+# input_fn <- paste0(work_dir, "tblA3")
+# input_df <- read.table(input_fn)
+# ret <- mapply(assign, as.character(input_df$var), input_df$val, MoreArgs = list(envir = .GlobalEnv))
+NPlim_df <- read.table(paste0(work_dir, "NPlim"))
+area_needed <- sum(NPlim_df$ATSarea, na.rm=TRUE)
+total_biomass <- sum(NPlim_df$biomass, na.rm=TRUE)
+mean_prod <- total_biomass/area_needed
+# mean_prod <- sum(NPlim_df$biomass, na.rm=TRUE)/sum(NP_lim
 # Variables specific to this module
 fig_dir <- paste0(fig_dir, "Figure 5/")
 fig_fn <- paste0(fig_dir, "Figure 5.tiff")
@@ -32,23 +36,24 @@ A_fn <- paste0(fig_dir, "A.tiff")
 B_fn <- paste0(fig_dir, "B.tiff")
 C_fn <- paste0(fig_dir, "C.tiff")
 D_fn <- paste0(fig_dir, "D.tiff")
-E_fn <- paste0(fig_dir, "E.tiff")
-F_fn <- paste0(fig_dir, "F.tiff")
-imgs <- c(A_fn, B_fn, C_fn, D_fn, E_fn, F_fn)
+# E_fn <- paste0(fig_dir, "E.tiff")
+# F_fn <- paste0(fig_dir, "F.tiff")
+# imgs <- c(A_fn, B_fn, C_fn, D_fn, E_fn, F_fn)
+imgs <- c(A_fn, B_fn, C_fn, D_fn)
 
-tbl3_title <- "Table 3. Main Variables and Model Paramenters"
-NP100_fn <- paste0(work_dir, "LoCapLoOpHiLifeNP100")
-C100_fn <- paste0(work_dir, "LoCapLoOpHiLifeC100")
+# tbl3_title <- "Table 3. Main Variables and Model Paramenters"
+# NP100_fn <- paste0(work_dir, "LoCapLoOpHiLifeNP100")
+# C100_fn <- paste0(work_dir, "LoCapLoOpHiLifeC100")
 
 # Funding chosen so N/P is solved in 100 years
-# To ask whether N and P are accounted for, use e.g. min(HiCapHiOpLoLifeNP100_df[125:200,]$TotalArea)-area.needed
-LoCapLoOpHiLifeNP100_df <- EconDataFrame(1.83e+8, inc_prp, build_yr_hi, final_yr, mean_prod, cap_lo, op_lo, op_life_long, emp_ha, emp_sal)
-HiCapHiOpLoLifeNP100_df <- EconDataFrame(4.86e+8, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
+# To ask whether N and P are accounted for, use e.g. min(HiCapHiOpLoLifeNP100_df[125:200,]$TotalArea) - area_needed
+LoCapLoOpHiLifeNP100_df <- EconDataFrame(6.94e+7, inc_prp, build_yr_hi, final_yr, mean_prod, cap_lo, op_lo, op_life_long, emp_ha, emp_sal)
+HiCapHiOpLoLifeNP100_df <- EconDataFrame(1.9e+8, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
 
 # Funding chosen so C is solved in 100 years
-# To ask what the minimum area is, use e.g. min(LoCapLoOpHiLifeC100_df[125:200,]$AlgalMass*C_prp)-CO2.gr
-LoCapLoOpHiLifeC100_df <- EconDataFrame(1.28e+9, inc_prp, build_yr_hi, final_yr, mean_prod, cap_lo, op_lo, op_life_long, emp_ha, emp_sal)
-HiCapHiOpLoLifeC100_df <- EconDataFrame(3.41e+9, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
+# To ask what the minimum area is, use e.g. min(LoCapLoOpHiLifeC100_df[125:200,]$AlgalMass*C_prp)-CO2_gr
+LoCapLoOpHiLifeC100_df <- EconDataFrame(7.09e+8, inc_prp, build_yr_hi, final_yr, mean_prod, cap_lo, op_lo, op_life_long, emp_ha, emp_sal)
+HiCapHiOpLoLifeC100_df <- EconDataFrame(1.89e+9, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
 
 # Figure settings
 line_size = 0.05

@@ -47,6 +47,6 @@ SciNotString <- function(num, digits) {
 }
 
 # Variables for creating results paragraphs of results.
-area_needed <- sum(NP_lim_df$ATSarea, na.rm=TRUE)
-N_area_needed <- sum(NP_lim_df[NP_lim_df$nut == "N",]$ATSarea, na.rm=TRUE)
-P_area_needed <- sum(NP_lim_df[NP_lim_df$nut == "P",]$ATSarea, na.rm=TRUE)
+# area_needed <- sum(NP_lim_df$ATSarea, na.rm=TRUE)
+# N_area_needed <- sum(NP_lim_df[NP_lim_df$nut == "N",]$ATSarea, na.rm=TRUE)
+# P_area_needed <- sum(NP_lim_df[NP_lim_df$nut == "P",]$ATSarea, na.rm=TRUE)
