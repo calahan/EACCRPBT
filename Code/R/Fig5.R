@@ -37,34 +37,34 @@ imgs <- c(A_fn, B_fn, C_fn, D_fn)
 
 # Funding chosen so N/P is solved in 100 years
 # To ask whether N and P are accounted for, use e.g. min(WorstNP_df[125:200,]$TotalArea) - area_needed
-beststartNP <- 6.94e+7
-worststartNP <- 1.85e+8
-beststartC <- 7.09e+8
-worststartC <- 1.89e+9
+best_startNP <- 6.94e+7
+worst_startNP <- 1.85e+8
+best_startC <- 7.09e+8
+worst_startC <- 1.89e+9
 
-bestNP_df <- EconDataFrame(beststartNP, inc_prp, build_yr_hi, final_yr, mean_prod, cap_lo, op_lo, op_life_long, emp_ha, emp_sal)
-worstNP_df <- EconDataFrame(worststartNP, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
+bestNP_df <- EconDataFrame(best_startNP, inc_prp, build_yr_hi, final_yr, mean_prod, cap_lo, op_lo, op_life_long, emp_ha, emp_sal)
+worstNP_df <- EconDataFrame(worst_startNP, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
 
 # Funding chosen so C is solved in 100 years
 # To ask what the minimum area is, use e.g. min(BestC_df[125:200,]$AlgalMass*C_prp)-CO2_gr
-bestC_df <- EconDataFrame(beststartC, inc_prp, build_yr_hi, final_yr, mean_prod, cap_lo, op_lo, op_life_long, emp_ha, emp_sal)
-worstC_df <- EconDataFrame(worststartC, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
+bestC_df <- EconDataFrame(best_startC, inc_prp, build_yr_hi, final_yr, mean_prod, cap_lo, op_lo, op_life_long, emp_ha, emp_sal)
+worstC_df <- EconDataFrame(worst_startC, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
 
 # Save computed economic data for creating ¶Results/Economic Model
-econ_df <- data.frame(var=c("beststartNP",
-                            "worststartNP",
-                            "bestendNP",
-                            "worstendNP",
-                            "beststartC",
-                            "worststartC",
-                            "bestendC",
-                            "worstendC"),
-                      val=c(beststartNP,
-                            worststartNP,
+econ_df <- data.frame(var=c("best_startNP",
+                            "worst_startNP",
+                            "best_endNP",
+                            "worst_endNP",
+                            "best_startC",
+                            "worst_startC",
+                            "best_endC",
+                            "worst_endC"),
+                      val=c(best_startNP,
+                            worst_startNP,
                             max(bestNP_df$Spending),
                             max(worstNP_df$Spending),
-                            beststartC,
-                            worststartC,
+                            best_startC,
+                            worst_startC,
                             max(bestC_df$Spending),
                             max(worstC_df$Spending))
                       )

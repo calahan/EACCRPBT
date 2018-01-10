@@ -34,8 +34,8 @@ write.table(Psums_df, Psums_fn)
 
 # ATS Area needed, taking N or P limitation into account
 P2N <- P_prp/N_prp
-NP_lim_df <- NutrientLimits(nutP_df, nutN_df, P_prp, N_prp)
-write.table(NP_lim_df, NP_lim_fn)
+NPlim_df <- NutrientLimits(nutP_df, nutN_df, P_prp, N_prp)
+write.table(NPlim_df, NPlim_fn)
 area_df <- data.frame(long=lim_df$long, lat=lim_df$lat, val=lim_df$ATSarea) # ATSarea in ha
 area_sums_df <- SumNutrientsByBasin(area_df, basin_df)
 write.table(area_sums_df, area_fn)
@@ -45,8 +45,3 @@ SciNotString <- function(num, digits) {
     significand <- format(num/10^exp_floor, digits=digits)
     return(paste0(significand, " × 10^", exp_floor))
 }
-
-# Variables for creating results paragraphs of results.
-# area_needed <- sum(NP_lim_df$ATSarea, na.rm=TRUE)
-# N_area_needed <- sum(NP_lim_df[NP_lim_df$nut == "N",]$ATSarea, na.rm=TRUE)
-# P_area_needed <- sum(NP_lim_df[NP_lim_df$nut == "P",]$ATSarea, na.rm=TRUE)

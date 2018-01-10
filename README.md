@@ -77,8 +77,27 @@ and its subdirectories are created, if necessary, by the program code.
 |  |--Tables  
 ```
 
-### Running Precompute.R  
+### Running the R Programs
+To generate figures and tables, the R programs are run in this order:
+1. Precompute.R
+2. Fig1.R*
+3. Fig2.R
+4. Fig3.R
+5. Fig4.R
+6. Fig5.R
+7. Tbl1.R
+8. Tbl2.A1.R
+9. Tbl3.R
 
-### Generating Figures and Tables  
+These programs incoporate EACCRPBT.R and Settings.R. The remaining R programs, ConvertTiffs.R,
+Paragraphs.R, and SyncRefs.R, and the RMarkdown files CheckFlags.R and CheckRefs.R,
+are accessory programs for the convenience of the user; they depend on the configuration
+of the software and directory configuration of the computer being used and may not
+function correctly.
+
+*Fig1.R depends on the existence of pre-existing image files that are not part of
+this distribution, and need not be run.
 
 ### Changing initial assumptions  
+The spreadsheet EACCRPBT.xlsx can be modified to change the initial conditions of
+our model.

@@ -40,7 +40,7 @@ basin_df <- readOGR(basin_fn, basin)
 nutN_df <- LoadNutrientData(nut_dir, "nitrogen")
 nutP_df <- LoadNutrientData(nut_dir, "phosphorus")
 
-NP_lim_df <- read.table(NP_lim_fn)
+NPlim_df <- read.table(NPlim_fn)
 Nsums_df <- read.table(Nsums_fn)
 Psums_df <- read.table(Psums_fn)
 
@@ -58,8 +58,8 @@ basin_ct <- nrow(Nsums_df)
 
 # Trapezoid calculations
 # Gather coordinates,
-trap_df <- data.frame(long=NP_lim_df$long, lat=NP_lim_df$lat, val=NP_lim_df$ATSarea)
-#trap_df <- data.frame(long=NP_lim_df$long, lat=NP_lim_df$lat, nut= NP_lim_df$nut, area= NP_lim_df$ATSarea, rat=NP_lim_df$arearat)
+trap_df <- data.frame(long=NPlim_df$long, lat=NPlim_df$lat, val=NPlim_df$ATSarea)
+#trap_df <- data.frame(long=NPlim_df$long, lat=NPlim_df$lat, nut= NPlim_df$nut, area= NPlim_df$ATSarea, rat=NPlim_df$arearat)
 trap_df <- trap_df[!is.na(trap_df$val),]
 ttrap_df <- TransformNutrientData(trap_df, fig_CRS)
 

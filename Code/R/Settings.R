@@ -39,8 +39,7 @@ river <- "GRDC_687_rivers"
 basin <- "GRDC_405_basins_from_mouth"
 Nsums <- "Nsums"
 Psums <- "Psums"
-#NPsums <- "NPSums"
-NP_lim <- "NPlim"
+NPlim <- "NPlim"
 
 # Fully qualified path names
 area_fn <- paste0(work_dir, areas)
@@ -51,8 +50,7 @@ river_fn <- paste0(river_dir, river)
 basin_fn <- paste0(basin_dir, basin)
 Nsums_fn <- paste0(work_dir, Nsums)
 Psums_fn <- paste0(work_dir, Psums)
-#NPsums_fn <- paste0(work_dir, NPsums)
-NP_lim_fn <- paste0(work_dir, NP_lim)
+NPlim_fn <- paste0(work_dir, NPlim)
 
 # Figure settings
 fig_rdpi <- 300                 # raster art dots per inch

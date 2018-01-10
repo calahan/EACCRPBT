@@ -23,10 +23,10 @@ source("Code/R/Settings.R")
 # numerical values separate from character values. The variables vars and ret are
 # not used later but can be used when debugging manually.
 
-NP_lim_df <- read.table(NP_lim_fn)
-area_needed <- sum(NP_lim_df$ATSarea, na.rm=TRUE)
-N_area_needed <- sum(NP_lim_df[NP_lim_df$nut == "N",]$ATSarea, na.rm=TRUE)
-P_area_needed <- sum(NP_lim_df[NP_lim_df$nut == "P",]$ATSarea, na.rm=TRUE)
+NPlim_df <- read.table(NPlim_fn)
+area_needed <- sum(NPlim_df$ATSarea, na.rm=TRUE)
+N_area_needed <- sum(NPlim_df[NPlim_df$nut == "N",]$ATSarea, na.rm=TRUE)
+P_area_needed <- sum(NPlim_df[NPlim_df$nut == "P",]$ATSarea, na.rm=TRUE)
 
 kg2t <- 0.001
 kg2T <- 0.00110231
@@ -111,9 +111,9 @@ p3 <- paste0("Globally, excess N and P applied to the 140 crops curated in the E
             " t (",
             SciNotString(kg2T * totalPxs, 2),
             " T), respectively. We abbreviate metric tons with 't' and US tons with 'T'. Related to the Redfield ratios, these excesses imply N-limitation in ",
-            format(sum(NP_lim_df$nut=="N", na.rm=TRUE), big.mark=","),
+            format(sum(NPlim_df$nut=="N", na.rm=TRUE), big.mark=","),
             " grid cells and P-limitation in",
-            format(sum(NP_lim_df$nut=="P", na.rm=TRUE), big.mark=","),
+            format(sum(NPlim_df$nut=="P", na.rm=TRUE), big.mark=","),
             " grid cells (Figure 4A). As complete recycling of a limiting nutrient in a given grid cell or basin would leave an excess of the non-limiting nutrient, we compute the algal cultivation area required to recycle P in N-limited grid cells, and to recycle N in P-limited grid cells, summing these areas over each basin. We assume equatorial productivity ",
             SciNotString(prod_lo, 2),
             "t ha-1 yr-1 (",
@@ -158,29 +158,29 @@ p3 <- paste0("Globally, excess N and P applied to the 140 crops curated in the E
 p4 <- paste0("Our economic model for N and P recycling assumes continued application of excess agricultural nutrients at the current rate. ",
              "Our worst and best case scenarios bracket a range of potential capital and operational expenses, determined by floway cost and lifetime (CapEx), and operator salary (OpEx). ",
              "We adopt a simple investment scenario starting with an initial annual spending rate (best case: $",
-             beststartNP,
+             best_startNP,
              " yr-1; worst case: ",
-             worststartNP,
+             worst_startNP,
              " yr-1), that increases by ",
              100 * inc_prp,
              "% each year for ",
              build_yr_hi,
              " years, then remains at that level (best case: $",
-             bestendNP,
+             best_endNP,
              " yr-1; worst case: $",
-             worstendNP,
+             worst_endNP,
              " yr-1) for the next ",
              final_yr - build_yr_hi,
              " years, setting the initial spending at a level that results in complete nutrient recycling after year ",
              build_yr_hi,
              " (Table 3, Figure 5). This exponential spending increase, combined with the limited lifetime of an ATS facility produces the “ringing” phenomenon apparent in the plots of biomass production, while the sudden halt to investment growth at year 100 results in an apparent discontinuity apparent as a change in slope of biomass production.",
              " We apply the same tactic to estimate the effort needed to recycle net anthropogenic C, finding the initial investment rate (best case: $",
-             beststartC,
+             best_startC,
              " yr-1; worst case: $",
-             worststartC,
+             worst_startC,
              " yr-1) and final investment rate (best case: $",
-             bestendC,
+             best_endC,
              " yr-1; worst case: $",
-             worstendC,
+             worst_endC,
              " yr-1) to be an order of magnitude greater than for N and P recycling."
 )

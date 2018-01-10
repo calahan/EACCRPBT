@@ -21,10 +21,11 @@ library(rtf)
 source("Code/R/EACCRPBT.R")
 source("Code/R/Settings.R")
 
-# Get precomputed results that contain the ATS area needed
-# input_fn <- paste0(work_dir, "tblA3")
-# input_df <- read.table(input_fn)
-# ret <- mapply(assign, as.character(input_df$var), input_df$val, MoreArgs = list(envir = .GlobalEnv))
+# Determine the mean productivit
+NPlim_df <- read.table(paste0(work_dir, "NPlim"))
+area_needed <- sum(NPlim_df$ATSarea, na.rm=TRUE)
+total_biomass <- sum(NPlim_df$biomass, na.rm=TRUE)
+mean_prod <- total_biomass/area_needed
 
 tbl3_title <- "Table 3"
 NP100_fn <- paste0(work_dir, "LoCapLoOpHiLifeNP100")
@@ -104,6 +105,3 @@ tbl3_rtf <- RTF(tbl3_fn, width=8.5, height=11, font.size=12, omi=c(1,1,1,1))
 addHeader(tbl3_rtf, "Table 3")
 addTable(tbl3_rtf, tbl3_df)
 done(tbl3_rtf)
-
-
-#WordTable(tbl3_fn, tbl3_df, 3, tbl3_title)
