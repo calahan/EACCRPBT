@@ -36,7 +36,10 @@ vars <- read.table(paste0(work_dir, "pNutrientExcesses_vals"))
 ret <- mapply(assign, as.character(vars$name), vars$val, MoreArgs = list(envir = .GlobalEnv))
 
 vars <- read.table(paste0(work_dir, "pNutrientExcesses_txt"))
-ret <- mapply(assign, as.character(vars), vars$val, MoreArgs = list(envir = .GlobalEnv))
+ret <- mapply(assign, as.character(vars$name), vars$val, MoreArgs = list(envir = .GlobalEnv))
+
+vars <- read.table(paste0(work_dir, "econ"))
+ret <- mapply(assign, as.character(vars$var), vars$val, MoreArgs = list(envir = .GlobalEnv))
 
 # Methods/Parameters
 p1 <- paste0("We assume biomass mass ratios of ",
@@ -152,5 +155,32 @@ p3 <- paste0("Globally, excess N and P applied to the 140 crops curated in the E
             ," t ha-1 yr-1 (2.3 × 106 T ac-1 yr-1)."
 )
 
-p4 <- paste0(
+p4 <- paste0("Our economic model for N and P recycling assumes continued application of excess agricultural nutrients at the current rate. ",
+             "Our worst and best case scenarios bracket a range of potential capital and operational expenses, determined by floway cost and lifetime (CapEx), and operator salary (OpEx). ",
+             "We adopt a simple investment scenario starting with an initial annual spending rate (best case: $",
+             beststartNP,
+             " yr-1; worst case: ",
+             worststartNP,
+             " yr-1), that increases by ",
+             100 * inc_prp,
+             "% each year for ",
+             build_yr_hi,
+             " years, then remains at that level (best case: $",
+             bestendNP,
+             " yr-1; worst case: $",
+             worstendNP,
+             " yr-1) for the next ",
+             final_yr - build_yr_hi,
+             " years, setting the initial spending at a level that results in complete nutrient recycling after year ",
+             build_yr_hi,
+             " (Table 3, Figure 5). This exponential spending increase, combined with the limited lifetime of an ATS facility produces the “ringing” phenomenon apparent in the plots of biomass production, while the sudden halt to investment growth at year 100 results in an apparent discontinuity apparent as a change in slope of biomass production.",
+             " We apply the same tactic to estimate the effort needed to recycle net anthropogenic C, finding the initial investment rate (best case: $",
+             beststartC,
+             " yr-1; worst case: $",
+             worststartC,
+             " yr-1) and final investment rate (best case: $",
+             bestendC,
+             " yr-1; worst case: $",
+             worstendC,
+             " yr-1) to be an order of magnitude greater than for N and P recycling."
 )

@@ -20,15 +20,12 @@ library(Calahanlab)
 source("Code/R/EACCRPBT.R")
 source("Code/R/Settings.R")
 
-# Get precomputed results that contain the ATS area needed
-# input_fn <- paste0(work_dir, "tblA3")
-# input_df <- read.table(input_fn)
-# ret <- mapply(assign, as.character(input_df$var), input_df$val, MoreArgs = list(envir = .GlobalEnv))
+# Load precomputed ATS area are biomass
 NPlim_df <- read.table(paste0(work_dir, "NPlim"))
 area_needed <- sum(NPlim_df$ATSarea, na.rm=TRUE)
 total_biomass <- sum(NPlim_df$biomass, na.rm=TRUE)
 mean_prod <- total_biomass/area_needed
-# mean_prod <- sum(NPlim_df$biomass, na.rm=TRUE)/sum(NP_lim
+
 # Variables specific to this module
 fig_dir <- paste0(fig_dir, "Figure 5/")
 fig_fn <- paste0(fig_dir, "Figure 5.tiff")
@@ -36,24 +33,44 @@ A_fn <- paste0(fig_dir, "A.tiff")
 B_fn <- paste0(fig_dir, "B.tiff")
 C_fn <- paste0(fig_dir, "C.tiff")
 D_fn <- paste0(fig_dir, "D.tiff")
-# E_fn <- paste0(fig_dir, "E.tiff")
-# F_fn <- paste0(fig_dir, "F.tiff")
-# imgs <- c(A_fn, B_fn, C_fn, D_fn, E_fn, F_fn)
 imgs <- c(A_fn, B_fn, C_fn, D_fn)
 
-# tbl3_title <- "Table 3. Main Variables and Model Paramenters"
-# NP100_fn <- paste0(work_dir, "LoCapLoOpHiLifeNP100")
-# C100_fn <- paste0(work_dir, "LoCapLoOpHiLifeC100")
-
 # Funding chosen so N/P is solved in 100 years
-# To ask whether N and P are accounted for, use e.g. min(HiCapHiOpLoLifeNP100_df[125:200,]$TotalArea) - area_needed
-LoCapLoOpHiLifeNP100_df <- EconDataFrame(6.94e+7, inc_prp, build_yr_hi, final_yr, mean_prod, cap_lo, op_lo, op_life_long, emp_ha, emp_sal)
-HiCapHiOpLoLifeNP100_df <- EconDataFrame(1.9e+8, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
+# To ask whether N and P are accounted for, use e.g. min(WorstNP_df[125:200,]$TotalArea) - area_needed
+beststartNP <- 6.94e+7
+worststartNP <- 1.85e+8
+beststartC <- 7.09e+8
+worststartC <- 1.89e+9
+
+bestNP_df <- EconDataFrame(beststartNP, inc_prp, build_yr_hi, final_yr, mean_prod, cap_lo, op_lo, op_life_long, emp_ha, emp_sal)
+worstNP_df <- EconDataFrame(worststartNP, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
 
 # Funding chosen so C is solved in 100 years
-# To ask what the minimum area is, use e.g. min(LoCapLoOpHiLifeC100_df[125:200,]$AlgalMass*C_prp)-CO2_gr
-LoCapLoOpHiLifeC100_df <- EconDataFrame(7.09e+8, inc_prp, build_yr_hi, final_yr, mean_prod, cap_lo, op_lo, op_life_long, emp_ha, emp_sal)
-HiCapHiOpLoLifeC100_df <- EconDataFrame(1.89e+9, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
+# To ask what the minimum area is, use e.g. min(BestC_df[125:200,]$AlgalMass*C_prp)-CO2_gr
+bestC_df <- EconDataFrame(beststartC, inc_prp, build_yr_hi, final_yr, mean_prod, cap_lo, op_lo, op_life_long, emp_ha, emp_sal)
+worstC_df <- EconDataFrame(worststartC, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
+
+# Save computed economic data for creating ¶Results/Economic Model
+econ_df <- data.frame(var=c("beststartNP",
+                            "worststartNP",
+                            "bestendNP",
+                            "worstendNP",
+                            "beststartC",
+                            "worststartC",
+                            "bestendC",
+                            "worstendC"),
+                      val=c(beststartNP,
+                            worststartNP,
+                            max(bestNP_df$Spending),
+                            max(worstNP_df$Spending),
+                            beststartC,
+                            worststartC,
+                            max(bestC_df$Spending),
+                            max(worstC_df$Spending))
+                      )
+
+econ_fn <- paste0(work_dir, "econ")
+write.table(econ_df, econ_fn)
 
 # Figure settings
 line_size = 0.05
@@ -100,8 +117,8 @@ colors4 <- c("lightgreen", "lightcoral", "forestgreen", "firebrick4")
 
 # Panel A
 dfs <- list()
-dfs[[1]] <- LoCapLoOpHiLifeNP100_df
-dfs[[2]] <- HiCapHiOpLoLifeNP100_df
+dfs[[1]] <- bestNP_df
+dfs[[2]] <- worstNP_df
 EconPanel(dfs, names2, lines2, "Spending", 1e+12, expression(Project~Year), expression("Spending (\u0024 \u00D7 10"^12*" yr"^-1*")"),
        "CapEx/OpEx/Life", 200, A_fn, theme_overridesA, colors2, .79)
 
@@ -111,10 +128,10 @@ EconPanel(dfs, names2, lines2, "AlgalMass", 1e+9, expression(Project~Year), expr
 
 # Panel C
 dfs <- list()
-dfs[[1]] <- LoCapLoOpHiLifeC100_df
-dfs[[2]] <- HiCapHiOpLoLifeC100_df
-dfs[[3]] <- LoCapLoOpHiLifeNP100_df
-dfs[[4]] <- HiCapHiOpLoLifeNP100_df
+dfs[[1]] <- bestC_df
+dfs[[2]] <- worstC_df
+dfs[[3]] <- bestNP_df
+dfs[[4]] <- worstNP_df
 EconPanel(dfs, names4, lines4, "Spending", 1e+12, expression(Project~Year), expression("Spending (\u0024 \u00D7 10"^12*" yr"^-1*")"),
        "CapEx/OpEx/Life", 200, C_fn, theme_overridesA, colors4, 0.79)
 
