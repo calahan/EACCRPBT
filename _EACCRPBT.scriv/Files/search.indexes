@@ -145,7 +145,7 @@ citation
  -75.9
  39.0
 Kangas and Mulbry, 2013
-Table 1. Locations of outdoor algal turf scrubber studies and production-scale facilities (see also Fig. 1E).</Text>
+</Text>
         </Document>
         <Document ID="179">
             <Title>Concerns - Emissions, Biomass, Land Area</Title>
@@ -1533,6 +1533,146 @@ Hits began being spurious. Googled
 "algal turf scrubber" hectare acre ats hydromentia
 Still had 511 results</Text>
         </Document>
+        <Document ID="241">
+            <Title>Table 1</Title>
+            <Text>Table 1
+long
+lat
+citation
+ 146.8
+-19.3
+{Adey and Loveland, 2007, #51828}
+ -80.5
+ 26.7
+{Adey et al., 1993, #62}
+ -74.5
+ 40.4
+{Adey et al., 1996, #59863}
+ -76.3
+ 37.9
+{Adey et al., 2013, #773}
+-120.9
+ 50.8
+{Bothwell, 1983, #24121}
+-119.7
+ 50.8
+{Bothwell, 1989, #88089}
+ -64.7
+ 17.4
+{Carpenter et al., 1991, #87446}
+ 120.3
+ 23.0
+{Chang et al., 2011, #74666}
+ 117.8
+ 24.5
+{Chen et al., 2015, #5692}
+-121.1
+ 37.5
+{Craggs et al., 1996, #78913}
+ -80.4
+ 27.4
+{D'Aiuto et al., 2015, #56014}
+ -80.4
+ 37.2
+{Huang et al., 2013, #766}
+ -79.0
+ 36.0
+{HydroMentia, 2013, #63002}
+ -80.9
+ 27.2
+{HydroMentia, 2013, #95236}
+ -82.0
+ 27.9
+{HydroMentia, 2013, #95236}
+ -81.9
+ 26.7
+{HydroMentia, 2017, #63002}
+ -80.9
+ 27.3
+{HydroMentia, 2017, #63002}
+ -80.9
+ 27.5
+{HydroMentia, 2017, #63002}
+ -80.4
+ 27.6
+{HydroMentia, 2017, #63002}
+ -80.4
+ 27.6
+{HydroMentia, 2017, #63002}
+ -80.5
+ 27.6
+{HydroMentia, 2017, #63002}
+ -81.4
+ 28.6
+{HydroMentia, 2017, #63002}
+ -82.5
+ 29.9
+{HydroMentia, 2017, #63002}
+ -85.0
+ 34.8
+{HydroMentia, 2017, #63002}
+ -76.5
+ 39.2
+{HydroMentia, 2017, #63002}
+ -76.5
+ 39.2
+{HydroMentia, 2017, #63002}
+ -76.3
+ 39.8
+{HydroMentia, 2017, #63002}
+ -73.8
+ 40.6
+{HydroMentia, 2017, #63002}
+   3.6
+ 51.1
+{Liu et al., 2016, #46476}
+  16.4
+ 48.2
+{Mayr et al., 2015, #17666}
+ 146.8
+-19.3
+{Morrissey et al., 1988, #63991}
+ -76.9
+ 39.0
+{Mulbry et al., 2008, #98411}
+ -76.7
+ 38.8
+{Mulbry et al., 2010, #528}
+ -76.5
+ 39.1
+{Mulbry et al., 2010, #528}
+ -76.3
+ 39.4
+{Mulbry et al., 2010, #528}
+ -76.2
+ 38.6
+{Ray et al., 2015, #84240}
+ -76.4
+ 37.2
+{Rothman et al., 2013, #23278}
+ -94.2
+ 36.2
+{Sandefur et al., 2011, #789}
+ -94.1
+ 36.1
+{Sandefur et al., 2014, #73121}
+ -82.3
+ 29.6
+{Sindelar et al., 2015, #38897}
+ -98.8
+ 29.5
+{Stewart, 2004, #96157}
+  16.2
+ 51.6
+{Sukačová et al., 2015, #3065}
+-103.3
+ 34.2
+{Yan and Arellano, 2015, #82538}
+ -75.9
+ 39.0
+Kangas and Mulbry, 2013
+Table 1. Locations of outdoor algal turf scrubber studies and production-scale facilities (see also Fig. 1E).</Text>
+        </Document>
         <Document ID="146">
             <Title>(Yu et al., 2015) Feasibility of a semi-batch vertical-flow wetland for onsite residential graywater treatment</Title>
             <Text>Feasibility of a semi-batch vertical-flow wetland for onsite residential graywater treatment
@@ -1544,11 +1684,132 @@ Contains reports for multiple wetlands
             <Title>Retired from Nutrient Excesses</Title>
             <Text>Nutrient data {Potter et al., 2010, #43603} are organized on a 0.5’ × 0.5’ grid of latitude and longitude, with 9,318,244 total locations, 698,788 having N and P data and 927,186 having P data (Fig. 2). Values represent kilograms of excess nutrient per cell, and are positive for N but positive or negative for P. We consider only positive values, as nutrient deficits are not transferrable among locations or basins. Excess N and P total # kg and # kg, respectively. Excess N per grid cell ranges from 3.9 × 10-6 kg to 2.8 × 106 kg. Excess P per cell ranges from −1.8 × 105 kg to 5.8 × 105 kg {West et al., 2014, #62583}. Half of the excess N and P is accounted for by 6.8% and 7.0% of their respective locations. The 405 major basins curated by the Global Runoff Data Center are responsible for 77% of global nutrient excess, for both N and P (Table A1). Excess N per curated basin ranges from 0 to 5.1 × 109 kg yr-1. Excess P per basin ranges from −6.8 × 107 kg yr-1 to 1.0 × 109 kg yr-1. Half of the nutrient excess is contributed by five (N) or six (P) basins (Table 1). The Yangze contributes the most N (5.1 × 109 kg yr-1), while the Ganges contributes the most P (1.0 × 109 kg yr-1).</Text>
         </Document>
+        <Document ID="242">
+            <Title>Table 2</Title>
+            <Text>Table 2 
+Basin Name
+ATS Area (ha)
+ATS Area (%, vs. basin)
+ATS Area (%, vs. total)
+Yangtze
+1.80 ◊ 106
+12.2
+12
+Ganges
+1.70 ◊ 106
+12.0
+24
+Mississippi
+1.20 ◊ 106
+ 8.1
+32
+Indus
+8.50 ◊ 105
+ 5.9
+38
+Huai
+7.80 ◊ 105
+ 5.4
+44
+Huang
+7.20 ◊ 105
+ 5.0
+49
+Parana
+6.40 ◊ 105
+ 4.5
+53
+Amur
+3.40 ◊ 105
+ 2.3
+55
+Yongding
+3.30 ◊ 105
+ 2.3
+58
+Xi Jiang
+2.70 ◊ 105
+ 1.9
+60
+Nelson
+2.60 ◊ 105
+ 1.8
+61
+Krishna
+2.40 ◊ 105
+ 1.7
+63
+Godavari
+2.30 ◊ 105
+ 1.6
+65
+Nile
+2.00 ◊ 105
+ 1.4
+66
+Mekong
+2.00 ◊ 105
+ 1.4
+67
+
+Table 2. Highest priority basins.</Text>
+        </Document>
         <Document ID="138">
             <Title>(Verhoeven and Meuleman, 1999) Wetlands for wastewater treatment- Opportunities and limitations</Title>
             <Text>Wetlands for wastewater treatment- Opportunities and limitations
 
 {Verhoeven and Meuleman, 1999, #34608}</Text>
+        </Document>
+        <Document ID="243">
+            <Title>Table 3</Title>
+            <Text>Table 3 
+variable
+value
+unit
+cap_lo
+2.50 ◊ 105
+$ ha-1
+cap_hi
+1.00 ◊ 106
+$ ha-1
+op_lo
+3.30 ◊ 104
+$ ha-1 yr-1
+op_hi
+7.00 ◊ 104
+$ ha-1 yr-1
+op_life_long
+4.00 ◊ 101
+yr
+op_life_short
+2.00 ◊ 101
+yr
+betterNP.exp
+2.30 ◊ 1012
+$
+betterNP.bm
+3.10 ◊ 109
+t yr-1
+worseNP.exp
+6.10 ◊ 1012
+$
+worseNP.bm
+3.10 ◊ 109
+t yr-1
+betterC.exp
+1.60 ◊ 1013
+$
+betterC.bm
+2.20 ◊ 1010
+t yr-1
+worseC.exp
+4.30 ◊ 1013
+$
+worseC.bm
+2.20 ◊ 1010
+t yr-1
+
+Table 3. Parameters for Economic Model.</Text>
         </Document>
         <Document ID="180">
             <Title>Sociopolitical Obstacles</Title>
@@ -1640,7 +1901,7 @@ Uruguay
  1.4
 69
 
-Table 2. Highest priority basins.</Text>
+</Text>
         </Document>
         <Document ID="139">
             <Title>(Vymazal, 2002) The use of sub-surface constructed wetlands for wastewater treatment in the Czech Republic: 10 years experience</Title>
