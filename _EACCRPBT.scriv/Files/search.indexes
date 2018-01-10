@@ -1241,14 +1241,8 @@ American Farm Bureau Federation v. United States Environmental Protection Agency
 {Sandefur et al., 2014, #73121}</Text>
         </Document>
         <Document ID="206">
-            <Title>Economic Model</Title>
-            <Text>Our economic model assumes continued application of excess agricultural nutrients at the current rate. Our worst and best case scenarios bracket a range of potential capital and operational expenses, determined by floway cost and lifetime, and operator salary. We adopt a simple investment scenario starting with an initial annual spending rate that increases by a fixed percentage each year for 100 years, then remains at that level for the next 100 years, setting the initial spending at a level that results in complete recycling at year 100 (Table 3, Figure 5). This exponential spending increase, combined with the limited lifetime of an ATS facility produces the “ringing” phenomenon apparent in the plot of biomass production, while the sudden halt to investment growth at year 100 results in a discontinuity at year 100. In our worst case scenario for N and P recycling, spending begins at $4.9 × 108 yr-1and grows to $6.1 × 1012 yr-1. In our best case scenario, spending begins at $1.8 × 108 yr-1and grows to $2.3 × 1012 yr-1.
-
-[Moved from elsewhere]
- CapEx can vary; we assume a range of $2.5 × 105 ha-1 ($1.0 × 105 ac-1) (monetary values in approximate 2017 US dollars) where minimal site preparation is required, to $1.0 × 106 ha-1 ($4.0 × 105 ac-1) with complex site preparation. OpEx can range from $4.0 × 104 ha-1 yr-1 ($1.6 × 104 ac-1 yr-1) for single-pass operation to $7.0 × 104 ha-1 yr-1 ($2.8 × 104 ac-1 yr-1), for more sophisticated operations.
-
-[Moved from elsewhere]
- A 1.0 ha (2.5 ac) facility producing 5.5 × 101 t yr-1 of algal compost sold for $1.0 × 102 t-1 ($9.1 × 101 ton-1), would generate $5.5 × 103 yr-1, offsetting roughly fourteen percent of $4.0 × 104 yr-1 OpEx, and improving the economics.</Text>
+            <Title>*Economic Model</Title>
+            <Text>Our economic model for N and P recycling assumes continued application of excess agricultural nutrients at the current rate. Our worst and best case scenarios bracket a range of potential capital and operational expenses, determined by floway cost and lifetime (CapEx), and operator salary (OpEx). We adopt a simple investment scenario starting with an initial annual spending rate (best case: $6.94  × 107 yr-1; worst case: $1.85  × 108 yr-1), that increases by 10% each year for 100 years, then remains at that level (best case: $8.69  × 1011 yr-1; worst case: $2.32  × 1012 yr-1) for the next 100 years, setting the initial spending at a level that results in complete nutrient recycling after year 100 (Table 3, Figure 5). This exponential spending increase, combined with the limited lifetime of an ATS facility produces the “ringing” phenomenon apparent in the plots of biomass production, while the sudden halt to investment growth at year 100 results in an apparent discontinuity apparent as a change in slope of biomass production. We apply the same tactic to estimate the effort needed to recycle net anthropogenic C, finding the initial investment rate (best case: $7.09  × 108 yr-1; worst case: $8.88  × 1012 yr-1) and final investment rate (best case: $2.37  × 1013 yr-1; worst case: $1.89  × 109 yr-1) to be an order of magnitude greater than for N and P recycling.</Text>
         </Document>
         <Document ID="75">
             <Title>(Heisler et al., 2008) Eutrophication and harmful algal blooms- A scientific consensus</Title>
@@ -1854,7 +1848,13 @@ Table 3. Economic model parameters.</Text>
         </Document>
         <Document ID="239">
             <Title>*additional*</Title>
-            <Text>To determine annual highway costs, lane length and cost data were obtained from United States Federal Highway Administration publications.{FHWA, 2015, #85081; FHWA, 2015, #84398}"</Text>
+            <Text>To determine annual highway costs, lane length and cost data were obtained from United States Federal Highway Administration publications.{FHWA, 2015, #85081; FHWA, 2015, #84398}"
+
+[Moved from elsewhere]
+ CapEx can vary; we assume a range of $2.5 × 105 ha-1 ($1.0 × 105 ac-1) (monetary values in approximate 2017 US dollars) where minimal site preparation is required, to $1.0 × 106 ha-1 ($4.0 × 105 ac-1) with complex site preparation. OpEx can range from $4.0 × 104 ha-1 yr-1 ($1.6 × 104 ac-1 yr-1) for single-pass operation to $7.0 × 104 ha-1 yr-1 ($2.8 × 104 ac-1 yr-1), for more sophisticated operations.
+
+[Moved from elsewhere]
+ A 1.0 ha (2.5 ac) facility producing 5.5 × 101 t yr-1 of algal compost sold for $1.0 × 102 t-1 ($9.1 × 101 ton-1), would generate $5.5 × 103 yr-1, offsetting roughly fourteen percent of $4.0 × 104 yr-1 OpEx, and improving the economics.</Text>
         </Document>
         <Document ID="167">
             <Title>Nutrient Excesses</Title>
