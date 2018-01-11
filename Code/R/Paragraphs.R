@@ -24,13 +24,19 @@ source("Code/R/Settings.R")
 # not used later but can be used when debugging manually.
 
 NPlim_df <- read.table(NPlim_fn)
+basin_areas <- read.table(area_fn)
+
+# Nsums_df <- read.table(Nsums_fn)
+# Psums_df <- read.table(Psums_fn)
+
 area_needed <- sum(NPlim_df$ATSarea, na.rm=TRUE)
-N_area_needed <- sum(NPlim_df[NPlim_df$nut == "N",]$ATSarea, na.rm=TRUE)
-P_area_needed <- sum(NPlim_df[NPlim_df$nut == "P",]$ATSarea, na.rm=TRUE)
+# N_area_needed <- sum(NPlim_df[NPlim_df$nut == "N",]$ATSarea, na.rm=TRUE)
+# P_area_needed <- sum(NPlim_df[NPlim_df$nut == "P",]$ATSarea, na.rm=TRUE)
 
 kg2t <- 0.001
 kg2T <- 0.00110231
-tha2Tac <- 0.446090613
+tha2Tac <- 2.723868587
+ha2ac <- 2.47105
 
 vars <- read.table(paste0(work_dir, "pNutrientExcesses_vals"))
 ret <- mapply(assign, as.character(vars$name), vars$val, MoreArgs = list(envir = .GlobalEnv))
@@ -43,33 +49,39 @@ ret <- mapply(assign, as.character(vars$var), vars$val, MoreArgs = list(envir = 
 
 # Methods/Parameters
 p1 <- paste0("We assume biomass mass ratios of ",
-             C_prp,
-             ", ",
-             N_prp,
-             ", ",
-             " and ",
-             P_prp,
-             " for C, N and P respectively, derived from the Redfield stoichiometric ratios {Hillebrand and Sommer, 1999, #12928}. CapEx and OpEx estimates are derived from HydroMentia reports. Values for economic parameters were chosen to represent best and worst cases for CapEx (",
-             cap_lo,
-             " and ",
-             cap_hi,
-             " $ ha-1 respectively)",
-             "OpEx (",
-             op_lo,
-             " and ",
-             op_hi,
-             "$ ha-1 yr-1 respectively) and facility lifetime (",
+             format(100 * C_prp, digits=2),
+             "%, ",
+             format(100 * N_prp, digits=2),
+             "%, and ",
+             format(100 * P_prp, digits=2),
+             "% for C, N and P respectively, derived from the stoichiometric ratios of algal biomass {Ebeling et al., 2006, #88379; Hillebrand and Sommer, 1999, #12928}. CapEx and OpEx estimates are ultimately derived from actual construction and operation figures {Hoffman et al., 2017, #34706}. Values for economic parameters were chosen to represent best and worst cases for CapEx ($",
+             SciNotString(cap_lo, 2),
+             " ha-1 ($",
+             SciNotString(cap_lo/ha2ac, 2),
+             " ac-1) and $",
+             SciNotString(cap_hi, 2),
+             " $ ha-1 ($",
+             SciNotString(cap_hi/ha2ac, 2),
+             " ac-1 respectively)), OpEx ($",
+             SciNotString(op_lo, 2),
+             " ha-1 ($",
+             SciNotString(op_lo/ha2ac, 2),
+             " ac-1) and $",
+             SciNotString(op_hi, 2),
+             " ha-1 yr-1 ($",
+             SciNotString(op_hi/ha2ac, 2),
+             " ac-1) respectively)) and facility lifetime (",
              op_life_short,
              " yr for low CapEx and ",
              op_life_long,
-             " yr for high Capex). Best and worst case OpeEx values were chosen to reflect fully encumbered lower and higher end middle-class salaries in the US and additional operational costs of 10% of CapEx (Table 3).",
-             " The economic model creates an R data frame by populating the first row (year 1) with initial conditions then applies the model’s spending growth formula, (",
-             inc_prp,
+             " yr for high Capex, respectively). Best and worst case OpEx values were chosen to represent fully encumbered lower and higher end middle-class salaries in the US and additional operational costs of 10% of CapEx (Table 3).",
+             " The economic model creates an R data frame by populating the first row (year 1) with initial conditions then applies the model’s spending growth formula (",
+             format(100 * inc_prp, digits = 0),
              "% yr-1), to that row to produce the next row (year 2), repeating the procedure for year 3 to year ",
-             build_yr_lo,
-             " . Constant spending formula is then applied similarly for the following ",
-             build_yr_hi - build_yr_lo,
-             " yr. To determine the initial rate, we chose parameters such that once fully built out, the minimum algal biomass is always sufficient to completely recycle the relevant nutrient(s)."
+             build_yr_hi,
+             " . Constant spending is then applied similarly for the following ",
+             final_yr - build_yr_hi,
+             " yr. To determine the initial spending rate, we chose parameters such that once the system is fully built out, the minimum algal biomass is always sufficient to completely recycle the relevant nutrient(s)."
 )
 
 # Results/Nutrient Excess
@@ -102,6 +114,8 @@ p2 <- paste0("Nutrient data {Potter et al., 2010, #43603} are organized on a 0.5
 )
 
 # Results/Area Required
+basin_area <- sum(basin_areas$val)
+biomass <- sum(NPlim_df$biomass, na.rm=TRUE)
 p3 <- paste0("Globally, excess N and P applied to the 140 crops curated in the EarthStat datasets {West et al., 2014, #62583} total ",
             SciNotString(kg2t * totalNxs, 2),
             " t (",
@@ -128,59 +142,47 @@ p3 <- paste0("Globally, excess N and P applied to the 140 crops curated in the E
             SciNotString(area_needed, 2),
             " ha (",
             SciNotString(tha2Tac * area_needed, 2),
-            " ac) of algal cultivation area is required for complete N and P recycling, with ",
-            SciNotString(N_area_needed, 2),
+            " ac) of algal cultivation area is required for complete N and P recycling. For nutrient recycling in the major basins curated in the GRDC data set, a total of ",
+            SciNotString(basin_area, 2),
             "ha (",
-            SciNotString(tha2Tac * N_area_needed, 2),
-            " ac) required in N-limited grid cells and ",
-            SciNotString(P_area_needed, 2),
-            " ha (",
-            SciNotString(tha2Tac * P_area_needed, 2),
-            " ac) required in P-limited grid cells. For nutrient recycling in the major basins curated in the GRDC data sets, a total of ",
-            3.8e+7,
-            " ha (",
-            9.4e+7,
-            " ac) is required, with ",
-            3.4e+7,
-            " ha (",
-            8.4e+7,
-            " ac) in N-limited basins and ",
-            2.8e+6,
-            " ha (",
-            6.9e+6,
-            " ac) in P-limited basins (Figure 4B). The total biomass, ",
-            3.1e+12,
-            " kg yr-1, is less than a thousandth of a percent of world net primary productivity, and approximately three hundredths of a percent of world agriculture. The mean productivity of all grid cells is ",
-            6.4e+1
-            ," t ha-1 yr-1 (2.3 × 106 T ac-1 yr-1)."
+            SciNotString(tha2Tac * basin_area, 2),
+            " ac) is required. The total biomass produced, ",
+            SciNotString(biomass,2),
+            " t yr-1 (",
+            SciNotString(tha2Tac * biomass, 2),
+            ", ",
+            format(100 * biomass/world_npp, digits=2),
+            "% of world net primary productivity, or approximately ",
+            format(100 * biomass/ag_npp, digits=2),
+            "% of world agriculture productivity."
 )
 
 p4 <- paste0("Our economic model for N and P recycling assumes continued application of excess agricultural nutrients at the current rate. ",
              "Our worst and best case scenarios bracket a range of potential capital and operational expenses, determined by floway cost and lifetime (CapEx), and operator salary (OpEx). ",
              "We adopt a simple investment scenario starting with an initial annual spending rate (best case: $",
-             best_startNP,
+             SciNotString(best_startNP, 2),
              " yr-1; worst case: ",
-             worst_startNP,
+             SciNotString(worst_startNP, 2),
              " yr-1), that increases by ",
-             100 * inc_prp,
+             SciNotString(100 * inc_prp, 2),
              "% each year for ",
-             build_yr_hi,
+             SciNotString(build_yr_hi, 2),
              " years, then remains at that level (best case: $",
-             best_endNP,
+             SciNotString(best_endNP, 2),
              " yr-1; worst case: $",
-             worst_endNP,
+             SciNotString(worst_endNP, 2),
              " yr-1) for the next ",
-             final_yr - build_yr_hi,
+             SciNotString(final_yr - build_yr_hi, 2),
              " years, setting the initial spending at a level that results in complete nutrient recycling after year ",
-             build_yr_hi,
+             SciNotString(build_yr_hi, 2),
              " (Table 3, Figure 5). This exponential spending increase, combined with the limited lifetime of an ATS facility produces the “ringing” phenomenon apparent in the plots of biomass production, while the sudden halt to investment growth at year 100 results in an apparent discontinuity apparent as a change in slope of biomass production.",
              " We apply the same tactic to estimate the effort needed to recycle net anthropogenic C, finding the initial investment rate (best case: $",
-             best_startC,
+             SciNotString(best_startC, 2),
              " yr-1; worst case: $",
-             worst_startC,
+             SciNotString(worst_startC, 2),
              " yr-1) and final investment rate (best case: $",
-             best_endC,
+             SciNotString(best_endC, 2),
              " yr-1; worst case: $",
-             worst_endC,
+             SciNotString(worst_endC, 2),
              " yr-1) to be an order of magnitude greater than for N and P recycling."
 )

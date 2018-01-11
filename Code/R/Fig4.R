@@ -26,8 +26,6 @@ fig_dir <- paste0(fig_dir, "Figure 4/")
 fig_fn <- paste0(fig_dir, "Figure 4.tiff")
 A_fn <- paste0(fig_dir, "A.tiff")
 B_fn <- paste0(fig_dir, "B.tiff")
-# C_fn <- paste0(fig_dir, "C.tiff")
-# D_fn <- paste0(fig_dir, "D.tiff")
 panel_fns <- paste0(fig_dir, c("A.tiff", "B.tiff"))
 
 # Load geospatial data sets.
@@ -59,14 +57,11 @@ basin_ct <- nrow(Nsums_df)
 # Trapezoid calculations
 # Gather coordinates,
 trap_df <- data.frame(long=NPlim_df$long, lat=NPlim_df$lat, val=NPlim_df$ATSarea)
-#trap_df <- data.frame(long=NPlim_df$long, lat=NPlim_df$lat, nut= NPlim_df$nut, area= NPlim_df$ATSarea, rat=NPlim_df$arearat)
 trap_df <- trap_df[!is.na(trap_df$val),]
 ttrap_df <- TransformNutrientData(trap_df, fig_CRS)
 
 ttrap_val <- ttrap_df[which(!is.na(ttrap_df$val)),]$val
 s_ttrap_val <- sort(ttrap_val, decreasing=TRUE)
-# trap_10 <- max(which(s_ttrap_val > 0.1))
-# trap_01 <- max(which(s_ttrap_val > 0.01))
 ntrap_90 <- WhichFewResponsible(s_ttrap_val, 0.9)
 ntrap_50 <- WhichFewResponsible(s_ttrap_val, 0.5)
 
@@ -78,7 +73,7 @@ lims[sum_rats >= P2N] <- "N"
 lims[sum_rats < P2N] <- "P"
 plot_df <- merge(ftbasin_df, data.frame(id=1:basin_ct, lim=lims, val=sum_rats), by="id")
 
-area_sums <- read.table(paste0(work_dir, "areas")) # [todo]
+area_sums <- read.table(area_fn) # ATS area needed per basin
 s_areas <- sort(unique(area_sums$val), decreasing=TRUE)
 areas_90 <- WhichFewResponsible(s_areas, 0.9)
 areas_50 <- WhichFewResponsible(s_areas, 0.5)

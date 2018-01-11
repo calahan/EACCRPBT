@@ -31,7 +31,7 @@ fig_dir <- PathString(list("Visual Elements", "Figures"))       # Figures
 tbl_dir <- PathString(list("Visual Elements", "Tables"))        # Tables
 
 # File names
-areas <- "areas"
+area <- "area"
 bbox <- "ne_110m_wgs84_bounding_box"
 cont <- "ne_110m_land"
 lake <- "GRDC_lakes_join_rivers"
@@ -42,7 +42,7 @@ Psums <- "Psums"
 NPlim <- "NPlim"
 
 # Fully qualified path names
-area_fn <- paste0(work_dir, areas)
+area_fn <- paste0(work_dir, area)
 bbox_fn <- paste0(cont_dir, bbox)
 cont_fn <- paste0(cont_dir, cont)
 lake_fn <- paste0(lake_dir, lake)
