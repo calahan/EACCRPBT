@@ -40,8 +40,8 @@ area_df <- data.frame(long=lim_df$long, lat=lim_df$lat, val=lim_df$ATSarea) # AT
 area_sums_df <- SumNutrientsByBasin(area_df, basin_df)
 write.table(area_sums_df, area_fn)
 
-SciNotString <- function(num, digits) {
-    exp_floor <- floor(log10(num))
-    significand <- format(num/10^exp_floor, digits=digits)
-    return(paste0(significand, " × 10^", exp_floor))
-}
+# SciNotString <- function(num, digits) {
+#     exp_floor <- floor(log10(num))
+#     significand <- format(num/10^exp_floor, digits=digits)
+#     return(paste0(significand, " × 10^", exp_floor))
+# }

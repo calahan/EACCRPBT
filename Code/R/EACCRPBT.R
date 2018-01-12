@@ -657,3 +657,32 @@ ExpandSubLabels <- function(labs) {
     }
     return(ret_val)
 }
+
+#[todo] Preserving this code for later
+# Create data frame for plotting squares of ATS surface area, with coordinates in degrees
+# sq_wid_deg <- sqrt(area_sums$val * 1000) # [todo]playing with multipliers to see what appears on map
+# ATSarea_df$sq.wid <- sq_wid_deg * DegreesPerMeter(ATSarea_df$lat)
+# ats_poly <- list()
+# for(i in 1:basin_ct) {
+#     if(ATSarea_df[i,]$ATs_area > 0) {
+#         long <- ATSarea_df[i,]$long
+#         lat <- ATSarea_df[i,]$lat
+#         wid <- ATSarea_df[i,]$sq.wid/2
+#         ats_poly[[i]] <- SpatialPolygons(list(Polygons(list(Polygon(matrix(c(long + wid, lat + wid, # upper left
+#                                 long - wid, lat + wid, # upper right
+#                                 long - wid, lat - wid, # lower right
+#                                 long + wid, lat - wid), # lower left
+#                               ncol=2,
+#                               byrow=TRUE))), i)))
+#         proj4string(ats_poly[[i]]) <- CRS("+proj=longlat +datum=WGS84")
+#     } else {
+#         ats_poly[[i]] <- NA
+#     }
+# }
+# ats_poly <- ats_poly[which(!is.na(ats_poly))]
+# ats_poly_sp <- SpatialPolygons(lapply(ats_poly, function(x){x@polygons[[1]]}))
+# ats_poly_df <- SpatialPolygonsDataFrame(Sr=ats_poly_sp, data=data.frame(i=1:length(ats_poly_sp)),FALSE)
+# proj4string(ats_poly_df) <- CRS("+proj=longlat +datum=WGS84")
+# ftats_poly <- fortify(spTransform(ats_poly_df, CRS(fig_CRS)))
+
+# How much area for each nutrient [todo]there seems to be multiplication of data frames, perhaps a few unifying ones are in order (i.e. normalization)
