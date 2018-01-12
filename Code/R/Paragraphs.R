@@ -23,15 +23,15 @@ source("Code/R/Settings.R")
 # numerical values separate from character values. The variables vars and ret are
 # not used later but can be used when debugging manually.
 
+# total land used to produce food: 49116227 km^2, 4.9116227 e+7 km^2
+# 1 km^2 = 1e^6 m^2 = 100 ha
+# total land used to produce food: 4.9116 e+9 ha
+#
+# area_needed * 2.47105 = 4.6032360e+7
+
 NPlim_df <- read.table(NPlim_fn)
 basin_areas <- read.table(area_fn)
-
-# Nsums_df <- read.table(Nsums_fn)
-# Psums_df <- read.table(Psums_fn)
-
 area_needed <- sum(NPlim_df$ATSarea, na.rm=TRUE)
-# N_area_needed <- sum(NPlim_df[NPlim_df$nut == "N",]$ATSarea, na.rm=TRUE)
-# P_area_needed <- sum(NPlim_df[NPlim_df$nut == "P",]$ATSarea, na.rm=TRUE)
 
 kg2t <- 0.001
 kg2T <- 0.00110231
@@ -81,7 +81,7 @@ p1 <- paste0("We assume biomass mass ratios of ",
              build_yr_hi,
              " . Constant spending is then applied similarly for the following ",
              final_yr - build_yr_hi,
-             " yr. To determine the initial spending rate, we chose parameters such that once the system is fully built out, the minimum algal biomass is always sufficient to completely recycle the relevant nutrient(s)."
+             " yr. To determine the initial spending rate, we chose parameters such that once the system is fully built out, the minimum algal biomass is always sufficient to completely recycle the relevant nutrients."
 )
 
 # Results/Nutrient Excess
@@ -126,7 +126,7 @@ p3 <- paste0("Globally, excess N and P applied to the 140 crops curated in the E
             SciNotString(kg2T * totalPxs, 2),
             " T), respectively. We abbreviate metric tons with 't' and US tons with 'T'. Related to the Redfield ratios, these excesses imply N-limitation in ",
             format(sum(NPlim_df$nut=="N", na.rm=TRUE), big.mark=","),
-            " grid cells and P-limitation in",
+            " grid cells and P-limitation in ",
             format(sum(NPlim_df$nut=="P", na.rm=TRUE), big.mark=","),
             " grid cells (Figure 4A). As complete recycling of a limiting nutrient in a given grid cell or basin would leave an excess of the non-limiting nutrient, we compute the algal cultivation area required to recycle P in N-limited grid cells, and to recycle N in P-limited grid cells, summing these areas over each basin. We assume equatorial productivity ",
             SciNotString(prod_lo, 2),
@@ -144,13 +144,13 @@ p3 <- paste0("Globally, excess N and P applied to the 140 crops curated in the E
             SciNotString(tha2Tac * area_needed, 2),
             " ac) of algal cultivation area is required for complete N and P recycling. For nutrient recycling in the major basins curated in the GRDC data set, a total of ",
             SciNotString(basin_area, 2),
-            "ha (",
+            " ha (",
             SciNotString(tha2Tac * basin_area, 2),
             " ac) is required. The total biomass produced, ",
             SciNotString(biomass,2),
             " t yr-1 (",
             SciNotString(tha2Tac * biomass, 2),
-            ", ",
+            " ac), ",
             format(100 * biomass/world_npp, digits=2),
             "% of world net primary productivity, or approximately ",
             format(100 * biomass/ag_npp, digits=2),
