@@ -1,4 +1,4 @@
-# Expanded Algae Cultivation Can Reverse Planetary Boundary Transgressions
+# Expanded Algae Cultivation Can Reverse Key Planetary Boundary Transgressions
 #### Dean Calahan, Ed Osenbaugh, Walter Adey  
 
 ### Overview
