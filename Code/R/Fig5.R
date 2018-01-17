@@ -46,7 +46,7 @@ bestNP_df <- EconDataFrame(best_startNP, inc_prp, build_yr_hi, final_yr, mean_pr
 worstNP_df <- EconDataFrame(worst_startNP, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
 
 # Funding chosen so C is solved in 100 years
-# To ask what the minimum area is, use e.g. min(BestC_df[125:200,]$AlgalMass*C_prp)-CO2_gr
+# To ask what the minimum area is, use e.g. min(BestC_df[125:200,]$AlgalMass*C_prp)-C_gr
 bestC_df <- EconDataFrame(best_startC, inc_prp, build_yr_hi, final_yr, mean_prod, cap_lo, op_lo, op_life_long, emp_ha, emp_sal)
 worstC_df <- EconDataFrame(worst_startC, inc_prp, build_yr_hi, final_yr, mean_prod, cap_hi, op_hi, op_life_short, emp_ha, emp_sal)
 

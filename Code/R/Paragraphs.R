@@ -28,6 +28,18 @@ source("Code/R/Settings.R")
 # total land used to produce food: 4.9116 e+9 ha
 #
 # area_needed * 2.47105 = 4.6032360e+7
+#
+# Biomass: 0.35 g carbs, 0.40 g protein
+# Carbs: 19 kJ g-1; Protein: 17 kJ g-1
+# 1 g biomass: 0.35 * 19 + 0.4 * 17 = 13.5 kJ g-1
+# Equivalent energy: biomass * 13.5 kJ g-1; 1.35e+4 J g-1; 1.35e+10 J t-1
+# Jyr <- 1.35e+10 * biomass
+# Jsec <- Jyr/(365*24*60*60)
+# format(Jsec, scientific=TRUE, digits=2) = 5.0e+11 W; 500 GW; 0.5 TW
+# World = 18 TW
+# 0.5/18 = 0.23%
+# Mtoe = 11630 kWh
+# 2015 Mtoe = 13647 ==> 13647 * 11630 ==> 158714610 kWh ==> 158714610/(365 * 24 * 1000)
 
 NPlim_df <- read.table(NPlim_fn)
 basin_areas <- read.table(area_fn)
@@ -37,6 +49,7 @@ kg2t <- 0.001
 kg2T <- 0.00110231
 tha2Tac <- 2.723868587
 ha2ac <- 2.47105
+t2T <- 1.10231
 
 vars <- read.table(paste0(work_dir, "pNutrientExcesses_vals"))
 ret <- mapply(assign, as.character(vars$name), vars$val, MoreArgs = list(envir = .GlobalEnv))
@@ -141,16 +154,16 @@ p3 <- paste0("Globally, excess N and P applied to the 140 crops curated in the E
             " T ac-1 yr-1). Globally, ",
             SciNotString(area_needed, 2),
             " ha (",
-            SciNotString(tha2Tac * area_needed, 2),
+            SciNotString(ha2ac * area_needed, 2),
             " ac) of algal cultivation area is required for complete N and P recycling. For nutrient recycling in the major basins curated in the GRDC data set, a total of ",
             SciNotString(basin_area, 2),
             " ha (",
-            SciNotString(tha2Tac * basin_area, 2),
+            SciNotString(ha2ac * basin_area, 2),
             " ac) is required. The total biomass produced, ",
             SciNotString(biomass,2),
             " t yr-1 (",
-            SciNotString(tha2Tac * biomass, 2),
-            " ac), ",
+            SciNotString(t2T * biomass, 2),
+            " T yr-1), ",
             format(100 * biomass/world_npp, digits=2),
             "% of world net primary productivity, or approximately ",
             format(100 * biomass/ag_npp, digits=2),

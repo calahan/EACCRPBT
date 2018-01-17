@@ -151,7 +151,7 @@ EconDataFrame <- function(dollars_yr1, dollars_inc, years_start, years_total, pr
       df[1,]$CRemoved <- df[1,]$AlgalMass * C_prp
       df[1,]$NRemoved <- df[1,]$AlgalMass * N_prp
       df[1,]$PRemoved <- df[1,]$AlgalMass * P_prp
-      df[1,]$CBaseline <- CO2_bl
+      df[1,]$CBaseline <- C_bl
       df[1,]$CNet <- df[1,]$CBaseline - df[1,]$CRemoved
 
       # Compute year 2 through full build-out
@@ -166,7 +166,7 @@ EconDataFrame <- function(dollars_yr1, dollars_inc, years_start, years_total, pr
             df[i,]$CRemoved <- df[i-1,]$CRemoved + df[i,]$AlgalMass * C_prp
             df[i,]$NRemoved <- df[i,]$AlgalMass * N_prp
             df[i,]$PRemoved <- df[i,]$AlgalMass * P_prp
-            df[i,]$CBaseline <- df[i-1,]$CBaseline + CO2_gr
+            df[i,]$CBaseline <- df[i-1,]$CBaseline + C_gr
             df[i,]$CNet <- df[i,]$CBaseline - df[i,]$CRemoved
      }
 
@@ -182,7 +182,7 @@ EconDataFrame <- function(dollars_yr1, dollars_inc, years_start, years_total, pr
             df[i,]$CRemoved <- df[i-1,]$CRemoved + df[i,]$AlgalMass * C_prp
             df[i,]$NRemoved <- df[i,]$AlgalMass * N_prp
             df[i,]$PRemoved <- df[i,]$AlgalMass * P_prp
-            df[i,]$CBaseline <- df[i-1,]$CBaseline + CO2_gr
+            df[i,]$CBaseline <- df[i-1,]$CBaseline + C_gr
             df[i,]$CNet <- df[i,]$CBaseline - df[i,]$CRemoved
       }
       return(df)
